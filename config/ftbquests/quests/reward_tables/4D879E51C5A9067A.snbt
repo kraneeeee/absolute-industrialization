@@ -1,0 +1,31 @@
+{
+	id: "4D879E51C5A9067A"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 4
+			id: "173ACBDACB236BB5"
+			item: {
+				count: 1
+				id: "ae2:logic_processor"
+			}
+		}
+		{
+			count: 4
+			id: "22906EB65E19CDDC"
+			item: {
+				count: 1
+				id: "ae2:calculation_processor"
+			}
+		}
+		{
+			count: 4
+			id: "6CB00E1E4067CEED"
+			item: {
+				count: 1
+				id: "ae2:engineering_processor"
+			}
+		}
+	]
+}

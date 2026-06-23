@@ -1,0 +1,521 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "projecte"
+	group: "4F77D528334DC471"
+	icon: {
+		id: "projecte:philosophers_stone"
+	}
+	id: "7501F83D4B5F582A"
+	order_index: 4
+	quest_links: [{
+		id: "73AAEFFA6C47287C"
+		linked_quest: "5D90A382330AABF9"
+		size: 2.0d
+		x: 2.0d
+		y: -3.0d
+	}]
+	quests: [
+		{
+			dependencies: ["5D90A382330AABF9"]
+			icon: {
+				id: "modern_industrialization:transmutator"
+			}
+			id: "730210CB6ED6AACC"
+			rewards: [{
+				count: 16
+				id: "118A371445EFA050"
+				item: {
+					count: 1
+					id: "kubejs:tungstensteel_drill"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4B843A9F844D92E5"
+					item: { count: 1, id: "modern_industrialization:transmutator" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "7FE216173DBEB977"
+					item: { count: 1, id: "kubejs:superconductor_casing" }
+					type: "item"
+				}
+				{
+					id: "1914EABC32AAFE2A"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:bronze_item_input_hatch)item(modern_industrialization:steel_item_input_hatch)item(modern_industrialization:advanced_item_input_hatch)item(modern_industrialization:turbo_item_input_hatch)item(modern_industrialization:highly_advanced_item_input_hatch))", "minecraft:custom_name": "\"Any Item Input Hatch\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "7929182C85A11A56"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:bronze_item_output_hatch)item(modern_industrialization:steel_item_output_hatch)item(modern_industrialization:advanced_item_output_hatch)item(modern_industrialization:turbo_item_output_hatch)item(modern_industrialization:highly_advanced_item_output_hatch))", "minecraft:custom_name": "\"Any Item Output Hatch\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "5AAAD7B89819CA66"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:bronze_fluid_input_hatch)item(modern_industrialization:steel_fluid_input_hatch)item(modern_industrialization:advanced_fluid_input_hatch)item(modern_industrialization:turbo_fluid_input_hatch)item(modern_industrialization:highly_advanced_fluid_input_hatch))", "minecraft:custom_name": "\"Any Fluid Input Hatch\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "515B54FE9B52221A"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:bronze_fluid_output_hatch)item(modern_industrialization:steel_fluid_output_hatch)item(modern_industrialization:advanced_fluid_output_hatch)item(modern_industrialization:turbo_fluid_output_hatch)item(modern_industrialization:highly_advanced_fluid_output_hatch))", "minecraft:custom_name": "\"Any Fluid Output Hatch\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "70A3D1233A461282"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:lv_energy_input_hatch)item(modern_industrialization:mv_energy_input_hatch)item(modern_industrialization:hv_energy_input_hatch)item(modern_industrialization:ev_energy_input_hatch)item(modern_industrialization:superconductor_energy_input_hatch))", "minecraft:custom_name": "\"Any Energy Input Hatch\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["730210CB6ED6AACC"]
+			id: "505FB7B0436DA006"
+			rewards: [{
+				count: 8
+				id: "21161B6C66B576AE"
+				item: {
+					count: 1
+					id: "projecte:dark_matter"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "4C5FE4E0F5A942CA"
+				item: { count: 1, id: "projecte:dark_matter" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["505FB7B0436DA006"]
+			id: "18ECA9AA04D915A2"
+			rewards: [{
+				count: 8
+				id: "55EE7D642D3E10F4"
+				item: {
+					count: 1
+					id: "kubejs:perfectus_fuel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "622D58E9CCAA55CB"
+				item: { count: 1, id: "projecte:condenser_mk1" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["505FB7B0436DA006"]
+			id: "593A560EF845D9BC"
+			rewards: [{
+				id: "34CB44A9BC24B0EC"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "4F9F696D176A6F6E"
+				item: { count: 1, id: "projecte:dm_hammer" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["505FB7B0436DA006"]
+			id: "43A07B87FA286EE9"
+			rewards: [{
+				id: "33913E91A716E106"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "22A0D7491F179EB6"
+					item: { count: 1, id: "projecte:dm_helmet" }
+					type: "item"
+				}
+				{
+					id: "55261E9D1CD74AA3"
+					item: { count: 1, id: "projecte:dm_chestplate" }
+					type: "item"
+				}
+				{
+					id: "2DEC388D3F888705"
+					item: { count: 1, id: "projecte:dm_leggings" }
+					type: "item"
+				}
+				{
+					id: "6354DBDB5B9E9E9C"
+					item: { count: 1, id: "projecte:dm_boots" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["505FB7B0436DA006"]
+			id: "03A2B66C191C363D"
+			rewards: [{
+				count: 8
+				id: "25280B8EFF1FE0E6"
+				item: {
+					count: 1
+					id: "projecte:red_matter"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "123F1A10DC46FB58"
+				item: { count: 1, id: "projecte:red_matter" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["18ECA9AA04D915A2"]
+			id: "28DC8E9F94E069CE"
+			rewards: [{
+				count: 32
+				id: "52F7940CC6F125F5"
+				item: {
+					count: 1
+					id: "kubejs:iridium_drill"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "5BD70236F91A7666"
+				item: { count: 1, id: "projecte:transmutation_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["28DC8E9F94E069CE"]
+			id: "7B2E0C90237DF3FE"
+			rewards: [{
+				id: "1A76539853DA435B"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "4236A7B8DBA792C7"
+				item: { count: 1, id: "projecte:transmutation_tablet" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["730210CB6ED6AACC"]
+			id: "5C4B21EAE8BFEF87"
+			rewards: [{
+				id: "1B2E47516338ABB3"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "20129977B29F51AF"
+				item: { count: 1, id: "projecte:collector_mk1" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5C4B21EAE8BFEF87"]
+			id: "21909DDDCD3763B5"
+			rewards: [{
+				id: "712B2D34A78AB95B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "428C7F7359E5558F"
+				item: { count: 1, id: "projecte:collector_mk2" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["21909DDDCD3763B5"]
+			id: "511346A02DDD54D9"
+			rewards: [{
+				count: 16
+				id: "2087E75480D30E9F"
+				item: {
+					count: 1
+					id: "kubejs:blue_matter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "11EA23AA2526AC5A"
+				item: { count: 1, id: "projecte:collector_mk3" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["18ECA9AA04D915A2"]
+			id: "7B97FAC5CD20D0BE"
+			rewards: [{
+				count: 32
+				id: "7C1D044683352A19"
+				item: {
+					count: 1
+					id: "kubejs:perfectus_fuel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "31D386B072A5FE08"
+				item: { count: 1, id: "projecte:condenser_mk2" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["03A2B66C191C363D"]
+			id: "76B26BAD169BBF92"
+			rewards: [{
+				id: "7F6918F52EA0FD4A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "7596DCD5782AF3B1"
+					item: { count: 1, id: "projecte:rm_helmet" }
+					type: "item"
+				}
+				{
+					id: "5DBE4AFEBA9B3F42"
+					item: { count: 1, id: "projecte:rm_chestplate" }
+					type: "item"
+				}
+				{
+					id: "3E350FDDE83BBF00"
+					item: { count: 1, id: "projecte:rm_leggings" }
+					type: "item"
+				}
+				{
+					id: "52C5DED3350F1E19"
+					item: { count: 1, id: "projecte:rm_boots" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["03A2B66C191C363D"]
+			id: "1051E86564977743"
+			rewards: [{
+				id: "680E8F3A1489B7C4"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "7AAB9FF578F403E4"
+				item: { count: 1, id: "projecte:rm_hammer" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["03A2B66C191C363D"]
+			id: "47D426BE862843F3"
+			rewards: [{
+				count: 4
+				id: "3B220B1A9B588D69"
+				item: {
+					count: 1
+					id: "kubejs:blue_matter"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "6CE8C0311520F16B"
+				item: { count: 1, id: "kubejs:blue_matter" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["47D426BE862843F3"]
+			id: "0E7755458C508106"
+			rewards: [{
+				id: "7917A67A17B6D25E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "74730AAFDE58348D"
+				item: { count: 1, id: "projecte:watch_of_flowing_time" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["03A2B66C191C363D"]
+			id: "47A3E3BBF0FEFD4D"
+			size: 1.5d
+			tasks: [{
+				id: "47CC20FEC2AAF82D"
+				item: { count: 1, id: "projecte:dm_pedestal" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5D90A382330AABF9"]
+			id: "423DFABBD933CEF0"
+			rewards: [{
+				count: 32
+				id: "38A120326D311FD7"
+				item: {
+					count: 1
+					id: "kubejs:osmium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "15A0550C557715ED"
+				item: { count: 1, id: "projecte:destruction_catalyst" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["505FB7B0436DA006"]
+			id: "71FE61DABA976D77"
+			rewards: [{
+				id: "0FE936DE59A267D6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "062E49A9FAEFD3DB"
+				item: { count: 1, id: "kubejs:iridium_band" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["71FE61DABA976D77"]
+			id: "7B8CC9CDDE373D96"
+			rewards: [{
+				id: "571D1214AF72101A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "463DDB1BADDAA0A3"
+				item: { count: 1, id: "projecte:swiftwolf_rending_gale" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"7B8CC9CDDE373D96"
+				"3BBAF72D5539CEFE"
+				"3C0C7F83B06FCFE0"
+			]
+			id: "1A4E3D18FDBEE2A9"
+			rewards: [{
+				count: 4
+				id: "6C1028E3BBD262B6"
+				item: {
+					count: 1
+					id: "kubejs:ultimate_coil"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "78D17D9A514EFEC1"
+				item: { count: 1, id: "projecte:arcana_ring" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["71FE61DABA976D77"]
+			id: "3BBAF72D5539CEFE"
+			rewards: [{
+				id: "4D44ABE57FB23B03"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1A11D805A2F3C4AD"
+				item: { count: 1, id: "projecte:harvest_goddess_band" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["71FE61DABA976D77"]
+			id: "3C0C7F83B06FCFE0"
+			rewards: [{
+				id: "1FF4B719A1991CD2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4B589909F7676E52"
+				item: { count: 1, id: "projecte:ignition_ring" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["03A2B66C191C363D"]
+			id: "130F494A68003C74"
+			tasks: [
+				{
+					id: "7EAE1BBCF59F7246"
+					item: { count: 1, id: "projecte:mind_stone" }
+					type: "item"
+				}
+				{
+					id: "483F3053875E25C2"
+					item: { count: 1, id: "projecte:life_stone" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -3.0d
+		}
+	]
+}

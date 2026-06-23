@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "particle": "kubejs:block/copper_casing",
+        "up": "kubejs:block/copper_casing",
+        "north": "kubejs:block/copper_drill",
+        "south": "kubejs:block/copper_drill",
+        "west": "kubejs:block/copper_drill",
+        "east": "kubejs:block/copper_drill",
+        "down": "kubejs:block/copper_casing"
+    }
+}

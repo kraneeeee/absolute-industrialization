@@ -1,0 +1,120 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pretty_pipes"
+	group: "28C836E16FF29ABE"
+	icon: {
+		id: "prettypipes:item_terminal"
+	}
+	id: "78486BA2621C0818"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2D1226598E6943EA"]
+			id: "1105D0489A1C0CD8"
+			tasks: [{
+				id: "1AE3D1EA5BD5E69F"
+				item: { count: 1, id: "prettypipes:low_extraction_module" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2D1226598E6943EA"]
+			id: "70C772124513CFF4"
+			tasks: [{
+				id: "2814BA945BFB7F02"
+				item: { count: 1, id: "prettypipes:low_retrieval_module" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1105D0489A1C0CD8"
+				"70C772124513CFF4"
+			]
+			id: "649C41C46AEC0D11"
+			rewards: [{
+				count: 2
+				id: "5A753418E050BD6E"
+				item: {
+					count: 1
+					id: "prettypipes:high_speed_module"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "3AB39A2623FA8361"
+				item: { count: 1, id: "prettypipes:item_terminal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["649C41C46AEC0D11"]
+			id: "3B799E5F2DCEC53A"
+			tasks: [{
+				id: "205FA49BB0D48F3F"
+				item: { count: 1, id: "prettypipes:crafting_terminal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["649C41C46AEC0D11"]
+			id: "6A25D25AE96935A2"
+			rewards: [{
+				id: "2834D248103948E5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "2DD77D4EA1154C74"
+				item: { count: 1, id: "prettypipes:low_speed_module" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["649C41C46AEC0D11"]
+			id: "770F28D67D56F94C"
+			tasks: [{
+				id: "3162DDFD4E06F546"
+				item: { count: 1, id: "prettypipes:low_crafting_module" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["649C41C46AEC0D11"]
+			id: "5A9743BB79133C53"
+			tasks: [{
+				id: "0364374E682920A1"
+				item: { count: 1, id: "prettypipes:low_filter_module" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["649C41C46AEC0D11"]
+			id: "71519D073868B234"
+			tasks: [{
+				id: "3657C4ED5670DD74"
+				item: { count: 1, id: "prettypipes:round_robin_sorting_modifier" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+	]
+}

@@ -1,0 +1,131 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "guide"
+	group: "743F9BA2EBD126DA"
+	icon: {
+		id: "minecraft:dirt"
+	}
+	id: "5831302AF65BB225"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4D331AF2ABDAA58E"]
+			icon: {
+				components: {
+					"ftbquests:icon": "modern_industrialization:fluid/high_pressure_water_still"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1A00882E910CE7E8"
+			rewards: [{
+				id: "4D518922FAB6756E"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:water_breathing"
+						}
+					}
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "470EB6ADF6EB5E46"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4D331AF2ABDAA58E"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4EEBB36A47A2B427"
+			tasks: [{
+				id: "59C4C30F47125FFE"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4D331AF2ABDAA58E"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:block/crafting_table_top"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6820802E78F3F264"
+			tasks: [{
+				id: "137B68AED576533D"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4D331AF2ABDAA58E"]
+			icon: {
+				id: "ftbquests:book"
+			}
+			id: "4DC3B37197F9EBB1"
+			tasks: [{
+				id: "58A7425FBA65CBA5"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"1A00882E910CE7E8"
+				"6820802E78F3F264"
+				"4DC3B37197F9EBB1"
+				"4EEBB36A47A2B427"
+				"0A73D783F43CEFB7"
+			]
+			id: "6397E5261F5AFA7C"
+			size: 2.0d
+			tasks: [{
+				id: "36B0FE87233E2C91"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "modern_industrialization:wrench"
+			}
+			id: "4D331AF2ABDAA58E"
+			size: 3.0d
+			tasks: [{
+				id: "41BF4AE90DF1EC75"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4D331AF2ABDAA58E"]
+			icon: {
+				id: "farmersdelight:melon_popsicle"
+			}
+			id: "0A73D783F43CEFB7"
+			tasks: [{
+				id: "59A0549E172C771B"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+	]
+}

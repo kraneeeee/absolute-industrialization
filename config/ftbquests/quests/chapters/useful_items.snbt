@@ -1,0 +1,389 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "useful_items"
+	group: "07E94E3EB3171F3C"
+	id: "040DB7C2937A083B"
+	order_index: 2
+	quest_links: [
+		{
+			id: "3AFAC14264D926D0"
+			linked_quest: "0D0D26F1A567FAEE"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "4A7FB4CDBEECFD14"
+			linked_quest: "0990F509922F801F"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "4F6B47A8445F47BB"
+			linked_quest: "5777DD98BDFFA295"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "cursedearth:cursed_earth"
+			}
+			id: "35413CDD2A4B365F"
+			linked_quest: "1D554476416DEB57"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "669BF3EFC2FFDB4F"
+			linked_quest: "655DACCDF28B0EBC"
+			x: -4.5d
+			y: -2.0d
+		}
+	]
+	quests: [
+		{
+			id: "53F2B8F58C030BCE"
+			rewards: [{
+				id: "11031667D34D954D"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "058BB9916B0AC4B4"
+				item: { count: 1, id: "coxinhautilities:cardboard_box" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			id: "41C35B681A0D3BAA"
+			rewards: [{
+				id: "52AEA4E299BCED1B"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "43D69FE4D50BCDAD"
+				item: { count: 1, id: "buildinggadgets2:gadget_building" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "300FF7AAC753AD48"
+			rewards: [
+				{
+					count: 6
+					id: "356A2A7EDAA5DBA1"
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
+					type: "item"
+				}
+				{
+					id: "6CD9D296A04A8662"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "36D0118BC1822E5C"
+				item: { count: 1, id: "coxinhautilities:copper_ladder" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			id: "758486B9243BBFE8"
+			rewards: [{
+				id: "620FA0B8E0F82694"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7B793155FBD97B3F"
+				item: { count: 1, id: "coxinhautilities:wooden_hopper" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			id: "78B5E13473F2A82F"
+			rewards: [{
+				id: "1A0770E7BFCF3E44"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "5D4E16CAB1D02A0C"
+				item: { count: 1, id: "tiab:time_in_a_bottle" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "5E9F4677B0C185B0"
+			rewards: [
+				{
+					count: 8
+					id: "39F5D0AEA522B72C"
+					item: {
+						count: 1
+						id: "usefulslime:jello"
+					}
+					type: "item"
+				}
+				{
+					id: "5651109648DFEC36"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					id: "78F29B28E2EB34E9"
+					item: { count: 1, id: "usefulslime:slime_sling" }
+					type: "item"
+				}
+				{
+					id: "037E7A0A78BAA138"
+					item: { count: 1, id: "usefulslime:slime_boots" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4B5E174C6A8EBEC9"]
+			id: "745D5BE3D402B37F"
+			rewards: [{
+				id: "509026405BD0835B"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "507AE6ACBA9AE231"
+				item: { count: 1, id: "modern_industrialization:overdrive_module" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "7FA6B856193F35AE"
+			rewards: [{
+				id: "7C7BA74F75129421"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "67B751BB8253998F"
+				item: { count: 1, id: "actuallyadditions:crafter_on_a_stick" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			id: "29D31CA518B2DE87"
+			rewards: [{
+				id: "430CDD24D160CEB5"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "48E1576169882947"
+				item: { count: 1, id: "farmingforblockheads:market" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			id: "31EB54F6D82655B4"
+			rewards: [{
+				id: "593B708A2DF206DF"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "2BAADC353F298001"
+				item: { count: 1, id: "actuallyadditions:iron_aiot" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			id: "320041D6B0C2948A"
+			rewards: [{
+				id: "67BC2EBE45406AE4"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "3D7A328324991EF6"
+				item: { count: 1, id: "constructionwand:iron_wand" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["11A738BEFA031F99"]
+			id: "16E364F897CAB994"
+			rewards: [{
+				count: 16
+				id: "23373A057F887728"
+				item: {
+					count: 1
+					id: "farmersdelight:sweet_berry_cheesecake"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "74A117378477C350"
+					item: { count: 1, id: "farmersdelight:stove" }
+					type: "item"
+				}
+				{
+					id: "66EC6B356FACC862"
+					item: { count: 1, id: "farmersdelight:cooking_pot" }
+					type: "item"
+				}
+				{
+					id: "20F5A62C10A9E676"
+					item: { count: 1, id: "farmersdelight:skillet" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			id: "23402B693211864C"
+			rewards: [{
+				count: 32
+				id: "41E1A268D2C262EE"
+				item: {
+					count: 1
+					id: "framedblocks:framed_cube"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "78AC51D761623D77"
+				item: { count: 1, id: "framedblocks:framing_saw" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			id: "4FBD8672DB0A2A45"
+			rewards: [{
+				id: "6FDE9BCB186A6111"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 4L
+				id: "19043C96A18B7207"
+				item: { count: 1, id: "compactcrafting:field_projector" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			id: "4AFDA7BE208CB1B5"
+			rewards: [{
+				id: "08412CD589E8897A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "002766FBAEEC6C5A"
+				item: { count: 1, id: "computercraft:turtle_normal" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			id: "6020C2A383A01054"
+			rewards: [{
+				id: "5F500370184375CC"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "2FC56B4EDD52B3DB"
+				item: { count: 1, id: "torchmaster:megatorch" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			id: "3859E761BD92CD71"
+			rewards: [{
+				id: "13CA2174DC147E28"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "185FD7218E5FC8D5"
+				item: { count: 1, id: "waystones:waystone" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			id: "3046CFE45DBBBE50"
+			rewards: [{
+				id: "29531CF93AFBD1A8"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					id: "20B4D1CBD7F3F807"
+					item: { count: 1, id: "dankstorage:dock" }
+					type: "item"
+				}
+				{
+					id: "3ECDDEDD334EFC72"
+					item: { count: 1, id: "dankstorage:dank_1" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			id: "1DA08E87D5401B19"
+			rewards: [{
+				id: "586409C4BAA1911A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "15F7D36F00652EB6"
+				item: { count: 1, id: "extended_industrialization:robot_auto_feeder" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.5d
+		}
+	]
+}

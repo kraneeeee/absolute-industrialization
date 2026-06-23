@@ -1,0 +1,365 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ores"
+	group: "07E94E3EB3171F3C"
+	icon: {
+		id: "minecraft:diamond_ore"
+	}
+	id: "65382A318C9FA37A"
+	order_index: 0
+	quest_links: [
+		{
+			id: "4226E6319706A8D3"
+			linked_quest: "224396E502774E38"
+			size: 2.0d
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "14BD4D96D8F879CB"
+			linked_quest: "6ADB1C9C175CBEE0"
+			size: 3.0d
+			x: -0.5d
+			y: -8.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["6ADB1C9C175CBEE0"]
+			id: "6CE324C9A1185F43"
+			rewards: [{
+				id: "5731C547726EBCF7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				icon: {
+					id: "kubejs:iron_sample"
+				}
+				id: "30B4DA84844B1BFE"
+				observe_type: 0
+				timer: 0L
+				to_observe: "kubejs:iron_sample"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6ADB1C9C175CBEE0"]
+			id: "2615C32F650E4095"
+			rewards: [{
+				id: "6752B452167B6550"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				icon: {
+					id: "kubejs:coal_sample"
+				}
+				id: "648700164D6961C2"
+				observe_type: 0
+				timer: 0L
+				to_observe: "kubejs:coal_sample"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6ADB1C9C175CBEE0"]
+			id: "1619091D24D588FF"
+			rewards: [{
+				id: "7A383E7915CE591D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				icon: {
+					id: "kubejs:copper_sample"
+				}
+				id: "77D9A52BC59D937D"
+				observe_type: 0
+				timer: 0L
+				to_observe: "kubejs:copper_sample"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6ADB1C9C175CBEE0"]
+			id: "26646671B1912BB4"
+			rewards: [{
+				id: "0D89FBA890012456"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				icon: {
+					id: "kubejs:gold_sample"
+				}
+				id: "3317390D32553259"
+				observe_type: 0
+				timer: 0L
+				to_observe: "kubejs:gold_sample"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6ADB1C9C175CBEE0"]
+			id: "71EDBAE7787BE499"
+			rewards: [{
+				id: "0C5D88BB97AC5FF8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				icon: {
+					id: "kubejs:redstone_sample"
+				}
+				id: "28511A54CEF97309"
+				observe_type: 0
+				timer: 0L
+				to_observe: "kubejs:redstone_sample"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6ADB1C9C175CBEE0"]
+			id: "059CD9BD0454E99E"
+			rewards: [{
+				id: "5053C46D23A8650B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				icon: {
+					id: "kubejs:lapis_sample"
+				}
+				id: "214C47249F915406"
+				observe_type: 0
+				timer: 0L
+				to_observe: "kubejs:lapis_sample"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6ADB1C9C175CBEE0"]
+			id: "6E3564360BB512AF"
+			rewards: [{
+				id: "365DC0208ED0C0C1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				icon: {
+					id: "kubejs:emerald_sample"
+				}
+				id: "47F4F34B71E98DF3"
+				observe_type: 0
+				timer: 0L
+				to_observe: "kubejs:emerald_sample"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6ADB1C9C175CBEE0"]
+			id: "15E2C7B59683F3DA"
+			rewards: [{
+				id: "5BD43CCC95CC3397"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				icon: {
+					id: "kubejs:antimony_sample"
+				}
+				id: "16EFF334B0F5FEE7"
+				observe_type: 0
+				timer: 0L
+				to_observe: "kubejs:antimony_sample"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["6ADB1C9C175CBEE0"]
+			id: "17388A011BBFFDAB"
+			rewards: [{
+				id: "659695DBE5A9A487"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				icon: {
+					id: "kubejs:bauxite_sample"
+				}
+				id: "67CCEC8677CB028C"
+				observe_type: 0
+				timer: 0L
+				to_observe: "kubejs:bauxite_sample"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6ADB1C9C175CBEE0"]
+			id: "7277BF42DB18BD5F"
+			rewards: [{
+				id: "18E5506B155D4811"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				icon: {
+					id: "kubejs:black_quartz_sample"
+				}
+				id: "540ABD125D04B854"
+				observe_type: 0
+				timer: 0L
+				to_observe: "kubejs:black_quartz_sample"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["6ADB1C9C175CBEE0"]
+			id: "063C12607BA9CA92"
+			rewards: [{
+				id: "45DC1C4AC45BD0B5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				icon: {
+					id: "kubejs:graphite_sample"
+				}
+				id: "192933F703B1D6E7"
+				observe_type: 0
+				timer: 0L
+				to_observe: "kubejs:graphite_sample"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6ADB1C9C175CBEE0"]
+			id: "434F4CD165C90E76"
+			rewards: [{
+				id: "0297C35DB25CBE74"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				icon: {
+					id: "kubejs:limonite_sample"
+				}
+				id: "47E2C0CA63852619"
+				observe_type: 0
+				timer: 0L
+				to_observe: "kubejs:limonite_sample"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6ADB1C9C175CBEE0"]
+			id: "0567424F6252DD7E"
+			rewards: [{
+				id: "732BD6584FACE640"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				icon: {
+					id: "kubejs:monazite_sample"
+				}
+				id: "3446BE615DBCE05A"
+				observe_type: 0
+				timer: 0L
+				to_observe: "kubejs:monazite_sample"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6ADB1C9C175CBEE0"]
+			id: "5B5D6F6DBF030095"
+			rewards: [{
+				id: "7CE11EF8D34E58CA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				icon: {
+					id: "kubejs:salt_sample"
+				}
+				id: "18904F890D4C037E"
+				observe_type: 0
+				timer: 0L
+				to_observe: "kubejs:salt_sample"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6ADB1C9C175CBEE0"]
+			id: "17F3362EA2E8281E"
+			rewards: [{
+				id: "427CA60695E0018A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				icon: {
+					id: "kubejs:tin_sample"
+				}
+				id: "0EEED8E98E8FC991"
+				observe_type: 0
+				timer: 0L
+				to_observe: "kubejs:tin_sample"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6ADB1C9C175CBEE0"]
+			id: "093A1A3F8966106A"
+			rewards: [{
+				id: "00B9437C6B882E68"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				icon: {
+					id: "kubejs:lead_sample"
+				}
+				id: "3509FA7A5AD330D0"
+				observe_type: 0
+				timer: 0L
+				to_observe: "kubejs:lead_sample"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: -9.5d
+		}
+	]
+}

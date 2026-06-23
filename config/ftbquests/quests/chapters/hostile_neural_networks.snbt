@@ -1,0 +1,111 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hostile_neural_networks"
+	group: "4F77D528334DC471"
+	icon: {
+		id: "hostilenetworks:sim_chamber"
+	}
+	id: "6E1BA4AFB8F33AFD"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["039997D72BFC5AF0"]
+			id: "593737DB5DF7EA29"
+			rewards: [{
+				id: "12DB650965996FFD"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6849B580F543C04D"
+				item: { count: 1, id: "hostilenetworks:blank_data_model" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["593737DB5DF7EA29"]
+			id: "2DFB171B93BD5BE7"
+			rewards: [{
+				id: "239F09508DD29A8F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "48B1866C46A233B7"
+				item: { count: 1, id: "hostilenetworks:deep_learner" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2DFB171B93BD5BE7"
+				"1DB402A150CA35F7"
+			]
+			id: "7987F8F7A3797C7D"
+			rewards: [{
+				count: 4
+				id: "624AAD88763E63D3"
+				item: {
+					count: 1
+					id: "modern_industrialization:processing_unit"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "43435FBB0C938089"
+				item: { count: 1, id: "hostilenetworks:sim_chamber" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7987F8F7A3797C7D"]
+			id: "1ADB33FBED9A7674"
+			rewards: [{
+				count: 4
+				id: "12547B21ECAE4656"
+				item: {
+					count: 1
+					id: "modern_industrialization:processing_unit"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "16589FBE4DB50D61"
+				item: { count: 1, id: "hostilenetworks:loot_fabricator" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["593737DB5DF7EA29"]
+			id: "1DB402A150CA35F7"
+			rewards: [{
+				count: 16
+				id: "68CA397A67083130"
+				item: {
+					count: 1
+					id: "hostilenetworks:prediction_matrix"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E3B0E6E4BE13680"
+				item: { count: 1, id: "hostilenetworks:prediction_matrix" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+	]
+}

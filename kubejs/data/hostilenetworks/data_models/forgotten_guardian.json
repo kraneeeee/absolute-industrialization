@@ -1,0 +1,23 @@
+{
+	"entity": "undergarden:forgotten_guardian",
+    "variants": [],
+	"name": {
+		"translate": "entity.undergarden.forgotten_guardian",
+		"color": "#59EEBB"
+	},
+    "display": {},
+	"sim_cost": 2048,
+	"input": {
+		"item": "hostilenetworks:prediction_matrix"
+	},
+	"base_drop": {
+		"id": "hostilenetworks:overworld_prediction"
+	},
+	"trivia": "hostilenetworks.trivia.forgotten_guardian",
+	"fabricator_drops": [
+		{
+			"id": "undergarden:forgotten_nugget",
+			"count": 8
+		}
+	]
+}

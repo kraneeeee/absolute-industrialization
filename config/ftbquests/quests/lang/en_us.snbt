@@ -1,0 +1,1638 @@
+{
+	chapter.036C46D23E015A15.title: "&6Steam Age"
+	chapter.040DB7C2937A083B.title: "Useful Items"
+	chapter.0879D4959CFAABE8.title: "Applied Energistics"
+	chapter.0F374DC40A0D9522.title: "dsfsdfds"
+	chapter.1A1E327F73CF90B5.title: "&#2e8577Ender IO"
+	chapter.251DA9FD42953AD7.title: "&eExtreme Voltage"
+	chapter.2B3D909A6324D8B7.title: "&bLow Voltage"
+	chapter.3E27B4C571374846.title: "&cHigh Voltage"
+	chapter.4333CBFD78D6B17E.title: "&7Stone Age"
+	chapter.49230EC8D3323ECF.title: "&bActually Additions"
+	chapter.4E501A8E276BD0C1.title: "&#FF0000S&#FF3300u&#FF6600p&#FF9900e&#FFCC00r&#FFFF00c&#CCFF00o&#99FF00n&#66FF00d&#33FF00u&#00FF00c&#00FF33t&#00FF66o&#00FF99r &#00FFCCV&#00FFFFo&#00CCFFl&#0099FFt&#0066FFa&#0033FFg&#0000FFe"
+	chapter.5046EB26A3ABBB59.title: "&dMedium Voltage"
+	chapter.5831302AF65BB225.title: "&7Guide"
+	chapter.5F85F0DA12928A7D.title: "Stone Age"
+	chapter.65382A318C9FA37A.title: "Ores"
+	chapter.654AAA735D520D6C.title: "Basic Storage"
+	chapter.6E1BA4AFB8F33AFD.title: "&#62FFC0Hostile Neural Networks"
+	chapter.740C718A784F0AF3.title: "&#80b87dThe Undergarden"
+	chapter.7501F83D4B5F582A.title: "&#ff5980ProjectE"
+	chapter.78028CAD36208509.title: "&#ff85deApplied Energistics 2"
+	chapter.78486BA2621C0818.title: "Pretty Pipes"
+	chapter.79CF0F8179A2F0EC.title: "&#c3ced6Industrial Foregoing"
+	chapter_group.07E94E3EB3171F3C.title: "Other"
+	chapter_group.28C836E16FF29ABE.title: "Storage and Transportation"
+	chapter_group.4F77D528334DC471.title: "&9More Technology!"
+	chapter_group.743F9BA2EBD126DA.title: "&aMain Line"
+	file.0000000000000001.title: "Absolute Industrialization"
+	quest.0035240D2093EA00.quest_desc: ["Used for creating autocrafting patterns."]
+	quest.008E56D614B6A284.quest_desc: [
+		"The Weather Obelisk is used to temporarily change the weather of the current dimension."
+		"{@pagebreak}"
+		"The Weather Obelisk requires fluid to be pumped into the machine to set the type of weather."
+		""
+		"&lLiquid Sunshine&r - Clear Sky"
+		"&lCloud Seed&r - Rain"
+		"&lConcentrated Cloud Seed&r - Thunder"
+		""
+		"Placing a Firework Rocket in the GUI and clicking the green check mark will activate the machine. After a few seconds, the firework will be launched, setting the weather when it explodes."
+	]
+	quest.00CF2721EBE9A344.quest_desc: ["Same functionality as &7Steam Version."]
+	quest.00F352EE0221A241.quest_desc: [
+		"The Modular Router is an incredibly powerful block that can handle a wide variety of tasks — from transferring items and fluids to simulating mouse clicks and beyond. "
+		""
+		"It's essentially a universal automation tool that can replace a number of specialized devices."
+	]
+	quest.01521D5FEE28DC51.quest_desc: [
+		"&#4D426ATungstensteel Coils&r can upgrade the &bElectric Blast Furnace&r and the &bLarge Electric Furnace&r to their final tier. "
+		""
+		"At this stage of the game, you won't need them, but it's good to know they're there."
+	]
+	quest.01521D5FEE28DC51.title: "Another Upgrade?"
+	quest.01566B924E43D29F.quest_desc: [
+		"Smelt iron in the Foundry, then cast a pickaxe head and combine it with a tool rod to craft an Iron Pickaxe."
+		""
+		"&aTip:&r Use a bronze cast for the craft."
+	]
+	quest.01A468A29B73336B.quest_desc: ["&#FF7988Empowered Pink Slime&r is a crucial item for later progression. To create it, combine Pink Slime with Empowered Oil in the Chemical Reactor."]
+	quest.01DC138B396844F9.quest_desc: ["&dMV Diesel Generator&r can produce up to &a256 EU/t&r. It's highly recommended to use these for power generation, as they can be more efficient than steam turbines."]
+	quest.0288DB468BBB0712.quest_desc: [
+		"The Meteorite Compass points toward the nearest meteorite. "
+		""
+		"When the arrow begins spinning rapidly in a circle, it means you are in a chunk that contains a meteorite."
+	]
+	quest.034DEA5EE6BB6A63.quest_desc: ["&bThe Polarizer&r polarizes stuff. It doesn't have many recipes, but it is useful to automate Motors!"]
+	quest.034DEA5EE6BB6A63.title: "It Doesn't Require Circuits"
+	quest.035F54A030D5E62A.quest_desc: ["Coke is very useful for getting steel, it is also a very good fuel, it smelts 32 items"]
+	quest.0381B0559A04C01C.quest_desc: [
+		"The Lava Factory is a fairly efficient way to generate lava using energy. "
+		""
+		"It's a multiblock structure made up of one controller and four casings."
+		"{image:kubejs:textures/pictures/lava_factory.png width:200 height:200 align:center}"
+	]
+	quest.0381B0559A04C01C.title: "Lava Factory"
+	quest.0392E19C59A136A1.quest_desc: ["Same functionality as &7Steam Version."]
+	quest.03C270B2AC60EE95.quest_desc: ["&6Bronze Barrel&r can store up to 32 stacks."]
+	quest.042709DC8F3B7993.quest_desc: ["&6Brass hand&r is just a crafting ingredient, used in deployer recipe"]
+	quest.04B416F5285C50D7.quest_desc: [
+		"Relays can transfer items and fluids over distance. To connect relays, use the Laser Wrench. "
+		""
+		"For &aItem Transfer&r, place an Item Interface beneath the relay that pulls items, then feed items into that interface using pipes or hoppers. "
+		""
+		"For &9Fluid Transfer&r, you need to pump fluid into one of the relays — the Ender IO Tank can be configured to output fluids automatically without the need for pipes."
+	]
+	quest.04B416F5285C50D7.title: "Laser Relays"
+	quest.04FF73C36A481113.quest_desc: [
+		"Both Cloggrum and Froststeel are incredibly important for further industrial development."
+		""
+		"Cloggrum can be found in basically all biomes, whereas Froststeel is exclusive to Frost Fields."
+	]
+	quest.04FF73C36A481113.title: "Basic Undergarden Ores"
+	quest.0504C4EAF94C3B0F.quest_desc: [
+		"&cThe Implosion Compressor&r is a multiblock structure that can produce various materials using Industrial TNT."
+		""
+		"The structure is made of new blocks — Blastproof Casings."
+	]
+	quest.0567424F6252DD7E.title: "Monazite"
+	quest.05968BB1551861D7.quest_desc: ["&zThe Quantum Machine Hull&r is used in the crafting of Superconductor Voltage machines and hatches."]
+	quest.059A1C0C8E7EF854.quest_desc: ["&dThe Fermenter&r extracts &#B3DDEBSugar Solution&r from a variety of sugary products."]
+	quest.059CD9BD0454E99E.title: "Lapis"
+	quest.05AA93DDFB518219.quest_desc: ["&cThe Advanced Motor&r is used in High Voltage machine recipes."]
+	quest.05DEB91D6E271600.quest_desc: [
+		"The Ditchbulb is a flower found in some biomes within The Undergarden. "
+		""
+		"Once matured, it can be collected with a simple right-click. "
+		""
+		"Ditchbulb Paste, crafted from this flower, works both as a replacement for coal in fuel and as a handy alternative to Flint and Steel."
+	]
+	quest.0625EFB11154120A.quest_desc: ["&dThe Enchantment Extractor&r pulls enchantments from items and transfers them into a book."]
+	quest.063C12607BA9CA92.title: "Graphite"
+	quest.066D2AA7F962A251.quest_desc: [
+		"&#FFB0EFNichrome coils&r are used to upgrade the &bElectric Blast Furnace&r and the &bLarge Electric Furnace&r, enabling the smelting of Platinum, Titanium, and Tungstensteel. "
+		""
+		"As the name suggests, Nichrome is created by mixing chromium and nickel."
+	]
+	quest.06D9D80F74FD33F0.quest_desc: ["&dThe Advanced Machine Frame&r is a new component used to craft upgraded Industrial Foregoing machines."]
+	quest.0745E0C482149B31.quest_desc: ["&l&7The wrench&r&r allows machine/pipe configuration and multiblock structure previews."]
+	quest.078E667417B88F36.quest_desc: ["Electron Tube is used in crafts of Deployer, Mechanical Crafter and other items"]
+	quest.08871FF408CC0EE7.quest_desc: [
+		"Since you can't smelt a metal bucket yet, a great alternative is the ceramic bucket. "
+		""
+		"It functions identically to an iron one, with one exception - it breaks when transporting hot liquids &7(e.g., lava)&r."
+	]
+	quest.08F1CF82D2EE1837.quest_desc: ["&bThe Latex Processing Unit&r turns 750 mB of Latex, &7which is produced in the Extractor from acacia wood&r, and 500 mB of Water into Dry Rubber, consuming a small amount of energy."]
+	quest.093A1A3F8966106A.title: "Lead"
+	quest.0946CAAA79C72E33.quest_desc: ["It is mined in the &9End&r using the Electric Quarry.!"]
+	quest.097BE06617BB7AC8.quest_desc: [
+		"The ME Controller is the heart of the ME network. Unlike the Energy Acceptor, it delivers 32 channels on each side."
+		""
+		"If you haven't reached High Voltage yet, you can craft the controller using miniaturization."
+	]
+	quest.0990F509922F801F.quest_desc: [
+		"The Water Condensator collects water. To operate, place it in a 2x2 pool of water. "
+		""
+		"If you supply it with energy, it will work several times more efficiently."
+	]
+	quest.09AEDB541647508B.quest_desc: [
+		"Now you need a &7Steam Blast Furnace&r to smelt your uncooked steel."
+		""
+		"The Blast Furnace's structure is the same as the Coke Oven's, with Bricks replaced by Fire Clay Bricks and one extra hollow layer on top."
+	]
+	quest.0A07B807CDC4D486.quest_desc: [
+		"&cTurbo Machine Hull&r is used to upgrade machines to HV tier. "
+		""
+		"It is also used in various machine recipes."
+	]
+	quest.0A10FC5171766D37.quest_desc: ["It charges items in your inventory and has an internal energy buffer of 200,000."]
+	quest.0A4E3051A1F2EB7B.quest_desc: [
+		"Analog Circuit is the base ingredient in the Electric Age. You'll need a lot of it!"
+		""
+		"Analog Circuit is crafted in Steel Assembler, consuming 16 steam per tick"
+	]
+	quest.0A4E3051A1F2EB7B.title: "Analog Circuit"
+	quest.0A73D783F43CEFB7.quest_desc: ["You gain an extra heart for every 20 new types of food you try."]
+	quest.0A84B2119C47D5D0.quest_desc: [
+		"The Energy Acceptor converts FE into AE. It is used to establish an ME network. "
+		""
+		"It provides 8 channels on each side."
+	]
+	quest.0ABE802E24988C46.quest_desc: ["The XP Vacuum collects experience orbs within a 5-block radius and converts them into liquid XP stored in its internal buffer."]
+	quest.0B0287B333165867.quest_desc: [
+		"Fire Clay Bricks are used to construct the foundry and in certain &7Modern Industrialization&r recipes. "
+		""
+		"Craft the bricks using a mold, then smelt them in a furnace."
+	]
+	quest.0B8AE12CE32EF2BD.quest_desc: ["A key component in &lModern Industrialization&r, &6the Bronze Machine Casing&r is required for early-game machines."]
+	quest.0C05AE35B739BBD5.quest_desc: ["Upgrade your EBF with &#CBBC34Kanthal Coils&r.This will unlock recipes requiring up to 128 EU/t!"]
+	quest.0C0B6612DD39CD9B.quest_desc: [
+		"&dMV Steam Turbine&r produces up to 128 EU/t. "
+		""
+		"If you haven't already built a Large Steam Boiler, it's highly recommended that you do so now!"
+	]
+	quest.0C60FA1880D7D0C0.quest_desc: [
+		"&eThe Processing Array&r can run many recipes from basic electric machines at the same time. "
+		""
+		"The number of simultaneous recipes depends on the size of the multiblock structure."
+		"The number of recipes the machine processes at once is determined by how many identical machines you put into the machine slot."
+	]
+	quest.0CB4D113E3597BFE.quest_desc: [
+		"&#FF883APhotovoltaic Modules&r generate energy during the daytime. They can connect into a single unit when placed adjacent to each other. "
+		""
+		"&#FF883AThe Energetic Photovoltaic Module&r produces 8 E/t."
+	]
+	quest.0CE280C3799B0AD1.quest_desc: ["Same functionality as &7Steam Version."]
+	quest.0CFDDF0F7B6E3755.quest_desc: [
+		"&bDiesel Generators&r will consume some fuels (you can check it in the EMI) and will produce energy"
+		""
+		"All &bDiesel Generators&r have a limit of generated energy. Starter's one is - &c64 EU/t.&r"
+		""
+		"Currently, you can only burn &7creosote&r and &7canola oil&r to get &epower&r, but I'll give you a bucket of boosted diesel."
+	]
+	quest.0D0CDCA4CC66DCF3.quest_desc: ["&5The Matter Condensator&r generates &dUU Matter&r using singularity.&7 &r"]
+	quest.0D0D26F1A567FAEE.quest_desc: [
+		"Elevators are a convenient way to get around."
+		""
+		"To use them place two or more elevators in the same X and Z coordinates, to move between them simply jump to go to the elevator above or sneak to go to the one below."
+	]
+	quest.0D180574F89107D9.quest_desc: ["Craft an anvil. You will need it for &6Forge Hammer"]
+	quest.0E6338075B6217C3.quest_desc: ["&bThe Plant Fertilizer&r fertilizes crops using Bone Meal or Fertilizer."]
+	quest.0E7755458C508106.quest_desc: [
+		"&dThe Watch of Flowing Time&r, when placed on a Pedestal, significantly accelerates time for nearby machines — furnaces, for example. "
+		""
+		"The effect of multiple watches stacks."
+	]
+	quest.1077B828B0B353DF.quest_desc: [
+		"&bLV storage unit&r can store up to &7192.0kEU&r."
+		"It has five energy inputs and only one output."
+		""
+		"Right-clicking on the Unit will charge items with electricity."
+	]
+	quest.1077B828B0B353DF.title: "Storage For Your Energy"
+	quest.1105D0489A1C0CD8.quest_desc: ["Low Extraction Module causes the pipe to extract items from the connected inventory."]
+	quest.110E457FF351B5DE.quest_desc: ["The Crafting Station functions like a regular crafting table but can save items in its grid and interact with nearby inventories &7(e.g., chests)&r."]
+	quest.113661A5647FFF49.quest_desc: ["&3Motors&r are used in recipes. You will need a lot of them"]
+	quest.113661A5647FFF49.title: "Light, camera, &5motor"
+	quest.113C2164AA82EC85.quest_desc: [
+		"Some drills require a specific dimension other than the &aOverworld&r. While you can set up a power generation system in those dimensions, it's not always convenient. "
+		""
+		"Since you can't transfer energy across dimensions just yet, the &dPortable Storage Unit&r is a solid alternative. "
+		""
+		"&dThe Portable Storage Unit&r itself has no storage capacity — you need to fill it with batteries to add capacity. Each battery contributes a different amount of energy. "
+		""
+		"To discharge the &dPortable Storage Unit&r, simply right-click on a Storage Unit or an Energy Hatch."
+	]
+	quest.1179A01F9BC0AF0B.quest_desc: [
+		"Forget about the bulky Farmers from Extended Industrialization. It's time for an upgrade — &cthe Compact Greenhouse&r."
+		""
+		"It grows crops using just a bit of water, fertilizer and power, and even supports overclocking."
+	]
+	quest.11A738BEFA031F99.quest_desc: [
+		"Blast some steel in Steam Blast Furnace!"
+		""
+		"Steel is the key material on the road to the &bElectric Age&r."
+	]
+	quest.11A738BEFA031F99.title: "Steel"
+	quest.11A8CF80753E7391.quest_desc: ["The Infuser is a machine that can create valuable crystals and upgrade armor, providing protection against Utheric Infection."]
+	quest.1260C6361833BAD1.quest_desc: ["&dElectronic Circuit&r is the core component of the Medium Voltage!"]
+	quest.12CB06891AFDCDFD.quest_desc: [
+		"Right-Click Blaze or Blaze Spawner with Empty Burner to get Blaze Burner"
+		""
+		"To make burner work click on it with any fuel"
+	]
+	quest.12D6F037A7BE9C0C.quest_desc: ["Electrolyze salt to obtain Sodium Dust, but more importantly — &#b5bf14Chlorine."]
+	quest.13928EEE08D08A2D.quest_desc: [
+		"&dThe Gas Collector&r gathers air from the Overworld's atmosphere. "
+		""
+		"However, at this stage of progression, it serves no practical purpose."
+	]
+	quest.1402EE183C58700E.title: "Basic Processors"
+	quest.14DF17A304BE5477.quest_desc: [
+		"Right-clicking the Void Portal will teleport you to an endless void dimension. "
+		""
+		"It's a great place to relocate massive machines!"
+	]
+	quest.14F29C93C0B96E09.quest_desc: ["&dLarge Motor&r is used in a vast number of Medium Voltage recipes."]
+	quest.150C4C9C9F5F49B6.quest_desc: [
+		""
+		"Now that you have &7steel&r, you can upgrade your &6bronze machines&r if you want. &7Steel machines&r can process recipes up to 4 EU/t, and they will process recipes at twice the speed as long as the energy usage doesn't go above 4 EU/t. Basically, they are twice as fast as bronze machines and they may also unlock new recipes."
+		""
+		"You can use steel upgrades to turn &6bronze machines&r into &7steel&r with deployer or packer."
+		""
+		"Steel upgrade is crafted on sequenced assembly (The screwdriver is not wasted, but loses durability)"
+	]
+	quest.150C4C9C9F5F49B6.title: "Steel Machines!"
+	quest.154367F1B4F713BC.title: "Most likely you took it in the village"
+	quest.1574E62F67950A70.quest_desc: [
+		"&l&#686868The Metamorphic Constructor&r is a rather unique multiblock built from new casings. Its purpose is to craft items from &dProjectE&r."
+		""
+		"Its recipes demand a colossal amount of energy."
+	]
+	quest.15A108F74D66D968.quest_desc: [
+		"&dThe Jetpack&r grants the ability to fly. It runs on various fuels — the better the fuel, the faster the jetpack. "
+		""
+		"Be sure to wear a rubber helmet and boots to avoid taking damage upon landing."
+	]
+	quest.15E2C7B59683F3DA.title: "Antimony"
+	quest.15F632400E878041.quest_desc: ["Punch some trees to get wood."]
+	quest.15F632400E878041.title: "Wood"
+	quest.1612A928E138ABA0.quest_desc: ["The Mallet allows you to mute machines from Modern Industrialization by right-clicking."]
+	quest.1612A928E138ABA0.title: "Enough noise!"
+	quest.1619091D24D588FF.title: "Copper"
+	quest.16E364F897CAB994.quest_desc: [
+		"The Stove, Cooking Pot, and Skillet let you prepare hearty meals. "
+		""
+		"Remember, you earn a heart for every 20 new types of food you try."
+	]
+	quest.16E364F897CAB994.title: "Cooking!"
+	quest.17388A011BBFFDAB.title: "Bauxite"
+	quest.1776061396A6C261.quest_desc: [
+		"To complete the next quest, you need to use the Task Screen. "
+		"Place it down, open its interface, and select the task from the corresponding menu. "
+		"Then, use pipes to pump matter into the screen."
+		""
+		"&aNote:&r This quest is repeatable - feel free to grab another Task Screen if you lose one!"
+	]
+	quest.17A4D648F924254D.quest_desc: [
+		"Cables transfer energy between machines. "
+		""
+		"More about energy — in the Electric Age."
+	]
+	quest.17C68EC2E584522B.quest_desc: [
+		"&6Bronze Forge Hammer&r will turn ingots into plates at 3:2 ratio"
+		""
+		"It also can be used to hammer crushed ore into impure dust"
+	]
+	quest.17C68EC2E584522B.title: "Bronze Forge Hammer"
+	quest.17F3362EA2E8281E.title: "Tin"
+	quest.182CAFC9178A930F.quest_desc: ["Put ruby through the centrifuge to obtain &#FFBAD4Chromium Crushed Dust."]
+	quest.183DB84EBC38E170.quest_desc: [
+		"Travel Anchor allows the player to instantly transport between two blocks of this kind. "
+		""
+		"Player can see all Travel Anchors, through other blocks, in an approximately 50 block radius while standing on one or holding a Staff of Traveling."
+	]
+	quest.18406D33928E9643.quest_desc: [
+		"XP Obelisk stores XP and levels. "
+		""
+		"A player can retrieve and store XP using the GUI or using an Experience Rod"
+	]
+	quest.18A8F25E0B3284EA.quest_desc: ["When placed into a Powered Spawner, the Mind Killer upgrade allows the spawner to function as if the mobs were being manually killed by a player."]
+	quest.18D629785E5DF86E.quest_desc: [
+		"The Steam Quarry is a steam multiblock machine that consumes bronze drills, uses them to dig deeper than the bedrock and gives you back some ores. "
+		""
+		"It's recommended that you have multiple SBFs running before you attempt to build it because it requires a lot of steel."
+	]
+	quest.18DCAA4063DA9173.quest_desc: ["The Mixer will help you mix dusts, giving you a better ratio for fire clay and uncooked steel. It can also create cobblestone and clay."]
+	quest.18ECA9AA04D915A2.quest_desc: ["&bThe Energy Condenser &rduplicates items by consuming other items that have EMC value."]
+	quest.18F250DF96145368.quest_desc: ["Make some &6Copper Casings&r with Deployers"]
+	quest.18F3B6ABE44F9C5C.quest_desc: [
+		"Windmill generates up to &78,192 stress units&r"
+		""
+		"Place a radial chassis on a windmill bearing, and on radial chassis place &7sails "
+	]
+	quest.1996970C4A120D7E.quest_desc: [
+		"Mine some gravel to get flint."
+		""
+		"Flint is the most necessary material at the very beginning."
+	]
+	quest.19B5E7E57D426369.quest_desc: ["The Slingshot is a fun little tool that lets you hurl pebbles and Gronglets."]
+	quest.19F02B24F50B893A.quest_desc: ["&bMagnetic Cupronickel Wire&r is a crafting component"]
+	quest.1A00882E910CE7E8.quest_desc: [
+		"Infinite water sources are &cdisabled&r in this modpack! "
+		""
+		"It is very important to start your survival near naturally generated water sources (rivers, seas), as water is essential throughout the entire gameplay."
+	]
+	quest.1A4E3D18FDBEE2A9.quest_desc: ["&9The Ring of Arcana&r combines the effects of all rings into one."]
+	quest.1A576C2B764C4412.quest_desc: ["Froststeel gear falls short of Cloggrum in some stats, but it boasts greater durability and slows enemies on hit."]
+	quest.1A576C2B764C4412.title: "Froststeel Equipment"
+	quest.1A9156C609BF9C16.quest_desc: ["Same functionality as &7Steam Version."]
+	quest.1AAE159411DA8D2A.quest_desc: [
+		"&#98DBFFRogdorium&r is a rare material found in the Depths biome. "
+		""
+		"The ore can only be mined using a Forgotten Pickaxe."
+	]
+	quest.1ADB33FBED9A7674.quest_desc: [
+		"Mob Predictions will need to be processed in a &#FF9E39Loot Fabricator&r, a device which uses power to convert predictions to mob drops. "
+		""
+		"The drops which are available are based on a list of pre-defined items, and a target can be selected for each type of model. "
+		""
+		"The loot fabricator will remember your choices for each type, so you can feed multiple types of predictions into a single fabricator."
+	]
+	quest.1AE3A993E2C31753.quest_desc: ["The advanced upgrade adds +16 EU/t to the Overclock."]
+	quest.1B8E281DAAA0F513.quest_desc: ["Cables are used to connect machines within an ME network. They carry only 8 channels."]
+	quest.1BBE038F38379E20.quest_desc: [
+		"&#88FFBFThe Forgotten Guardian&r can only be found naturally in the catacombs."
+		""
+		"&#88FFBFThe Forgotten Guardian&r stands still until a player comes in range. After detecting a player, it follows them and will attack if the player is close."
+		""
+		"It drops &#88FFBFForgotten Nuggets."
+	]
+	quest.1BBE038F38379E20.title: "Boss"
+	quest.1C6FDECC35FA9218.title: "Fluid Pipes"
+	quest.1C8374C0DAE5D49D.quest_desc: ["These tools are used in crafting, losing 1 durability per recipe."]
+	quest.1C8374C0DAE5D49D.title: "Basic Tools"
+	quest.1C8B795051804938.quest_desc: ["&7Wiremill&r is a machine that produces wires, which are then used to craft cables."]
+	quest.1CB53A6AF32943FF.quest_desc: [
+		"&6Canola&r is a plant used in various recipes from the Actually Additions mod."
+		""
+		"You can obtain canola seeds by breaking grass."
+	]
+	quest.1CC9A886028F7D19.quest_desc: ["Paper is used to craft patterns."]
+	quest.1CE529EBDFB75BE9.quest_desc: ["&7Ultimate Robot Arm&r is a component in &5Superconductor Voltage&r recipes."]
+	quest.1CF94E36E36D510B.quest_desc: [
+		"There is such a thing as multiblocks."
+		""
+		"To preview a machine's structure, place the machine's controller block and hold a wrench in your hand."
+		""
+		"For item&7/&rfluid&7/&renergy input&7/&routput, use hatches (currently, you can only craft bronze hatches). While holding them, green-highlighted blocks will appear where hatches can be placed."
+	]
+	quest.1D1BB42F7DE96E9E.quest_desc: [
+		"You finally get an access to the &62nd tier of Alloy Forge&r"
+		""
+		"It melts much faster and can store more fuel. You can also smelt some other ores that you couldn't in the first tier"
+	]
+	quest.1D1BB42F7DE96E9E.title: "Too many &6Brass Casings!"
+	quest.1D554476416DEB57.quest_desc: [
+		"Obtaining a mob spawner at early stage of the game is quite a challenging task. "
+		""
+		"Fortunately, there's a solid alternative — &4Cursed Earth&r."
+		"{@pagebreak}"
+		"&4Cursed Earth&r spawns a large number of hostile mobs when it's dark!"
+		""
+		"To create Cursed Earth, hold &6SHIFT&r and &6right-click&r on a dirt block (not grass) with a Drop of Evil."
+		"Once placed, Cursed Earth will gradually spread to adjacent dirt blocks."
+		""
+		"&cBe careful&r — Cursed Earth burns away when exposed to light!"
+		""
+		"Mobs which will spawn are determined by the biome that the cursed earth block is in. "
+		"To see which mobs a specific cursed earth block will randomly spawn: with an empty hand <sneak>-<right click> on the cursed earth block."
+	]
+	quest.1D554476416DEB57.title: "Cursed Earth"
+	quest.1D5A78359CA3F871.quest_desc: [
+		"Primitive Pump is pumping 100 mb of Water per second, consuming 2 steam per tick"
+		""
+		"Primitive Pump must be placed above water and be placed in the \"wet\" biomes, like rivers, oceans, beaches, etc"
+		""
+		"Primitive Pump block must be placed in the right side of structure"
+		""
+		"{image:contemporary_technologies:textures/ftbquests/primitive_pump.png width:100 height:100 align:1}"
+	]
+	quest.1D5A78359CA3F871.title: "Primitive Pump"
+	quest.1D7574F6381924B9.quest_desc: ["The Uranium Fuel Rod is the most basic fuel component for the nuclear reactor, and as such, it produces the least energy of all available fuel types"]
+	quest.1D9E792483865BD2.quest_desc: ["&7Ultimate Ultimate Pump&r is a component in &5Superconductor Voltage&r recipes."]
+	quest.1E794036D4A5F322.quest_desc: ["The basic Backpack has 27 slots. Crafting one early on is highly recommended!"]
+	quest.1E8AE7A8D9DA6F6E.quest_desc: [
+		"The Farming Station is a pretty solid replacement for the Extended Industrialization Farmers. "
+		""
+		"It requires power and appropriate tools &7(Hoe or Axe or Shears)&r. "
+		""
+		"&dLooting/Fortune&r on the tools does apply to the harvesting. Tools also take damage per harvest operation and need to be replaced when broken or the machine will stop working. "
+		""
+		"This machine is upgradable with capacitors to increase range, power use, and power storage"
+	]
+	quest.1EBC62A0CC0951DE.quest_desc: [
+		"&6Bronze Alloy Smelter&r is the most important machine in the Steam Age"
+		""
+		"Alloy smelter is making alloys and can be used to alloy ingots, nuggets, blocks, rotors and gears"
+	]
+	quest.1EBC62A0CC0951DE.title: "Alloy Smelter"
+	quest.1F6C7F4A49AA4AFD.quest_desc: ["Unlocks an Industrial Foregoing Pity Machine Frame."]
+	quest.1F88A079B315447B.quest_desc: ["&6Bending Machine&r allows you to craft curved plates, as well as rings, at a lower cost."]
+	quest.1FFEA302F73EEADA.quest_desc: ["&6Bronze Cutting Machine&r will give you better ratios for bolts. It uses a little bit of lubricant every time."]
+	quest.205303F24C34DC33.quest_desc: ["&zInfinity Tools&r run on Biofuel and can be upgraded by using the energy stored within them."]
+	quest.20733A219B34A874.quest_desc: ["An electric version of the Farmer. It consumes 64 EU/t."]
+	quest.20A2A1172D3D3F6C.quest_desc: ["Use the Atomic Reconstructor to create &#BF6C55Crystallized Canola Seeds&r, then throw them into Refined Canola Oil."]
+	quest.20CC432C84931FF0.quest_desc: ["I hope you didn't speedruned, so you will make a portal using Flint and Steel"]
+	quest.210F61E461E37577.quest_desc: ["The Stoneborn is a basically underground villager. It sells various items and trades resources for &#FFE365Regalium&r."]
+	quest.210F61E461E37577.title: "What he said?"
+	quest.21909DDDCD3763B5.quest_desc: ["The first tier produces up to 12 EMC/t."]
+	quest.21A085D9C4A1C9DC.quest_desc: [
+		"Use your freshly crafted &#4D426ATungstensteel&r to make a Mixed Blastproof Ingot, then compress that ingot in the Compressor. "
+		""
+		"Once you've crafted the &cImplosion Compressor&r, you'll be able to produce them more efficiently."
+	]
+	quest.21E3A739D8E983E2.quest_desc: ["&6The Supreme Machine Frame&r is the ultimate frame in Industrial Foregoing, unlocking access to the &eMycelial Reactor&r, Mob Duplicator and overpowered tools."]
+	quest.224396E502774E38.quest_desc: ["Right-click with the Geological Hammer to detect ores within a 48-block radius — it'll point you straight to the nearest deposits."]
+	quest.226799362FAF5FDF.quest_desc: [
+		"&#DD7951The Water Tower&r is a multiblock structure that can pump vast amounts of water in a short amount of time. "
+		""
+		"Note that the structure requires a 5x5 pool of water beneath it."
+	]
+	quest.2299254BC7E44518.quest_desc: [
+		"&bDrill&r from &bActually Additions&r is an excellent energy-powered tool for mining blocks. "
+		"It can be upgraded with Augments — allowing it to mine not only in a &63x3&r area, but also a &65x5&r!"
+		""
+		"Keep in mind — applying higher-tier augments also requires the lower-tier ones to be installed first."
+	]
+	quest.22A6531DD20D7ACC.quest_desc: [
+		"The Foundry - is a multi-block structure, which acts as a large, industrial smelting furnace capable of handling large quantities of ores at once."
+		""
+		"The Foundry smelts ores faster than traditional furnaces, allowing you to process multiple types of ores simultaneously and produce more ingots with less fuel."
+		""
+		"The Foundry features a casting system where you can pour molten metal into casts to create ingots, tools head and other metal items, adding a new layer of depth to crafting and resource management."
+		""
+		"The size and layout of the Foundry can be customized, with foundry blocks in all 16 colors to match your base."
+		"{@pagebreak}"
+		"Build your own Foundry using various blocks like bricks, tanks, drains and windows to create a fully functional smelting setup."
+		""
+		"The Foundry can be built at any size, even a 1x1 mini-version."
+		""
+		"There is an example of a 3x3 foundry:"
+		""
+		"{image:kubejs:textures/pictures/foundry.png width:100 height:100 align:center fit:true}"
+	]
+	quest.22A6531DD20D7ACC.title: "The Foundry"
+	quest.23402B693211864C.quest_desc: [
+		"Framed Blocks are blocks that can mimic the appearance of any other block. This allows you to create things like Tungstensteel stairs, for example. "
+		""
+		"The Framing Saw is a block used to cut and shape these framed blocks."
+	]
+	quest.241E6BF94175BFD5.quest_desc: [
+		"&3The Catacombs&r are a structure that naturally occurs in the Undergarden, and is the only place &#88FFBFForgotten Guardians&r can be found."
+		""
+		"Catacombs generate at Y level &748&r, the entrance can be found above ground. Catacombs generate in Frostfields and Forgotten Fields."
+	]
+	quest.241E6BF94175BFD5.title: "Catacombs"
+	quest.245BBFF433B4BEA9.quest_desc: ["Combine &7Manganese Crushed Dust&r with &#B14828Sulfuric Acid&r in the &bChemical Reactor&r to produce &#B36844Manganese Sulfuric Solution&r. Then, process that solution in the &bElectrolyzer &rto obtain&7 Manganese&r."]
+	quest.24D918BCACD2E9D2.quest_desc: [
+		"&6Bronze Macerator&r crushes items, consuming steam"
+		""
+		"Macerator is also first your ore-processing machine. It can crush raw ore at 1:2 ratio"
+	]
+	quest.256A67B1CFBE9E99.quest_desc: ["&6Advanced Large Steam Boiler&r is an upgraded version of the Large Steam Boiler. It produces 1024 mb/t of Steam when fully heated."]
+	quest.25C3471E3AF8C484.quest_desc: [
+		"&6Cutting Machine&r allows you to craft bolts and is also a far more efficient way to produce planks compared to manual crafting."
+		""
+		"It requires Lubricant to operate."
+	]
+	quest.25C36B47A8D94353.quest_desc: [
+		"&7The Pyrolyse Oven&r is a massively upgraded version of the coke oven. "
+		""
+		"A single Pyrolyse Oven can replace roughly 16 coke ovens."
+	]
+	quest.25DE8E3D7B9E35B0.quest_desc: [
+		"&7Steel&r is the most important material in the &3Electric Age!&r. "
+		""
+		"Smelt &7uncooked steel dust&r in the Blast Furnace to get &7Steel Ingots&r."
+		""
+		"I recommend you to automate steel production as early as possible, because you will need a lot of it"
+	]
+	quest.25DE8E3D7B9E35B0.title: "Steeeeeeeel"
+	quest.2604D1786C91577C.quest_desc: [
+		"Once you have had enough of the bronze machines, you can start working toward making &8steel&r"
+		""
+		"For this first multiblock, you will need the &7Coke Oven&r itself of course, 20 Bricks and 4 Hatches: an item input, an item output, a fluid input, and a fluid output"
+		""
+		"The Coke Oven block here has the role of a &7Controller.&r "
+		"Every multiblock is managed by a controller, but you usually cannot interact with the controller directly: all input and output goes through hatches. "
+		""
+		"We need a &6fluid input&r because the coke oven is powered by steam, &6fluid output&r for creosote, we need an &6item input&r for the coal and an &6output&r for the coke. If we forget one of the hatches, the coke oven will not be able to start!"
+		""
+		"Hold a &6Wrench&r to see the missing blocks and the errors! "
+		"You can also hold a Hatch to know where it can go."
+		""
+		"Once the Coke Oven says Shape Valid, fill the fluid input hatch with steam, put coal in the item input hatch and you're good to go! &7Coke&r will be very useful for steel, but it is also a powerful fuel. It lasts 4 times as long as coal!"
+	]
+	quest.260DE443D50F5D34.quest_desc: ["&eThe Tesla Interdimensional Upgrade&r enables the Tesla Tower to transmit energy across unlimited distances and between dimensions."]
+	quest.2615C32F650E4095.title: "Coal"
+	quest.26646671B1912BB4.title: "Gold"
+	quest.26FF69F3C0E7C230.quest_desc: [
+		"&l&5The Plasma Turbine&r&r can turn Helium Plasma into EU, at the rate of 100 kEU per millibucket. "
+		""
+		"Its maximum production rate is roughly 1 MEU/t."
+	]
+	quest.2747CF5C6DBBF360.quest_desc: [
+		"Utheric Infection is a condition that sets in after spending too much time in the Depths biome — that is, below Y=0. "
+		""
+		"As soon as you've mined some Rogdorium, get out as fast as you can."
+	]
+	quest.2747CF5C6DBBF360.title: "Utheric Infection"
+	quest.27526B3D04A1EE1C.quest_desc: [
+		"&l&6Mechanical Crafters&r are machines that can automatically craft items."
+		""
+		"Right click the front of a Mechanical Crafter with a Wrench to change the direction it sends items during crafting. The Mechanical Crafters are only connected by this path."
+		""
+		"Each Mechanical Crafter has an internal gear that can only be powered by adjacent Mechanical Crafters or any size Cogwheel. This means only 1 Mechanical Crafter in a setup needs to be powered by a Cogwheel."
+		""
+		"Certain recipes cannot be crafted with regular Crafting tables and require the use of Mechanical Crafters."
+	]
+	quest.2774EE136A015EC7.quest_desc: ["The Coke Oven converts coal into Coke Coal and wood into Charcoal, generating &7Creosote Oil&r as a byproduct. Steam must be piped in for operation."]
+	quest.283D56B1E42B2A29.quest_desc: ["Smelt glass using the Alloy Smelter."]
+	quest.283D56B1E42B2A29.title: "Glass"
+	quest.28CBB361E124B6FC.quest_desc: ["Spout will spill fluid in the buckets and some other items"]
+	quest.2961D8A48045C7F3.quest_desc: ["Combine &#FFBAD4Chromium Crushed Dust&r with &eHydrochloric Acid&r in the &bChemical Reactor&r. Then, process the resulting solution in the &bElectrolyzer&r to obtain &#FFBAD4Chromium."]
+	quest.2967C059399A89C3.quest_desc: ["&dQuantum upgrades&r serve as components in high-end recipes, including endgame armor fabrication."]
+	quest.29B5972693165C8E.quest_desc: ["&6Solar Boiler&r generates steam by heating up from the sun, meaning it requires no fuel. However, for this reason, it produces less steam than its fuel-powered counterpart."]
+	quest.29D31CA518B2DE87.quest_desc: ["&#FF775DThe Market &ris a block that lets you purchase various plants for one emerald each."]
+	quest.2A6B5027D15A063D.quest_desc: [
+		"The ME Interface can both supply and extract items. "
+		""
+		"&aP.S.&r It cannot store autocrafting patterns — for that, you'll need a Pattern Provider."
+	]
+	quest.2A865E77873EC79D.quest_desc: ["Before handling the nuclear reactor or any of its components, make sure you have a full set of rubber armor ready — it will shield you from radiation exposure."]
+	quest.2A865E77873EC79D.title: "Rubber Armor"
+	quest.2AB96B167CFE03B6.quest_desc: ["It charges items in your inventory and has an internal energy buffer of 2,000,000."]
+	quest.2AD1DAEE4F3A27FA.quest_desc: [
+		"The Plant Gatherer harvests fully grown crops into its inventory, but breaks the crop itself in the process. "
+		""
+		"The Plant Sower plants seeds within its working radius."
+	]
+	quest.2AD1DAEE4F3A27FA.title: "A basic crop system"
+	quest.2B2052761A2BFD21.quest_desc: [
+		"You can store 1 type of items in barrels"
+		""
+		"Left-click to give a stack to a placed barrel (shift to give as much as possible). "
+		""
+		"Right-click to take a stack from a placed barrel (shift to take only 1 item)"
+		""
+		"If you break a barrel it will keep its stored contents, and you will get an item that you can interact with."
+		""
+		"Left-click on a barrel item with an item to insert it into the barrel."
+		""
+		"Left-click the barrel item on an empty slot to extract some items from it."
+	]
+	quest.2B6B97B9FB0E74D1.quest_desc: ["&#6ACBB2The Vibrant Photovoltaic Module&r produces 128 E/t."]
+	quest.2D1226598E6943EA.quest_desc: [
+		"Pipes from the Pretty Pipes mod allow you to transfer items between different inventories. "
+		""
+		"However, their primary use is setting up a basic storage system. For more details, see the 'Pretty Pipes' chapter."
+	]
+	quest.2D33FE4E06FF916B.quest_desc: ["&z&lReplicator&r&r duplicates items, consuming &d100 mB of UU Matter&r per operation."]
+	quest.2DFB108367F17046.quest_desc: [
+		"&cDigital Circuit&r is the core component of the High Voltage."
+		""
+		"This Quest unlocks &o&cHigh Voltage&r chapter."
+	]
+	quest.2DFB171B93BD5BE7.quest_desc: [
+		"The deep learner allows you to store a few data models within, and kills you receive will begin to train the model. "
+		""
+		"All models start out in the Faulty state, and must be trained up to Basic in the deep learner."
+	]
+	quest.2E0998F2C390D456.quest_desc: ["Portable Fluid Interface is used to transfer fluid"]
+	quest.2E167794876A00A8.quest_desc: [
+		"&eHighly Advanced Machine Hull&r is used to upgrade machines to EV tier. "
+		""
+		"It is also used in various machine recipes."
+	]
+	quest.2EC3B52A1D1A2321.quest_desc: ["&#236021The Nuclear Component Assembler&r is used to craft components for nuclear machines."]
+	quest.2F7539FE79A6FACE.quest_desc: ["&dThe Diesel Chainsaw&r is like an axe, but better and faster. It runs on diesel."]
+	quest.2F8811741C5E7A33.quest_desc: ["&7Iron chest&r is much better than a &6copper&r one! It has 54 slots, when copper only 36"]
+	quest.2F8811741C5E7A33.title: "Iron Chest"
+	quest.3046CFE45DBBBE50.title: "Dank Storage"
+	quest.3097BB319ADD2E97.quest_desc: ["The primary use of the &6Compressor &ris to create blocks from ingots."]
+	quest.30E1639C3DC56DB9.quest_desc: ["It charges items in your inventory and has an internal energy buffer of 1,000,000."]
+	quest.3123480356464673.quest_desc: [
+		"&bThe Assembler&r allows you to automate almost all recipes, up to 3 per Assembler if you use slot locking."
+		""
+		"It also is needed for some recipes that can't be crafted in workbench."
+		""
+		"It's highly recommended to automate the creation of analog circuits with an assembler as early as possible."
+	]
+	quest.3123480356464673.title: "Stop Manual Crafting!"
+	quest.314FCF3AF6EBAE22.quest_desc: [
+		"Crush some coke and iron, and then mix them to get a &7Uncooked Steel Dust.&r"
+		""
+		"Now you get &7Steel!"
+	]
+	quest.314FCF3AF6EBAE22.title: "Almost &7Steel"
+	quest.316D2DB4D5DE19E1.quest_desc: [
+		"Wooden and stone tools &care disabled&r in this modpack. They are replaced by &nflint tools&r."
+		""
+		"The flint axe has the same mining level as a stone one but mines slightly slower."
+	]
+	quest.3197E6034AA2DD64.quest_desc: ["The Aversion Obelisk is used to selectively prevent mobs from spawning around it."]
+	quest.31BB0B9373945ADF.quest_desc: [
+		"&dMV storage unit&r can store up to &712.80MEU&r."
+		"It has five energy inputs and only one output."
+		""
+		"Right-clicking on the Unit will charge items with electricity."
+	]
+	quest.31EA0CA75A73C108.quest_desc: ["You can't store fluid in this tank just right-clicking on it with bucket. You should pump fluid in it, for example, with fluid pipes"]
+	quest.31EB54F6D82655B4.quest_desc: ["AIOTs are all-in-one tools that can perform the tasks of pickaxes, axes, and other standard tools."]
+	quest.31EB54F6D82655B4.title: "AIOTs"
+	quest.320041D6B0C2948A.quest_desc: [
+		"Construction Wands let you place multiple blocks at once. "
+		""
+		"Each tier increases both the wand's durability and the maximum number of blocks it can place at a time."
+	]
+	quest.32064D237E762C63.quest_desc: ["&eDiesel&r is a powerful fuel that generates 400 EU per mb in diesel generators. It is also used to fuel gasoline-powered items."]
+	quest.3210536CBEDA8D11.quest_desc: [
+		"Ender Chests are chests that can connect to one another across any distance. "
+		""
+		"Each chest features three wool slots on top, and each can be dyed. If two chests share the same wool pattern, they become linked as part of the same network."
+	]
+	quest.32223FE59E580772.quest_desc: ["Basin is a block where you can place items to compact them or mix them up"]
+	quest.329B49C28CD4F667.quest_desc: ["Upgrades increase the maximum overclock capability of machines and multiblocks. The basic upgrade adds +2 EU/t."]
+	quest.3335665CAD357C7D.quest_desc: ["Make some &6Brass Casing&r with Deployers"]
+	quest.335DF75B1CE3BAA6.quest_desc: [
+		"&#236021Nuclear Alloy&r is an alloy made from Blastproof Alloy, Beryllium, and Cadmium. "
+		""
+		"It is used to craft nuclear machinery."
+	]
+	quest.335DF75B1CE3BAA6.title: "Nuclear Alloy"
+	quest.33856E38FDEC91E8.quest_desc: [
+		"Ender IO Conduits are highly intelligent and flexibly configurable pipes. "
+		"Just like Modern Industrialization pipes, multiple conduits can occupy the same block space."
+	]
+	quest.33856E38FDEC91E8.title: "Conduits!"
+	quest.33B1508761D6D36F.quest_desc: [
+		"&dThe Vacuum Freezer&r is a multiblock built from previously unused blocks — Frostproof Machine Casings. "
+		""
+		"Its primary purpose is to cool down hot ingots."
+	]
+	quest.33ED8903CD1DC832.quest_desc: [
+		"&zSV storage unit&r can store up to &712.80TEU&r."
+		"It has five energy inputs and only one output."
+		""
+		"Right-clicking on the Unit will charge items with electricity."
+	]
+	quest.344915A275754AFF.quest_desc: ["&bInscriber&r is a machine used to create processor prints for Applied Energistics 2."]
+	quest.34A1395C44EF5D8E.quest_desc: ["Combine an Ender Pearl with Molten Blaze in the Chemical Reactor to craft an Eye of Ender."]
+	quest.34D52C594438D299.quest_desc: [
+		"&zQuantum Nano Armor&r — the pinnacle of your technological journey."
+		""
+		"This is the absolute peak of protection, the summit of engineering ingenuity, and the most powerful armor set that can possibly be crafted in this modpack. The Quantum Nano Armor doesn't just provide immense damage resistance — it stands as a testament to your complete mastery over every machine, every energy system, and every alloy you've worked with throughout this long and challenging journey."
+		""
+		"With this armor, you gain more than just raw power — you gain the profound realization that you have overcome every trial thrown your way: from the earliest steam-powered machines to quantum computing, from raw ores to stellar-grade alloys. You have built, automated, optimized, and conquered everything this pack had to offer."
+		"{@pagebreak}"
+		"And so, our journey comes to an end. You haven't just reached the finish line — you have conquered &zAbsolute Industrialization&r in its entirety."
+		""
+		"Thank you for being with us. Be proud of what you've accomplished — you've truly earned it."
+	]
+	quest.34D52C594438D299.title: "The End?"
+	quest.3522B4F48114DEC7.quest_desc: ["&4Red Alloy&r, made from redstone and copper, is required for energy-related components."]
+	quest.35CDC5C0108A8F25.quest_desc: ["&6Large Steam Furnace &rworks just like its basic counterpart, but it can process up to &a4 &rrecipes simultaneously, consuming a larger amount of steam."]
+	quest.35E2A32C66E4D1B5.quest_desc: ["For the wires, you will need the Wiremill! Combine these wires with rubber sheets to get cables!"]
+	quest.360897985C7BAD35.quest_desc: ["Same functionality as &7Steam Version."]
+	quest.364D6D2729A6F9D2.quest_desc: [
+		"Smelt copper and tin together in the Foundry to produce &6Bronze&r."
+		""
+		"Later, you'll unlock faster ways to make bronze."
+	]
+	quest.364D6D2729A6F9D2.title: "Bronze №2"
+	quest.376B08BB5238BFDC.quest_desc: ["&eThe Bedrock Drilling Rig&r is an upgraded version of the &bOil Drilling Rig&r. It can extract oil several times faster and, in addition, can mine &8Bedrock Substance&r"]
+	quest.377F0E5F38027F56.quest_desc: ["Smelt rubber in the Alloy Smelter by combining Raw Rubber Dust and Sulfur."]
+	quest.377F0E5F38027F56.title: "Rubber"
+	quest.37D7BAF9B0752FE9.quest_desc: ["&#7BFFA7The Pulsating Photovoltaic Module&r produces 32 E/t."]
+	quest.37FA3832C70632E1.quest_desc: ["Storage cells are held in the drive and contain the items that are stored within the ME network."]
+	quest.3859E761BD92CD71.quest_desc: ["The Waystone lets you mark locations that you can teleport back to from any other waystone."]
+	quest.386C685A2BA61441.quest_desc: ["Smelt Copper Dust with air in the EBF (note that Kanthal tier is required), then cool the resulting ingot in the Vacuum Freezer."]
+	quest.386C685A2BA61441.title: "Annealed Copper"
+	quest.39ABBE409E725EC3.quest_desc: ["&6Composter&r turns organic matter into Bone Meal, making it an invaluable asset for automating your farms."]
+	quest.3A6583EFA04FA073.quest_desc: ["&dThe Distillery&r will turn various fluids into their lighter parts. That will be very useful for Oil Processing."]
+	quest.3A858F4AA8CDF85C.quest_desc: ["&#CADEFFStainless Steel Drills&r can mine new ores. Note that Platinum and Monazite are mined in the Overworld, while Titanium and Tungsten are mined in the End."]
+	quest.3AB92BC85881F2EB.quest_desc: [
+		"&eEV storage unit&r can store up to &7819.2MEU&r."
+		"It has five energy inputs and only one output."
+		""
+		"Right-clicking on the Unit will charge items with electricity."
+	]
+	quest.3ABC338F2A460D98.quest_desc: ["The Wireless Charger charges items directly from the player's inventory."]
+	quest.3B3BF411F97E1CA7.quest_desc: [
+		"&7The Deployer&r simulates player actions on blocks or entities."
+		""
+		"It can be given items to use with machines or by right clicking the items into the hand."
+	]
+	quest.3B6E2CA97865E7DC.quest_desc: ["Use the Eye of Ender to locate the stronghold and activate the End portal."]
+	quest.3B6E2CA97865E7DC.title: "The End?"
+	quest.3B799E5F2DCEC53A.quest_desc: ["Crafting Terminal offers the same functionality, but also includes a crafting grid."]
+	quest.3B7A43D248CD22AE.quest_desc: [
+		"Mechanical press can press ingots and turn them into plates with 50% chance"
+		""
+		"If you place basin below it then it will compact items"
+	]
+	quest.3BACDFCBAC9D094A.quest_desc: [
+		"The Configurable Chest is not a machine, but once you have Analog Circuits, you can craft it!"
+		""
+		"It has 27 configurable slots, and auto-extract functionality! Very useful for automation!"
+	]
+	quest.3BACDFCBAC9D094A.title: "Primitive Automation"
+	quest.3BBAF72D5539CEFE.quest_desc: ["&2The Harvest Goddess Band&r increases the growth speed of nearby crops when placed on a pedestal."]
+	quest.3BC5C73B83AF409F.quest_desc: ["The primary use of the Extractor is to produce Raw Rubber Dust."]
+	quest.3BDD9D3D01828C11.quest_desc: ["&cThe Advanced Pump&r is used in High Voltage machine recipes."]
+	quest.3BE5CC70B88F1EC0.quest_desc: ["&bThe Crusher&r  can crush some items, but it's fairly useless — many grinding recipes are only available in the &6Macerator&r."]
+	quest.3C0C7F83B06FCFE0.quest_desc: ["&#FF7C19The Ignition Ring&r sets nearby mobs on fire when placed on a pedestal."]
+	quest.3C75D2A316D92D2D.quest_desc: ["&bThe Simple Machine Frame&r is a new component used to craft upgraded Industrial Foregoing machines."]
+	quest.3D20E48FE032B5EA.quest_desc: ["Smelt stone on a campfire."]
+	quest.3D58758FDDEAF9FB.quest_desc: [
+		"&bElectric Forge Hammer&r will turn ingots into plates at 1:1 ratio"
+		""
+		"It also can thresh Crushed Ore into Dirty Dusts"
+	]
+	quest.3D58758FDDEAF9FB.title: "Better ratios for plates!"
+	quest.3D9F38B2985D095D.quest_desc: ["&7Circuit Assembler&r will produce Electronic Circuits for the Electric Age."]
+	quest.3DE2B5469E70D37B.quest_desc: [
+		"&dThe Material StoneWork Factory&r produces stone-type blocks."
+		""
+		"It's an excellent way to automate obsidian production."
+	]
+	quest.3DE32964096277E2.quest_desc: ["&6Lubricant&r is essential for running the Cutting Machine."]
+	quest.3EB2D917D1BB4323.quest_desc: [
+		"&bThe Atomic Reconstructor&r is the most important machine in&b Actually Additions&r."
+		""
+		"Its primary function is converting basic resources into crystals."
+	]
+	quest.3EC06B39EC8FB57B.quest_desc: [
+		"Mine some copper and tin. "
+		""
+		"&lYou'll need these ores to make &6bronze&r, the main material in the steam age.&r"
+	]
+	quest.3EC06B39EC8FB57B.title: "Copper and Tin  "
+	quest.3F617B01D7832E59.quest_desc: ["The Epoxy Resin Board is used to craft the core component of the Extreme Voltage tier — &ethe Processing Unit&r."]
+	quest.3F88B1D7AACEA198.quest_desc: ["&7Steel Machine Casing&r is used to craft new steel machines, upgrade existing ones, construct multiblocks, and more."]
+	quest.3F9BAAD1AB572D5F.quest_desc: ["The campfire was just a temporary solution - you're ready for an upgrade!"]
+	quest.405262FF0FE017DF.quest_desc: [
+		"Remember that pressurizing water into High Pressure water costs a lot of energy, but the turbine will not give it back! "
+		""
+		"You can use a &cHeat Exchanger&r to recover the High Pressure Water for another cycle."
+		""
+		"Additionally, the &cHeat Exchanger&r can use Cryofluid to cool ingots that the Vacuum Freezer is unable to handle."
+	]
+	quest.405262FF0FE017DF.title: "Heat Exchanger"
+	quest.40A5EC2E94136DDA.quest_desc: ["You're already familiar with &lIridium&r, but now you can mine it using the &eQuarry&r."]
+	quest.40FCE869F0DCA474.quest_desc: ["&bLathe&r will produce rods and screws with better ratio."]
+	quest.40FF100819925FBD.quest_desc: [
+		"&cThe Ore Laser Base&r is a machine added by Industrial Foregoing. It is used with one to four Laser Drills to produce ores."
+		""
+		"Laser Lenses can be used to increase or decrease the chances of specific ores. The Laser Base can hold up to six lenses."
+		""
+		"The Laser Drill must be placed one block away from the Laser Base with the back of the machine facing the Laser Base. Proper placement is indicated by a beam connecting the Laser Drill and the Laser Base."
+	]
+	quest.40FF100819925FBD.title: "Ore Laser"
+	quest.4181ACC89DD2BC16.quest_desc: ["Now, combine &#b5bf14Chlorine&r with &#1b49caHydrogen&r to produce Hydrochloric Acid."]
+	quest.41B5B158ADA0506A.quest_desc: ["It charges items in your inventory and has an internal energy buffer of 350,000."]
+	quest.41C35B681A0D3BAA.quest_desc: ["&dThe Building Gadget&r is the ultimate tool that makes building exponentially easier!"]
+	quest.41C9CF73137BB65C.quest_desc: [
+		"Sulfur is an ore found in the Nether. Note that ores in the Nether use the vanilla spawning mechanic, meaning they don't generate in large veins like in the Overworld."
+		""
+		"Once you've mined the ore, you need to process it in the Macerator, then grind it with hammer, and finally wash it in a water-filled cauldron."
+	]
+	quest.41C9CF73137BB65C.title: "Sulfur"
+	quest.41FA1BE2A3500B94.quest_desc: ["&dThe Electrolyze&rr can split materials into their different parts using strong electric currents. "]
+	quest.4230332E4B1F0722.quest_desc: ["Combine &eSulfur Dust&r with &#5f8735Ethanol&r in the &bChemical Reactor&r to produce &#287570Ethylene&r."]
+	quest.423B38955BA73A55.quest_desc: [
+		"&#FFD743Information:&r &#236021The Nuclear Reactor&r is a massive multiblock designed to generate enormous amounts of energy by consuming nuclear fuel. It can produce hundreds of times more EU/t than diesel generators. The reactor comes in several sizes, from small to large."
+		""
+		"&#FFD743Power Generation:&r To generate power, you need to place water into a Nuclear Fluid Hatch. The water turns into steam, which can then be used to produce energy — for instance, by routing it through a Heat Exchanger."
+		""
+		"&#FFD743Resource Genration:&r In addition, the reactor is the only source of certain rare materials, such as Plutonium. It can also produce fuels used in nuclear fusion: Deuterium and Tritium."
+		""
+		"&#FFD743Important&r: the reactor does not explode, emit radiation, or damage the world in any way. The only thing at risk is the items inside it if the temperature gets too high."
+		"{@pagebreak}"
+		"&#FFD743Construction: &rThe main structural block is the &#236021Nuclear Casing.&r"
+		""
+		"The upper part of the structure accepts &aNuclear Item&r or &aFluid Hatches&r (or regular casings). These serve as inputs and outputs. Each hatch has one input and two outputs. The input slots form a grid shown in the reactor GUI."
+		""
+		"&#FFD743Heat:&r Each hatch has its own temperature and stores heat, which can be dissipated in several ways. Heat naturally transfers to adjacent hatches or escapes if the hatch is on the edge. The transfer speed depends on the heat transfer coefficient of the hatch's contents and the temperature difference. Heat can also be extracted through a fluid hatch by producing steam. If an item's maximum temperature is exceeded, it gets destroyed."
+		"{@pagebreak}"
+		"&#FFD743Neutrons:&r The core of the reactor revolves around neutrons, produced by nuclear fuel. There are two types: fast (energy-carrying) and thermal (non-energetic). Neutrons travel in straight lines until they hit an element or leave the reactor. The neutron flow is shown in the GUI."
+		""
+		"When a neutron encounters a non-empty hatch, two things can happen: absorption or scattering. A scattered neutron changes direction randomly. If it was fast, it may slow down and become thermal, transferring energy as heat to the hatch. An absorbed neutron stops and also transfers its energy if it was fast."
+		""
+		"The absorption count per hatch is shown in the GUI. Absorption and scattering probabilities are listed in REI and depend strongly on the hatch's contents and neutron type. Nuclear fuel absorbs thermal neutrons far more effectively."
+		""
+		"When a neutron is absorbed by fuel, new fast neutrons are generated in random directions. This process also releases heat directly. Above a certain temperature threshold, neutron generation decreases with rising temperature until it reaches zero — this ensures stability, though some energy is wasted."
+		"{@pagebreak}"
+		"&#FFD743Absorptions:&r Each nuclear component has a maximum number of absorptions. Once reached, the item is either destroyed or transformed into a depleted version. This is especially useful for fuel, as part of U-238 becomes Plutonium in the depleted form, allowing it to be reprocessed. A similar mechanic applies to fluids — a portion is converted with each absorption, enabling mass production of isotopes like Deuterium and Tritium."
+	]
+	quest.423DFABBD933CEF0.quest_desc: ["&#FF5A4FThe Destruction Catalyst&r instantly obliterates a &73x3&r area and recharges by consuming EMC fuel — like coal — from your inventory."]
+	quest.42908290139B8FE2.quest_desc: ["Craft an Empty Blaze Burner with mechanical press"]
+	quest.42EB2F8AE380A8CE.quest_desc: [
+		"&lIridium&r is a vital material in the &zSuperconductor Voltage tier&r, but you can already get a taste of it even now. "
+		""
+		"To do so, you'll need to go through a fairly lengthy platinum processing chain to obtain Tiny Dust."
+	]
+	quest.434F4CD165C90E76.title: "Limonite"
+	quest.437687B8750076AC.quest_desc: ["&7Large Ultimate Motor&r is a component in &5Superconductor Voltage&r recipes."]
+	quest.43A07B87FA286EE9.title: "Dark Matter Armor"
+	quest.43B02898DFA168FE.quest_desc: ["&l&7The Assembly Line&r&r is a multiblock machine used for crafting quantum components and high-tier machines."]
+	quest.43C8DAA9BBF63334.quest_desc: [
+		"Gather some iron."
+		""
+		"It's not the most durable material for tools, but it's all you have at this stage."
+	]
+	quest.43C8DAA9BBF63334.title: "Iron"
+	quest.445DF752A090528D.quest_desc: ["The VAT is used to produce various fluids, such as Fire Water."]
+	quest.453EBA002BFABEC0.quest_desc: [
+		"&6Lubricant&r, in addition to its use in the Cutting Machine, can also be used to speed up electric machines. "
+		""
+		"To do this, right-click on the machine with a tank filled with lubricant."
+	]
+	quest.45668AF93DE5099B.quest_desc: [
+		"&zThe Activated Singularity&r is used to upgrade items to the quantum tier. "
+		""
+		"To obtain it, &6Shift + Right-Click&r on an activated &zMycelial Reactor&r while holding a Singularity. "
+		""
+		"For more information on the Mycelial Reactor, see the Industrial Foregoing chapter."
+	]
+	quest.45668AF93DE5099B.title: "&dActivated Singularity"
+	quest.45931F15AC3A19AB.quest_desc: ["&bConveyor&r is a crafting component."]
+	quest.459747BBBACA8FE8.quest_desc: ["Same functionality as &7Steam Version."]
+	quest.45D61A0AE8D20989.quest_desc: [
+		"&8The Steam Quarry&r is a steam multiblock machine that consumes bronze drills, uses them to dig deeper than the bedrock and gives you back some ores, as you can see in REI. "
+		""
+		"It's recommended that you have multiple SBFs running before you attempt to build it because it requires &7a lot of steel."
+	]
+	quest.45D61A0AE8D20989.title: "Stop Mining!"
+	quest.45FC850108632715.quest_desc: ["&8Large Electric Macerator &rworks just like its basic counterpart, but it can process up to &a8 &rrecipes simultaneously, consuming a larger amount of energy."]
+	quest.46AA9C19974CA63F.quest_desc: ["&cThe Oil Cracking Unit&r is a multiblock structure that can mix steam with various petroleum products."]
+	quest.46B19E2BB2E32EA3.quest_desc: ["Use a mortar to crush wood into pulp - a key ingredient for paper recipe."]
+	quest.47B4566A5419058A.quest_desc: ["Collect some wool to make a bed."]
+	quest.47B4566A5419058A.title: "Wool"
+	quest.485AF543A7B1CD3F.quest_desc: ["&#FFE9C2Platinum&r is an important material on the road to Extreme Voltage. It also unlocks access to &5&lAE2 autocrafting&r."]
+	quest.48BBEE8470B8B41B.quest_desc: ["&dExtruder&r is an incredibly useful machine. It allows for the efficient and resource-friendly production of plates, blocks, gears, and rotors."]
+	quest.4A00B458AFA64D7D.quest_desc: ["&bThe SAG Mill&r  can crush some items, but it's fairly useless — many grinding recipes are only available in the &6Macerator&r."]
+	quest.4AA8909E04B6996F.quest_desc: [
+		"&#A8FFC8Staff Of Travelling&r allows Players to teleport by using &7Shift+Right-click&r and aiming at the desired location. "
+		""
+		"It requires &a1,000 &renergy to perform one teleport"
+	]
+	quest.4AB01B7502D3A695.quest_desc: [
+		"Piston can be used in recipes."
+		""
+		"It has changed recipe, check it in REI"
+	]
+	quest.4AEE097F0C936F9F.quest_desc: ["&aUranium&r is the primary material of the Nuclear Era."]
+	quest.4AFDA7BE208CB1B5.quest_desc: ["The Turtle can handle a wide variety of tasks and makes for a fantastic companion along the way."]
+	quest.4B3F81E3827A78E5.quest_desc: ["&7Tin cables&r is LV tier cables, that can power blocks up to 256 EU/t "]
+	quest.4B3F81E3827A78E5.title: "LV Cables"
+	quest.4BE7A55D547D95A5.quest_desc: [
+		"&zThe Mycelial Reactor&r is the best power source in this modpack. "
+		"It doesn't require anything on its own — just 16 mycelial generators running simultaneously in close proximity. "
+		"Once that condition is met, the reactor will generate &c25,000,000 E/t&r."
+		"{@pagebreak}"
+		"An important endgame item is the &zActivated Singularity&r. To obtain it, hold a Singularity and &6Shift + Right-Click&r on an activated Mycelial Reactor."
+	]
+	quest.4BF13ECCB85754AC.quest_desc: [
+		"Steam machines need steam to function, and that's exactly what the boiler provides."
+		""
+		"Boiler will slowly use fuel to heat up. When it's hot enough, it will start to produce steam."
+		""
+		"This Quest unlocks &o&6Steam Age&r chapter."
+	]
+	quest.4C3D93E536704DD9.quest_desc: ["The Crystal Assembler is a machine that can craft various items from the ExtendedAE mod."]
+	quest.4CCE3456BBDB8C17.quest_desc: [
+		"&l&7The Jumbo Furnace&r is a MASSIVE furnace that features 9 item slots and 9 fuel slots. "
+		""
+		"To build one, you'll need to construct a 3x3x3 cube made entirely of regular furnaces. "
+		""
+		"What makes this furnace truly special is its ability to smelt multiple items at the same time. To enable that, you need to place a Jumbo Furnace item in the right slot — the one located below the output slot. You can't craft these just yet — they're produced in the Compressor — but don't worry: completing this quest will reward you with one as a freebie!"
+	]
+	quest.4CCE3456BBDB8C17.title: "Jumbo Furnace"
+	quest.4CFB83F952A4D8BB.quest_desc: ["&7Ultimate Motor&r is a key component in &5Superconductor Voltage&r recipes."]
+	quest.4D1254AF4F4338B6.quest_desc: ["&#9D9D9DThe Absorbing Lens&r is used to extract &#99FFF0Ether Gas&r from the Wither using the Fluid Laser, while in the End dimension."]
+	quest.4D331AF2ABDAA58E.quest_desc: [
+		"&cAbsolute Industrialization&r is a full-fledged technical adventure, crafted for those ready to challenge their engineering mindset. At its core lies the magnificent &bModern Industrialization&r, which sets the tone for the entire technological progression — but the pack doesn't stop there. Dozens of integrations, reworked mechanics, and deep progression await you."
+		""
+		"Every step — from the very first steam machine to quantum-tier technologies — demands thoughtful planning, automation, and strategic decision-making. Be prepared to build multi-layered production lines, master new voltage tiers, and work with fluids, power, and logistics on a whole new level."
+		""
+		"Immerse yourself in a world of pure industrial progress, where your base will become a true factory of the future, and every successfully assembled chain will be a reason to take pride in your work."
+		""
+		"&aThank you for choosing &lAbsolute Industrialization. I wish you the best of luck!&r"
+	]
+	quest.4D70CF16F5F37269.quest_desc: ["A Denizen Camp is a small encampment that spawns in the Depths biome. Be careful — they won't be happy to see you there!"]
+	quest.4D70CF16F5F37269.title: "Denizen Camp"
+	quest.4D9EDD10723B3511.quest_desc: [
+		"Cable networks have limitations on the amount of energy they will pull into the network: at most 256 EU/t for LV cables, 1024 EU/t for MV cables and 8192 EU/t for HV cables. Because there is no output limit for the network and because cables have a small internal storage, an LV network can provide more than 256 EU/t for a short amount of time. Note however that single block electric machines will only connect to LV cables!"
+		""
+		"To transfer more energy, you need to either create multiple pipe networks or use Transformers."
+		""
+		"A low tier to high tier Transformer (for example LV to MV) has 5 inputs and 1 output. A high tier to low tier (for example MV to LV) Transformer has 1 input and 5 outputs."
+	]
+	quest.4DC3B37197F9EBB1.quest_desc: [
+		"Quests serve as your primary guide throughout the game. "
+		""
+		"They provide a clear and convenient way to track your progression through the modpack, showing you what to do next and helping you navigate the various stages of technological advancement. "
+		""
+		"In addition to guiding you, quests also reward you for your efforts — you can earn valuable resources, useful tools, special items, and unique unlocks that will greatly aid you on your journey and make your progression smoother."
+	]
+	quest.4DEAA0828B251B9B.quest_desc: [
+		"Now you can use sap to turn it into rubber."
+		""
+		"Fill a basin with &9250 mb of water&r, drop a sap , heat the burner and get your rubber"
+	]
+	quest.4DF49408896019C2.quest_desc: ["The Fermenting Barrel refines Canola Oil, making it burn longer and more efficiently."]
+	quest.4E23BC80A2EDFBE0.quest_desc: ["Process Iron Ore in the Centrifuge to obtain Manganese Crushed Dust."]
+	quest.4E91B098CBD9653A.quest_desc: [
+		"&dThe Mob Crusher&r functions similarly to the Mob Slaughter Factory. "
+		""
+		"However, unlike the Slaughter Factory, it collects both loot and experience from killed mobs."
+	]
+	quest.4E94F9FBD29AAF40.quest_desc: ["It charges items in your inventory and has an internal energy buffer of 600,000."]
+	quest.4EAE3FC25BEC4F50.quest_desc: [
+		"The Laser Node is a block that can transmit and receive items, fluids, energy, and redstone signals over a distance. The type of transfer is configured using cards. Nodes are linked using the Laser Wrench. "
+		""
+		"The default maximum range is 8 blocks — you can extend it by using Laser Connectors."
+	]
+	quest.4EB8C70A96F4B74D.quest_desc: [
+		"Gronglets can be found on the trunks of Grongle trees. They serve as a light source. "
+		""
+		"Please don't eat them :("
+	]
+	quest.4EB8C70A96F4B74D.title: "They are cute, please don't eat them"
+	quest.4EEBB36A47A2B427.quest_desc: [
+		"&l&dEMI&r &ris a featureful and accessible item and recipe viewer. It brings many new features, and optimizes for the user experience."
+		""
+		"EMI offers:"
+		""
+		"&7A craftable mode for quickly crafting any recipes you're able to make, usable by toggle or as a config for empty searches"
+		""
+		"&7Recipes can be favorited with items, and also can be used to quickly craft at a button press"
+		""
+		"&7A recipe tree for breaking down the cost of a complex craft, showing you every step, how many base ingredients you need, and what you'll have leftover"
+		""
+		"&7A recipe tree crafting mode, counting up the materials and steps you need to be complete to finish a task, including synthetic favorites in your sidebar you can use to craft every step for exactly as much as you need"
+		""
+		"&7Smart display of tags, with translations, models, and tooltips, showing you ingredients at a glance, such as \"Planks\" instead of slowly rotating through every plank in the game."
+		""
+		"&7Smart breakdowns of base costs, letting recipe trees automatically break down to base ingredients, and letting you define your own defaults as you play"
+	]
+	quest.4F03AFC228D87C61.quest_desc: [
+		"Once you have access to High Pressure Water, you can use a &cHigh Pressure Large Steam Boiler&r to produce High Pressure Steam."
+		""
+		"One millibucket of High Pressure Steam is worth 8 mb of regular steam, that is 8 EU."
+	]
+	quest.4F25801891C45821.quest_desc: [
+		"Throw copper and zinc ingots, heat the blaze burner and get &6Brass."
+		""
+		"If you don't know how to get Zinc check the &3\"Zinc?\"&r quest"
+	]
+	quest.4FA1C016636A3568.quest_desc: ["&dThe Chemical Reactor&r can make items and fluids react."]
+	quest.4FB75E9E42FB3ED0.quest_desc: ["Now you can make a &bSoldering Alloy&r in the Alloy Forge. You will need it later"]
+	quest.4FB75E9E42FB3ED0.title: "Soldering Alloy"
+	quest.4FBD8672DB0A2A45.quest_desc: [
+		"Compact Crafting is a method of crafting certain items through compression. To do this, you'll need Field Projectors, which, when set up correctly, form cubes of sizes 3x3, 5x5, 7x7, and 9x9."
+		""
+		"This way, you can create an ME Controller."
+	]
+	quest.4FBD8672DB0A2A45.title: "Compact Crafting"
+	quest.4FCA3C5320E29D2D.quest_desc: ["&6Macerator&r grinds items down into their dust form, giving you access to early ore doubling — a crucial first step toward more efficient resource processing."]
+	quest.4FF1A159CDBB00A6.quest_desc: [
+		"Now, with building a Blast Furnace, you should make a &0Rubber.&r"
+		""
+		"Highly recommended to make it with synthetic rubber (&atip:&r you can get the &eSulfur Dust&r from macerating lignite coal)."
+	]
+	quest.4FF1A159CDBB00A6.title: "Rubber"
+	quest.50061BB4FA9BB97E.quest_desc: [
+		"&7Soldering Alloy&r acts as a binding material for assembling components in the Assembler, enabling cheaper crafting recipes. "
+		""
+		"It's currently useless, but keep in mind that it exists."
+	]
+	quest.5010780058B84CFC.quest_desc: ["Utherium gear is fairly durable and boasts better stats than diamond."]
+	quest.5010780058B84CFC.title: "Utherium Equipment"
+	quest.5019B855A51E03C9.quest_desc: [
+		"The Powered Spawner, as the name suggests, spawns mobs using energy. It requires a capacitor to function — the better the capacitor, the more mobs it will spawn. "
+		""
+		"To set which mob it spawns, combine the spawner with a Soul Vial in the Soul Binder."
+	]
+	quest.505FB7B0436DA006.quest_desc: ["&8Dark Matter&r is a key material in ProjectE, used in a wide variety of recipes."]
+	quest.510AD55AFAF78514.quest_desc: [
+		"&aLarge Electric Furnace &rworks just like its basic counterpart, but it can process many recipes simultaneously, consuming a larger amount of energy."
+		""
+		"The number of processes performed at once depends on the coils. "
+		"Cupronickel coils provide 8 processes, Kanthal coils 12, Nichrome coils 16, and Tungstensteel coils 32."
+	]
+	quest.511346A02DDD54D9.quest_desc: ["The first tier produces up to 40 EMC/t."]
+	quest.5113817E556B1A85.quest_desc: ["&bThe Resourceful Furnace&r is a pretty handy machine — it can smelt up to three items at the same time."]
+	quest.5186349E5956200A.quest_desc: ["Same functionality as &7Steam Version."]
+	quest.51C09E26A8D56F21.quest_desc: ["Connect the bus to any inventory &7(such as a chest)&r, and all items stored inside will be visible within the ME network."]
+	quest.51FCEFF06ADD0B72.quest_desc: [
+		"&#629a96Polyethylene&r is a crucial fluid on the road to High Voltage. Automating its production as early as possible is highly recommended. "
+		""
+		"For automatic crop farming, consider using the &eFarmer&r from &eExtended Industrialization&r."
+	]
+	quest.521850F5E140AFC0.title: "Silicon"
+	quest.5221793F1356D437.quest_desc: ["&bPiston&r is a crafting component."]
+	quest.5278335F0ABA0290.quest_desc: ["&dThe Large Pump&r unlocks access to numerous Medium Voltage machines."]
+	quest.527833AC69279EA0.quest_desc: ["&bThe Powered Furnace&r can process two items simultaneously. It's an excellent replacement for the &bMI&r Electric Furnace."]
+	quest.52E6835E3A3271FE.quest_desc: ["&cHV Diesel Generator&r can produce up to &a1024 EU/t&r."]
+	quest.532C1CAEC0D0F00E.quest_desc: ["The ME Terminal grants access to all items stored in the network."]
+	quest.539B1E01CB00A6A4.quest_desc: ["The ME Drive is designed to hold up to 10 storage cells. Each cell can store up to 63 different item types."]
+	quest.53F2B8F58C030BCE.quest_desc: ["The Cardboard Box can conveniently move various blocks. Hint: it cannot move spawners."]
+	quest.5530DF4A518E5561.quest_desc: [
+		"You can electrolyze bauxite dust to get aluminum dust, which you can then directly smelt into aluminum ingots in the EBF."
+		""
+		"The byproduct is titanium, which you'll need later on."
+	]
+	quest.5530DF4A518E5561.title: "Cheaper Aluminum"
+	quest.5653D7CAB55972C4.quest_desc: ["&bThe Automatic Feeder&r breeds animals when food is available in its inventory. It requires no power."]
+	quest.565BD8B75F504DE4.quest_desc: ["&6Fluid pipes&r transport liquids to various machines and tanks. They can be configured using a wrench."]
+	quest.567964FEBDF14ECC.quest_desc: [
+		"&#4D426ATungstensteel&r is a new material made by mixing tungsten and steel. "
+		""
+		"Note that you won't be able to cool the ingot in the Vacuum Freezer — for that, you'll need to use the&c Heat Exchanger&r."
+	]
+	quest.56C77FABE5E994A5.quest_desc: [
+		"&dThe Electric Quarry&r is your gateway to fast and effortless resources! "
+		"It functions just like the steam version but can also use other drills — and best of all, it features an Overclock that dramatically speeds up resource extraction! "
+		""
+		"&dThe Electric Quarry&r uses the exact same structure as the steam version; all you need to do is swap out the controller!"
+	]
+	quest.56C77FABE5E994A5.title: "Say No to mining!"
+	quest.56FB042A18D2F7A1.quest_desc: ["Capacitors are used both in crafting recipes and to power machines. The higher the Capacitor tier, the better the machines perform."]
+	quest.57446003F8F73BA8.quest_desc: [
+		"The Steel Upgrade lets you upgrade your machines to steel tier! "
+		""
+		"Steel machines can handle recipes requiring up to 4 EU/t and process them twice as fast. Upgrading is highly recommended!"
+	]
+	quest.57528CB6F4776EBE.quest_desc: ["&6Bronze Furnace&r is a simple furnace that working on Steam"]
+	quest.575482F2951D2CB4.quest_desc: [
+		"&7Zinc&r is very important material in Create."
+		""
+		"Zinc doesn't spawn in Overworld, the only way to get it - macerate raw tin."
+		""
+		"With 50% you will get a zinc crushed ore, after that use hammer to get an impure dust and finally wash it in the cauldron to get a &7zinc dust "
+	]
+	quest.575482F2951D2CB4.title: "Zinc?"
+	quest.57672859D2E9416C.quest_desc: ["When processing &lIridium&r, you obtained &#AFFFF5Osmium&r as a byproduct — a metal commonly used in the &zSuperconductor Voltage tier&r, though it can still be useful even now."]
+	quest.5777DD98BDFFA295.quest_desc: [
+		"&#91FFD5The Hyperbox&r block acts as a portal to another dimension. Each hyperbox has its own dimension stored within."
+		""
+		"Activating the block sends the player inside this dimension; within the block's dimension are apertures on the walls, which can be activated to return to the overworld."
+		""
+		"The apertures transmit redstone power and forge capabilities &7(such as items being inserted or extracted from hoppers)&r between the inside and the outside faces of the box, allowing large machines to be constructed in tiny spaces."
+	]
+	quest.57F458AE6AB16EA5.quest_desc: [
+		"Utheric Shards are dropped by various rot-like creatures. "
+		""
+		"The larger and more frightening the mob, the more shards it will drop."
+		""
+		"Utherium can also be found in ore form, which drops Utheric Clusters."
+	]
+	quest.57F458AE6AB16EA5.title: "Utheric Clusters"
+	quest.588E7FAA0AA7824A.quest_desc: ["Same functionality as &7Steam Version."]
+	quest.589B1C2299D1180D.quest_desc: ["Get some &7Creosote&r from Coke Oven and make treated wood"]
+	quest.589B1C2299D1180D.title: "Treated Wood"
+	quest.593737DB5DF7EA29.quest_desc: [
+		"&#7CDDAAData Model&r is an item which holds information about an entity that you can utilize to generate their drops. "
+		""
+		"To get a &#7CDDAAData Model&r, you must first craft a Data Model Framework, and use it on the target entity to build the model. Once you have your model, you will have to train it."
+		""
+		"Training a Data Model can be done in one of two ways, with a Deep Learner or with a Simulation Chamber."
+	]
+	quest.598FBEFBB2377B74.quest_desc: [
+		"Andesite Alloy is a main ingredient of Create items and machines"
+		""
+		"You can craft it in the Mixer"
+	]
+	quest.598FBEFBB2377B74.title: "Andesite Alloy?"
+	quest.59D4141C958DBC2E.quest_desc: ["&cThe Pressurizer&r is a new multiblock made of titanium that can turn water into High Pressure Water, steam into High Pressure Steam, and the other way around."]
+	quest.5A07A9CFBBEABFA2.quest_desc: [
+		"&bThe Electric Blast Furnace&r is the electric version of the Steam Blast Furnace. "
+		"It unlocks new recipes and like other multiblock electric machines, its overclock is bounded to 128 EU/t by default."
+		""
+		"&bThe EBF&r is made of one layer of &2Heatproof Machine Casings&r, two hollow layers of &cCupronickel Coils&r and one other layer of &2Heatproof Machine Casings.&r "
+		"The controller must go on the bottom layer, and hatches on the top or bottom layer."
+		""
+		"Don't forget to add &bEnergy Input Hatch(es)&r or the EBF won't have energy! "
+		"The LV Energy Input Hatch will only connect to LV cables."
+		""
+		"&bMV Energy Input Hatches&r will only connect to MV cables, which can be useful if you need a ton of energy for your EBF! "
+		"You can't craft them yet, but keep in mind they exist..."
+	]
+	quest.5A07A9CFBBEABFA2.title: "E-B-F"
+	quest.5A3460FDD56007F8.quest_desc: [
+		"&bThe Tesla Coil&r literally transmits energy through the air within a 32-block radius. "
+		""
+		"To operate it, connect the &bTesla Coil&r to a power source, then take the &bTesla Calibrator&r and press &6Left Shift + Right Click&r on the coil to save the settings. Afterwards, &6Right Click&r on the &bTesla Receiver&r to start receiving power.\""
+	]
+	quest.5A3460FDD56007F8.title: "Wireless Energy!"
+	quest.5A4CF58A819E11F7.quest_desc: [
+		"&cThe Large Chemical Reactor &ris a multiblock that processes small Chemical Reactor recipes twice as fast, but also consumes twice as much energy. Equally important, it unlocks access to new chemical recipes."
+		""
+		"For its structure, it requires new casings — Large Chemical Reactor Casings, which are made from Polytetrafluoroethylene."
+	]
+	quest.5A933A8740E77E5B.quest_desc: ["The blast furnace smelting ores at double the speed of a standard furnace."]
+	quest.5A9743BB79133C53.quest_desc: ["Restricts flow from pipes into adjacent inventories."]
+	quest.5B4E6561EB69C8D4.quest_desc: ["Until you unlock the furnace, use a campfire as a temporary smelting solution."]
+	quest.5B5D6F6DBF030095.title: "Salt"
+	quest.5C00F9956201CDE9.quest_desc: ["Mix a creosote with redstone in the Mechanical Mixer to get lubricant"]
+	quest.5C3066D25A3FB4DE.quest_desc: ["The Sewage Composter turns Sewage into Fertilizer."]
+	quest.5C4B21EAE8BFEF87.quest_desc: [
+		"&cEnergy Collectors&r generate EMC. Their output varies with the time of day — faster during the day and slower at night. "
+		""
+		"The first tier produces up to 4 EMC/t."
+	]
+	quest.5C6B45A751844651.quest_desc: ["You can place items on the Depot to use Mechanical Press more easy"]
+	quest.5CCD06B8FE7CC027.quest_desc: [
+		"&cHV Steam Turbine&r produces up to 512 EU/t. "
+		""
+		"If you haven't already built a Advanced Large Steam Boiler, it's highly recommended that you do so now!"
+	]
+	quest.5D546D36C8D515BA.quest_desc: [
+		"&8Tap&r is used to extract latex from acacia trees. "
+		"Simply attach it to an acacia tree trunk and place a bucket beneath it to collect the latex."
+		""
+		"&aTip&r: If you're having trouble finding a savanna, use a &2Nature's Compass&r to locate one. You can also purchase an Acacia Sapling from the Market from the &aFarming for Blockheads&r mod."
+	]
+	quest.5D90A382330AABF9.quest_desc: [
+		"&#FF5A4FPhilosopher's Stone&r allows the transmutation, the Philosopher's Stone is arguably the foundation of ProjectE. "
+		""
+		"There are three basic uses. Firstly, as a component in the construction of items. Secondly, as a transmutation tool, for example turning iron into gold or vice versa. Thirdly as a portable crafting table, capable of smelting items. Finally&r the R button will transform mobs into other mobs."
+	]
+	quest.5DD6AF4356D33320.quest_desc: ["&bRobot Arm&r is a crafting component."]
+	quest.5DDF82D8EF870EEF.quest_desc: ["&7The Pity Machine Frame&r is used to craft the most basic Industrial Foregoing machines."]
+	quest.5E24AD2A52C13DDB.title: "Nano Armor"
+	quest.5E9353FF62EC7518.quest_desc: ["&dThe Centrifuge&r splits items by spinning them very fast. You can use it to make carbon dust and unlock better recipes for steel and silicon."]
+	quest.5E9F4677B0C185B0.quest_desc: [
+		"&#87FFA5The Slime Sling&r lets you cover vast distances in no time — a great item for travel. "
+		""
+		"&#87FFA5The Slime Boots&r negate fall damage — an essential pairing for the Slime Sling."
+	]
+	quest.5E9F4677B0C185B0.title: "Slime Equipment"
+	quest.5EF949475A751CAD.quest_desc: [
+		"&dAdvanced Machine Hull&r is used to upgrade machines to MV tier. "
+		""
+		"It is also used in various machine recipes."
+	]
+	quest.5F076CFDF74A77C0.quest_desc: [
+		"&dThe Stasis Chamber&r freezes mobs as long as it's powered. "
+		""
+		"This is a crucial machine for producing Ether Gas!"
+	]
+	quest.5FA70CD4C2B3CF3D.quest_desc: ["&eThe Industrial Empowerer&r is a multiblock structure that runs &bEmpowerer&r recipes from &bActually Additions&r."]
+	quest.60AEED7F7B746BFF.quest_desc: ["&eThe Advanced Electric Quarry&r is a massively upgraded version of its younger sibling. It can mine &eUraninite&r in the Overworld and &lIridium&r in the End."]
+	quest.60CE0912E3E9E082.quest_desc: ["&bRanged Collector&r automatically picks up items within a 5-block radius, storing them in its internal inventory."]
+	quest.60D201CF83C04961.quest_desc: [
+		"After crafting &6Mechanical Crafters&r you can get a &bSteam Mining Drill&r."
+		""
+		"Steam Mining Drill can mine &73x3 blocks&r. Shift + Right-Clicking enables silk touch."
+		""
+		"To power a drill, right-click with it on any fuel in the inventory, then right-click water"
+	]
+	quest.60D201CF83C04961.title: "Silk Touch with 3x3 mining?"
+	quest.60E06627DDF9D074.quest_desc: ["Molecular Assembler does crafting recipes."]
+	quest.612AA98FF9A83301.quest_desc: ["&#fa990aBoosted Diesel&r is the most powerful fuel you can burn in diesel generators. It generates 800 EU per mb."]
+	quest.612B3B60A844A9AF.quest_desc: [
+		"&l&zQuantum Installer&r&r is used to apply powerful quantum upgrades to your gear."
+		""
+		"&cImportant&r: to create items in the Quantum Installer, place the Quantum Upgrade in the multiblock controller slot"
+	]
+	quest.61D64D0045285D33.quest_desc: ["&zThe Nacreous Laser Lens&r is used to mine Mysterious Chunks from Ore Laser. The required condition is a height between -60 and -64."]
+	quest.6397E5261F5AFA7C.quest_desc: [
+		"That's everything you need to know to get started! You are now fully ready to embark on your adventure in this modpack. "
+		""
+		"As you play, you will also receive additional guides, tips, and helpful hints along the way to support you through more advanced stages and mechanics. "
+		""
+		"&aGood luck, and have fun!&r"
+	]
+	quest.63C7309E4DB5A361.quest_desc: [
+		"Electric machines work exactly the same as steam machines, except that they require electricity instead of steam and they progressively overclock recipes up to 32 EU/t."
+		""
+		"You can use REI to view the recipes for the electric version of the machines you are already familiar with"
+		""
+		"The Steam Turbine uses Steam to produce electricity. It converts every mb of Steam to 1 EU, up to 32 mb converted every tick."
+		""
+		"The Steam Turbine will automatically send electricity to any machine connected directly to its output side. It will only connect to cables placed on its output side. It has the &3Low Voltage (LV) Tier&r. Every electric cable has a Tier which determines how many EU/t it can transfer and to which machines it can connect. Copper, Silver and Tin are LV, Cupronickel and Electrum are MV, and so on..."
+	]
+	quest.63D0627593C73C23.quest_desc: ["Use the Empowerer to create &dEmpowered Canola Seeds&r, then toss them into Crystallized Oil."]
+	quest.63FF672D0B8638A2.quest_desc: ["&#524236Soularium Drills&r can extract a new fluid — Shale Oil."]
+	quest.6416A0C15079041E.quest_desc: ["&bPump&r is a crafting component."]
+	quest.641F2A5B2E8C7343.quest_desc: ["&6Large Steam Macerator &rworks just like its basic counterpart, but it can process up to &a4 &rrecipes simultaneously, consuming a larger amount of steam."]
+	quest.649C41C46AEC0D11.quest_desc: ["Item Terminal is a basic resource storage system. It monitors all inventories connected to pipes that are themselves connected directly to the terminal"]
+	quest.64B42D024CEADE83.quest_desc: [
+		"&bThe Large Tank&r is a multiblock that allows you to store large amounts of some fluid, for example &7steam&r."
+		" "
+		"It can store &c64 buckets&r worth of fluid for every block in the structure (including sides)."
+		""
+		"&bThe Large Tank&r has many possible sizes depending on how much storage you need. You can open the size configuration panel by clicking on a button in the controller."
+		""
+		"&bThe Large Tank Hatch&r acts as an extension of the Large Tank block. You can right-click it to open the &3Large Tank's menu&r, and pipes connected to it will directly access the Large Tank's storage."
+		""
+		"Only pipes may access the tank, either through the &bcontroller&r or through a &bLarge Tank Hatch. "
+		""
+		"&cDon't break the controller or you will lose all of the stored fluid!&r"
+	]
+	quest.64B42D024CEADE83.title: "Railcraft-like Tank"
+	quest.64B859BCC7D81C00.quest_desc: ["Farmer is a multiblock structure that can grow and harvest plants."]
+	quest.650314C7A1F983D6.quest_desc: [
+		"The Inhibitor Obelisk prevents most types of teleportation within its radius. "
+		""
+		"It requires a capacitor to function."
+	]
+	quest.655DACCDF28B0EBC.quest_desc: ["Hang Glider is used to soar through the skies! Just jump off a cliff and let your glider do the rest."]
+	quest.656D789B230A1BAD.quest_desc: [
+		"&6Large Steam Boiler&r is an upgraded version of the smaller Bronze and Steel Boilers. It uses fuels 8 times faster than the Furnace, but it produces 256 mb/t of Steam when fully heated."
+		""
+		"Unlike its single block counterpart, in the Large Steam Boiler, 80% of any unconsumed heat will be lost. This means the ratio of energy produced by fuel consumed will drastically decrease when the output decreases below maximum. This will happen when the Boiler is not used continuously at maximum output."
+	]
+	quest.65F9788599668AC6.quest_desc: ["&7Monocrystalline Silicon&r is a component used in crafting the Processing Unit."]
+	quest.667F27B9FA561C5C.title: "Copper Chest"
+	quest.66A5C274A929D9B8.quest_desc: ["Steel Machine Casings are used in recipes of machines. Craft some of them with deployers"]
+	quest.66A5C274A929D9B8.title: "So much steel!"
+	quest.66D8AD8A4C2019FC.quest_desc: ["Andesite Casing is the base of Create's machines. It also can be used to close the shafts, just right-clicking on them"]
+	quest.66D8AD8A4C2019FC.title: "Another Casings"
+	quest.6729CCC3A360F9ED.quest_desc: ["When it comes to making plates, the &6Forge Hammer&r gives you a more efficient ratio — 3 ingots will yield 2 plates, making it a better option than manual crafting."]
+	quest.672F057E5BD04D3F.quest_desc: ["&zSingularities&r are used to create &dUU-Matter&r and are also required in some crafting recipes."]
+	quest.672F0D6B8A1E6183.quest_desc: [
+		"Accepts &9High Pressure Water&r and &9High Pressure Heavy Water&r. "
+		""
+		"Can produce up to &e8192 EU/&rt worth of Steam."
+	]
+	quest.676BC86ED4036C97.quest_desc: ["The Soul Binder is used to bind mob souls to various items, including spawners."]
+	quest.677A7EBEBDA283FB.quest_desc: ["&bThe Dissolution Chamber&r is a key machine in Industrial Foregoing. It produces items — such as frames — using fluids."]
+	quest.678E9E8CB9389A6F.quest_desc: [
+		"&5&lThe Fusion Reactor&r&r is the ultimate energy source! "
+		""
+		"It can combine Deuterium, Tritium, and/or Helium-3 into Helium Plasma, the most powerful fuel in the game!. "
+		"However, it requires a large amount of energy to ignite the reaction."
+	]
+	quest.679343545D709957.quest_desc: [
+		"&7Steam Blast Furnace&r is a multiblock machine mainly used for producing steel — it's an essential step in your industrial progression."
+		""
+		"The Blast Furnace's structure is the same as the Coke Oven's, with Bricks replaced by Fire Clay Bricks and one extra hollow layer on top."
+	]
+	quest.6820802E78F3F264.quest_desc: [
+		"Keep in mind that a significant number of recipes, including many familiar vanilla ones, have been reworked and altered in this modpack. "
+		""
+		"Because of these changes, it is highly recommended that you always double-check and verify crafting recipes, processing steps, and item uses directly through EMI."
+	]
+	quest.695C79B1435EEEE4.quest_desc: [
+		"&7The Mechanical Mixer&r is a mechanical component that applies Mixing recipes and shapeless Crafting recipes to items in Basins"
+		""
+		"The Mixer requires a minimum rotational speed of 32 RPM from its power source to work. Mixer will process ingredients faster the more speed it is given."
+		""
+		"To work, a Mixer must be placed directly above a Basin, with a 1 block gap. When a valid recipe is inserted by throwing the ingredients in the Mixer, the Mixer will automatically combine the ingredients."
+	]
+	quest.69DC2819EBEB1B0A.quest_desc: ["&cThe Distillation Tower&r is a multiblock that largely replaces the Distillery. While the Distillery produces only one oil processing output, the Tower produces one output per layer."]
+	quest.69FB86CC35371EB7.quest_desc: [
+		"The Motor is one of the key components of the Electric Age. "
+		"However, it can still find applications even before reaching that stage."
+	]
+	quest.6A25D25AE96935A2.quest_desc: [
+		"As a reward from the previous quest, you received a speed upgrade. "
+		""
+		"This upgrade increases the travel speed of items moving through pipes."
+	]
+	quest.6A639A5172BA7916.quest_desc: ["Smelt the &#CADEFFStainless Steel Dust&r in the &bElectric Blast Furnace&r, then cool the resulting ingot in the&d Vacuum Freezer&r."]
+	quest.6A6BC4E375CDFD22.quest_desc: ["Process Redstone Dust in the Centrifuge to obtain Ruby Dust, which is required for producing Сhromium."]
+	quest.6AB65E949A496C94.quest_desc: ["It is mined in the &9End&r using the Electric Quarry.!"]
+	quest.6ABD6F2026D70BCA.quest_desc: [
+		"&bThe Sewer&r extracts Sewage from certain mobs — cows, pigs, and the like. "
+		""
+		"Sewage is used to produce Fertilizer, which can be used as an alternative to bone meal."
+	]
+	quest.6ADB1C9C175CBEE0.quest_desc: [
+		"The ore generation system is changed in this modpack. Ores no longer spawn randomly. "
+		""
+		"They now spawn in large, rare veins instead of small clusters. Look for sample blocks on the surface to locate them. Dig vertically below surface indicators to uncover the veins."
+		""
+		"For details on vein types, check the 'Ores' tab in quests."
+	]
+	quest.6ADC8D61DBAB45E9.quest_desc: ["The Crafter uses energy to automatically craft the recipe set in its interface."]
+	quest.6AF4F61246B9BB23.quest_desc: ["&8The Steel Casing&r is used in the recipes of most Actually Additions machines."]
+	quest.6BA04C2BE6A27ADA.quest_desc: ["&#CBBC34Kanthal&r is an alloy primarily used to craft new coils for upgrading the &bElectric Blast Furnace&r or the &bLarge Electric Furnace&r."]
+	quest.6BF6EBEA42090F5B.quest_desc: ["&zThe Quantum Circuit&r grants access to a new level - Superconductor Voltage!"]
+	quest.6C553B8A1A2290B7.quest_desc: ["Mining Hammers dig a 3x3 area of blocks. There are 5 tiers: Iron, Gold, Steel, Dark Steel and Diamond."]
+	quest.6C6292548076960F.quest_desc: ["The Wired Charger does exactly what its name suggests — it charges items. That's it."]
+	quest.6C6E958D6A40FF2A.quest_desc: [
+		"&cThe Large Steam Turbine&r will accept both regular steam (1 mb = 1 EU) and High Pressure Steam (1 mb = 8 EU) into EU, and will generate up to 16384 EU/t! "
+		""
+		"However it will not give you back regular nor High Pressure Water."
+	]
+	quest.6C8DD663B364E785.title: "Steam Tools"
+	quest.6C9049D535DD36A4.quest_desc: ["&6Alloy Smelter&r combines metals and casts items via molds."]
+	quest.6CE324C9A1185F43.title: "Iron"
+	quest.6D4462C4391056FA.quest_desc: ["Once you have access to processing units and Highly Advanced Machine Hulls, considering making a few &eLarge Diesel Generators&r. Each of these bad boys will turn fuel into EU, up to 16384 EU/t!"]
+	quest.6D9E8C05C090714F.quest_desc: [
+		"Pipes are used in the recipes of some machines, but they can also be placed in the world. Up to 3 pipes can fit in a single block."
+		"Pipes of different colors will not connect"
+		"Right-clicking a pipe with a wrench will change the connection type, shift-right-clicking will drop the pipe"
+		""
+		"Fluid pipes can only contain one type of fluid, and by default they won't connect to empty pipes or blocks. You can force a connection by right-clicking the center of the pipe with the wrench, or by right-clicking a block with a pipe in your hand: it will connect, but not consume the item in your hand."
+	]
+	quest.6D9E8C05C090714F.title: "Pipes. Fluid Pipes!"
+	quest.6DFE0C1550E6799C.quest_desc: ["&eThe Advanced Pump&r is used in Extreme Voltage machine recipes."]
+	quest.6E3564360BB512AF.title: "Emerald"
+	quest.6E563FB2BAAE264B.quest_desc: ["&bThe Void Chassis&r serves as the casing for many Ender IO machines."]
+	quest.6E9821797385158B.quest_desc: ["&aTome of Knowledge&r unlocks all transmutation knowledge when learned."]
+	quest.6F569753819CD516.quest_desc: ["Primitive Pump extracts water from a source block placed directly underneath it. To function, it needs a small supply of steam and a steel rotor to serve as a catalyst — without it, the pump won't run."]
+	quest.6F569753819CD516.title: "Water Pump"
+	quest.6F5EBFE92CC436A6.quest_desc: [
+		"&eProcessing Unit&r is the core component of the High Voltage."
+		""
+		"This Quest unlocks &o&eExtreme Voltage&r chapter."
+	]
+	quest.6F923AAF9879D574.quest_desc: ["&#076000The Nuclear Reactor&r is a multiblock structure that can process Depleted Fuel Rods to obtain new components — &5Plutonium&r, for example."]
+	quest.6FE007F2114825EA.quest_desc: [
+		"&6Steam machines&r need steam to function, and that's exactly what the boiler provides. It will slowly use fuel to heat up. When it's hot enough, it will start to produce steam"
+		""
+		"&6Bronze Boiler&r can produce up to 8 mb of steam if supplied with water and temperature is maximum"
+	]
+	quest.704E37C472BB015B.quest_desc: [
+		"Basic Machine Hull is the main component of electric machines"
+		""
+		"Completing this quest unlocks &3Electric Age"
+	]
+	quest.70A786F5620E9EFD.quest_desc: [
+		"&bAluminum&r is the main ingredient in the &dMedium Voltage.&r"
+		""
+		"It takes Bauxite Block to alloy &bAluminum Ingot&r or Bauxite Dust to alloy &bAluminum Nugget&r in &aElectric Blast Furnace."
+		""
+		"You should put &baluminum&r on auto craft as soon as possible"
+		""
+		"&aHint:&r Blast bauxite dust instead of block. It takes 10 seconds less time to make an ingot. It also will make overlock faster"
+		""
+		"This Quest unlocks &o&dMedium Voltage&r chapter."
+	]
+	quest.70A786F5620E9EFD.title: "Aluminum"
+	quest.70AF0304D80E98A9.quest_desc: [
+		"Wooden and stone tools &care disabled&r in this modpack. They are replaced by &nflint tools&r."
+		""
+		"The flint pickaxe has the same mining level as a stone one but mines slightly slower."
+		""
+		"&cTip:&r Don't forget to review the ore generation info in the next quest before you start digging!"
+	]
+	quest.70AF0304D80E98A9.title: "Time to mine!"
+	quest.70C772124513CFF4.quest_desc: [
+		"The Low Retrieval Module causes the pipe to pull items into the connected inventory."
+		""
+		"To function, it requires a filter to be configured."
+	]
+	quest.70D320F19E4BCA18.quest_desc: [
+		"&#3D6E40The Undergarden&r is a dark, subterranean world located deep below the bedrock of the Overworld. "
+		""
+		"The flora here has adapted to their conditions and can grow anywhere, independent of light. "
+		""
+		"Strange creatures call these dark lands home, and are plagued by the invasive Rotspawn, monsters originating from a chaotic, mysterious realm."
+		"{@pagebreak}"
+		"To enter &#3D6E40The Undergarden&r, construct a portal frame from stone bricks — much like the Nether portal — and then ignite it with the Catalyst."
+	]
+	quest.71519D073868B234.quest_desc: ["Forces extracted items to be distributed into inventories in sequential order."]
+	quest.71BCE911DD8D2DB0.quest_desc: ["Same functionality, but it can process two recipes simultaneously."]
+	quest.71D98AF9A315F6A7.quest_desc: [
+		"Knives are used in recipes."
+		""
+		"Flint Knife has 40 durability."
+	]
+	quest.71EDBAE7787BE499.title: "Redstone"
+	quest.71F6FD1D168AD64A.quest_desc: ["The Oil Drilling Rig is a huge multiblock that can dig for Crude Oil under the bedrock using fluid pipes. Oil processing will give you a ton of byproducts and energy!"]
+	quest.7277BF42DB18BD5F.title: "Black Quartz"
+	quest.730210CB6ED6AACC.quest_desc: ["&#FF5A4FThe Transmutator&r harnesses the power of the Philosopher's Stone to convert items and fluids into other forms."]
+	quest.734E5D14B9693894.quest_desc: ["&6Fluid Pipes&r can only move one liquid at a time; if different liquids intersect, the pipe will clog. Each time a fluid network splits, the fluid transfer rate is split between outputs. Fluid Pipes require Mechanical Pumps to move liquid."]
+	quest.734E5D14B9693894.title: "Another fluid pipes"
+	quest.73B4B524FB7FBFB0.quest_desc: ["The Slice'N'Splice \"slices\" and \"splices\" heads and other things, adding components into it to create new components."]
+	quest.745D5BE3D402B37F.quest_desc: ["&dThe Overdrive Module&r consumes energy from the machine to maintain its efficiency."]
+	quest.74E4BD41FE618684.quest_desc: [
+		"&6Bronze Compressor&r is used to compress items"
+		""
+		"Before It you couldn't compress ingots and blocks, but now you can!"
+	]
+	quest.75361D9E2BB0CCFE.quest_desc: [
+		"&#CADEFFStainless Steel&r is the core material of the High Voltage tier. "
+		""
+		"To craft it, mix Iron Dust, Chrome Dust, Nickel Dust, and Manganese Dust in the Mixer."
+	]
+	quest.75812B9EDBDA62ED.quest_desc: ["Same functionality as &7Steam Version."]
+	quest.7676C65453272474.quest_desc: ["&bOil Press&r processes seeds into Plant Oil, which is then used both for more efficient lubricant production and for crafting biodiesel."]
+	quest.76B26BAD169BBF92.title: "Red Matter Armor"
+	quest.76CFC7FC6F28016A.quest_desc: ["&#73EBFFSuperconductor&r is an alloy made from Iridium, Annealed Copper, Yttrium, and Neodymium. It serves as the foundation of the &zQuantum Circuit&r."]
+	quest.770F28D67D56F94C.quest_desc: ["Allows automatically crafting items into other items."]
+	quest.774C6B3E7C33A2F8.quest_desc: [
+		"&cThe Fluid Laser Base&r is a machine added by Industrial Foregoing. It is used with one to four Laser Drills to produce fluids."
+		""
+		"The Laser Drill must be placed one block away from the Laser Base with the back of the machine facing the Laser Base. Proper placement is indicated by a beam connecting the Laser Drill and the Laser Base."
+	]
+	quest.774C6B3E7C33A2F8.title: "Fluid Laser"
+	quest.7758A8A905D94740.quest_desc: ["The Turbo upgrade adds +64 EU/t to the Overclock."]
+	quest.776EB9250E2FAA12.quest_desc: ["It is mined in the &aOverworld&r using the Electric Quarry."]
+	quest.77746F8295B9FF6D.quest_desc: [
+		"&6Blaze Cake&r is an item that can be fed to a Blaze Burner in order to make it &9Super-Heated.&r"
+		" "
+		"The Blaze becomes Super-Heated for 160 seconds. It then turns into standard blaze, lasting for 250 seconds. Finally, the Blaze becomes smoldering"
+		""
+		"Super Heated Blaze Burners can be used with a Basin to access special recipes. They can also be used to provide more heat to a Steam Engine boiler."
+		""
+		"&lTo make a &6Blaze Cake&r, pour blazing blood onto a Blaze Cake Base with a Spout."
+	]
+	quest.778CDB2DB4BA53B3.quest_desc: ["Cloggrum gear is better than iron, though slightly weaker than diamond."]
+	quest.778CDB2DB4BA53B3.title: "Cloggrum Equipment"
+	quest.77B0CB15173C6AEE.quest_desc: [
+		"Analog Circuit is the core component of the Electric Age! You will need a great many of them — automating their production as soon as possible comes highly recommended."
+		""
+		"This Quest unlocks &o&bLow Voltage&r chapter."
+	]
+	quest.77B0CB15173C6AEE.title: "Welcome to the Electric Age!"
+	quest.781290317F17394A.quest_desc: ["Process &#B3DDEBSugar Solution&r in the Distillery."]
+	quest.786DE17DD8F45D47.quest_desc: ["The Cutting Board is used for chopping food and crushing items by right-clicking items on the board with tools."]
+	quest.786E86A92C26F014.quest_desc: [
+		"&cHV storage unit&r can store up to &7102.4MEU&r."
+		"It has five energy inputs and only one output."
+		""
+		"Right-clicking on the Unit will charge items with electricity."
+	]
+	quest.78935CE24586EEF0.quest_desc: [
+		"&bMob Slaughter Factory&r eliminates mobs in an instant."
+		"However, instead of dropping regular loot and experience, it converts them into two valuable byproducts: &dPink Slime&r and &6Liquid Meat&r."
+		""
+		"&dPink Slime&r is a crucial resource used in a great many crafting recipes — setting up automated production of it is something you'll definitely want to prioritize!"
+		""
+		"&6Liquid Meat&r makes for a fantastic food source. Simply load it into a Meat Feeder, and it will keep you fed automatically — no need to lift a finger whenever hunger strikes."
+	]
+	quest.78B5E13473F2A82F.quest_desc: [
+		"&zThe Time in a Bottle&r accumulates time while in the player's inventory. "
+		""
+		"You can spend that time to accelerate machines — simply &6Ыneak and Right-Click&r on the machine."
+	]
+	quest.7907EB80A27A2FA1.quest_desc: ["Clay dust is used to craft a bucket."]
+	quest.79570D868C50FBC0.quest_desc: [
+		"The Forge Hammer is used to craft components from the &bModern Industrialization&r mod. "
+		""
+		"It can also be used for unpacking ingots and blocks."
+	]
+	quest.79570D868C50FBC0.title: "Forge Hammer"
+	quest.7971841ED4CB0EF4.quest_desc: [
+		"The Mob Duplicator spawns mobs using Essence. "
+		""
+		"You can set which mob to spawn with the Mob Imprisonment Tool."
+	]
+	quest.7987F8F7A3797C7D.quest_desc: [
+		"Once your model is Basic or higher, you can use the &#5DFFE6Simulation Chamber&r to run simulations of your model. "
+		""
+		"Simulations will always produce a generalized prediction, and may also produce a Mob Prediction, based on the accuracy of the model. "
+		""
+		"The higher tier of the model, the higher the accuracy, up to 99.5% at Self Aware. "
+		""
+		"Running simulations requires energy &7(based on the model type)&r and a catalyst item, which is usually a Prediction Matrix."
+	]
+	quest.798D58958E825564.quest_desc: [
+		"&cThe Tesla Tower &ris a massive multiblock structure that can transmit energy over vast distances without the need for wires. "
+		""
+		"Both the transmission range and the amount of power that can be transferred depend on the windings installed. There are five tiers available: Copper, Electrum, Aluminum, Annealed Copper, and Superconductor. "
+		""
+		"To supply power to the tower, simply place an Energy Input Hatch as part of the structure. "
+		""
+		"To link the tower to a Receiver, use the Tesla Calibrator."
+	]
+	quest.79F915396CCD28B9.quest_desc: ["The ME Import Bus extracts items from an inventory, whereas the ME Export Bus does the opposite — it supplies items to an inventory."]
+	quest.7A14B63C81F028E2.quest_desc: [
+		"&aThe Empowerer&r is a crucial machine used to empower crystals. "
+		""
+		"To operate, it requires four Display Stands placed two blocks away in each cardinal direction. The Display Stands themselves also need power."
+	]
+	quest.7A93DD29B59A6A2E.quest_desc: [
+		"Mechanical Energy is the energy that machines from Create run on"
+		""
+		"You can get it from Water Wheel. Just spill the water on it and it will start working"
+		""
+		"You can transfer Mechanical Energy by shafts, cogwheels and large cogwheels"
+	]
+	quest.7A93DD29B59A6A2E.title: "Mechanical Energy?"
+	quest.7AE77F5DFF355383.quest_desc: [
+		"&cThe Polarization Tower&r is one of the largest multiblock structure in this modpack. "
+		""
+		"It's an upgraded version of the Polarizer that processes recipes several times faster — and more importantly, it can create entirely new items."
+	]
+	quest.7B8CC9CDDE373D96.quest_desc: ["&bSwiftwolf's Rending Gale&r grants creative-mode flight."]
+	quest.7B97FAC5CD20D0BE.quest_desc: ["&bThe Energy Condenser MK2 &rinstantly converts EMC items and features an output slot, making it very easy to automate."]
+	quest.7B9B93D477253B0B.quest_desc: [
+		"&bThe Farmer&r interacts with crops in a 3x3 block radius using energy. It plants, harvests, and tills soil automatically."
+		""
+		"Due to its limited range, consider using the &6Steam&r or&6 Electric Farmer&r from &bExtended Industrialization&r for better efficiency."
+	]
+	quest.7B9B93D477253B0B.title: "Small Farmer"
+	quest.7C066613F924F8A9.quest_desc: ["Now that you have Fint and Steel, you can travel to the Nether! That is, unless you've already made it there using a speedrunner's method :)."]
+	quest.7C066613F924F8A9.title: "&cTo The Nether!"
+	quest.7C256A85CEAA2D91.quest_desc: [
+		"The Alloy Smelter produces new Ender IO alloys. It can also smelt items just like a regular furnace."
+		""
+		"It requires a capacitor to function — the better the capacitor, the faster it processes recipes."
+	]
+	quest.7C507FF86FCD9B30.quest_desc: ["&eThe Large Advanced Motor&r is used in Extreme Voltage machine recipes."]
+	quest.7C6E4D5CA770A827.quest_desc: ["Now you can electrolyze Certus Quartz Crystals and then create Fluix, unlocking access to AE2!"]
+	quest.7C6E4D5CA770A827.title: "Applied Energistics!"
+	quest.7CACB035F32FC187.quest_desc: ["Drawers can hold up to 8 stacks of a single item type — less than Modern Industrialization barrels. But with the right upgrades installed, they can become an incredibly powerful storage solution."]
+	quest.7CACB035F32FC187.title: "Drawers"
+	quest.7CB900D3F2A8F31B.quest_desc: [
+		"Mortar is used in recipes to crush items."
+		""
+		"Flint mortar &7(32 uses)&r is fragile - save it for essential crushing!"
+	]
+	quest.7CF83E8318E102B0.quest_desc: [
+		"&#FFE365Regalium&r is the primary currency for trading with the Stoneborn. "
+		""
+		"It can also be found as a fairly rare ore at low altitudes in The Undergarden."
+	]
+	quest.7CF9F7EF37F6E969.quest_desc: [
+		"The Vacuum Chest collects items within a 6-block radius into its internal inventory. "
+		""
+		"It can also be fitted with a filter."
+	]
+	quest.7DBB2A9AD2876A95.quest_desc: [
+		"&cRedstone alloy&r is a useful ingredient used in recipes of some items"
+		""
+		"Alloy one copper ingot and four redstone in the alloy smelter to get the redstone alloy ingot"
+	]
+	quest.7DF743259B5D8A6A.quest_desc: [
+		"You can get only 2 planks from wood."
+		""
+		"To get more, you should craft a saw."
+	]
+	quest.7DF743259B5D8A6A.title: "Planks"
+	quest.7F08044A229CBF9C.quest_desc: ["&7Ultimate Pump&r is a component in &5Superconductor Voltage&r recipes."]
+	quest.7F3C01BB224B7440.quest_desc: ["The Mysterious Totem is a block that can cleanse the player of Utheric Infection. Make sure you bring one along!"]
+	quest.7F58E51FEE041C2B.quest_desc: ["Same functionality as &7Steam Version."]
+	quest.7FB9DABAC96A5E18.quest_desc: [
+		"Massive Multiblocks are multiblock versions of standard machines. "
+		""
+		"They are significantly faster, and certain recipes are also more resource-efficient."
+	]
+	quest.7FB9DABAC96A5E18.title: "Massive Multiblocks"
+	quest_link.35413CDD2A4B365F.title: "Cursed Earth"
+	reward_table.21781E1440A0C93A.title: "Copper or Tin"
+	reward_table.2A5E8001D47EBF77.title: "Random Storage Component"
+	reward_table.4D879E51C5A9067A.title: "Processors"
+	task.071BAE786C7589DB.title: "Find a coal vein"
+	task.07AF522A5F4EEFF7.title: "Any glider"
+	task.0A047B2617EA287F.title: "Any #minecraft:wool"
+	task.0B595CFFD776FFCE.title: "Find the Denizen Camp"
+	task.0EEED8E98E8FC991.title: "Find a tin vein"
+	task.133C42756B256FC7.title: "Find Catacombs"
+	task.137B68AED576533D.title: "Recipes"
+	task.16EFF334B0F5FEE7.title: "Find an antimony vein"
+	task.18904F890D4C037E.title: "Find a salt vein"
+	task.192933F703B1D6E7.title: "Find a graphite vein"
+	task.19643F8373A266B2.title: "Any #minecraft:beds"
+	task.1FCE9F996FBC4CA9.title: "Visit: &cThe Nether"
+	task.214C47249F915406.title: "Find a lapis vein"
+	task.281BE4F36E7A1D53.title: "Find a Rubberwood Tree"
+	task.28511A54CEF97309.title: "Find a redstone vein"
+	task.2AA251AF868E339A.title: "Any #minecraft:logs"
+	task.2B3052FB6B7EA7E0.title: "Coke"
+	task.30B4DA84844B1BFE.title: "Find an iron vein"
+	task.318219E0D41B8356.title: "Find the Stoneborn"
+	task.3317390D32553259.title: "Find a gold vein"
+	task.34144A09EDDD1651.title: "Find a Denized Camp"
+	task.3446BE615DBCE05A.title: "Find a monazite vein"
+	task.3509FA7A5AD330D0.title: "Find a lead vein"
+	task.36B0FE87233E2C91.title: "Time to Begin!"
+	task.37CB278B3C505B1F.title: "Mining System"
+	task.3D6C6F663F30EBA6.title: "It's Over"
+	task.41BF4AE90DF1EC75.title: "Welcome!"
+	task.453CA18984264C97.title: "Any #storagedrawers:drawers"
+	task.45F8952861CD9450.title: "Kill the Ender Dragon"
+	task.470EB6ADF6EB5E46.title: "Water?"
+	task.47E2C0CA63852619.title: "Find a limonite vein"
+	task.47F4F34B71E98DF3.title: "Find an emerald vein"
+	task.4A4B2DFE210F413F.title: "Visit The End!"
+	task.4BF1C9E3839C5E61.title: "Multiblocks"
+	task.4EBEF6BFEEFC03FB.title: "Any fluid pipe"
+	task.4F9056CE1DAEC334.title: "Iron Chest / Iron Chest upgrade"
+	task.540ABD125D04B854.title: "Find a black quartz vein"
+	task.58A7425FBA65CBA5.title: "Quests"
+	task.59797E11C4637C45.title: "Any #minecraft:beds"
+	task.59A0549E172C771B.title: "Hearts for the Food"
+	task.59C4C30F47125FFE.title: "EMI"
+	task.606C5F7C55845293.title: "Any #minecraft:planks"
+	task.609255D2FE44C5F9.title: "Any #modern_industrialization:fluid_pipes"
+	task.648700164D6961C2.title: "Find a coal vein"
+	task.67CCEC8677CB028C.title: "Find a bauxite vein"
+	task.6C50DB70F18C569B.title: "Any #minecraft:wool"
+	task.6DF1A387EB1E0BEA.title: "Any wood"
+	task.6E08A463A4896640.title: "Visit The Nether"
+	task.737436A906FB2D03.title: "Kill the Forgotten Guardian"
+	task.77D9A52BC59D937D.title: "Find a copper vein"
+	task.7AAA1D5F642883FA.title: "Any Hopper Botany Pot"
+	task.7C9DF5FAA9B6CA10.title: "Make a Jumbo Furnace"
+	task.7FAD1481B22DBCF6.title: "Electricity"
+}

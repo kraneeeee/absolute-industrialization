@@ -1,0 +1,282 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "basic_storage"
+	group: "28C836E16FF29ABE"
+	icon: {
+		id: "ironchest:crystal_chest"
+	}
+	id: "654AAA735D520D6C"
+	order_index: 0
+	quest_links: [
+		{
+			id: "53B3C82DA8678DD9"
+			linked_quest: "1E794036D4A5F322"
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			id: "316B8B17AB5FF3C3"
+			linked_quest: "3210536CBEDA8D11"
+			x: -1.0d
+			y: 1.5d
+		}
+	]
+	quests: [
+		{
+			id: "19EC500407438052"
+			rewards: [{
+				id: "6F38C0835078F773"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "1275A84AC5F6335F"
+				item: { count: 1, id: "ironchest:copper_chest" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["19EC500407438052"]
+			id: "71B4A0F39CE47DD9"
+			rewards: [{
+				id: "794D1F92D830DABD"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "113385FA9B4190D2"
+				item: { count: 1, id: "ironchest:iron_chest" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71B4A0F39CE47DD9"]
+			id: "0A9F59DFC505EC73"
+			rewards: [{
+				id: "59BD7298585BEBA6"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "1C4499CA684DB01F"
+				item: { count: 1, id: "ironchest:gold_chest" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A9F59DFC505EC73"]
+			id: "6173C3FE1F8F9F5D"
+			rewards: [{
+				id: "00E63A1012C7C274"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "785EA22C14ACCA2D"
+				item: { count: 1, id: "ironchest:diamond_chest" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			icon: {
+				id: "storagedrawers:oak_full_drawers_1"
+			}
+			id: "7CACB035F32FC187"
+			rewards: [{
+				id: "1A18DC018F7127E4"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "453CA18984264C97"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(storagedrawers:drawers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7CACB035F32FC187"]
+			id: "17DA8C56F9B77157"
+			rewards: [{
+				id: "3EAB51CEE7033D58"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "4D6A895F984A6C9B"
+				item: { count: 1, id: "storagedrawers:controller" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "laserio:laser_node"
+			}
+			id: "4EAE3FC25BEC4F50"
+			rewards: [{
+				id: "2DD5DA76C73E2D25"
+				item: {
+					count: 1
+					id: "laserio:laser_node"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5CA80F22B082EEF5"
+					item: { count: 1, id: "laserio:laser_node" }
+					type: "item"
+				}
+				{
+					id: "7C5977D71CD59691"
+					item: { count: 1, id: "laserio:laser_wrench" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["676BC86ED4036C97"]
+			id: "41CB9D7EC3FF115F"
+			rewards: [{
+				id: "790CC16FED912378"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7EE1D40AF6711448"
+				item: { count: 1, id: "enderstorage:ender_tank" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["676BC86ED4036C97"]
+			id: "59ED13AB0289D83D"
+			rewards: [{
+				id: "0C0F0092C87B4D33"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "524E4B595320CACB"
+				item: { count: 1, id: "enderstorage:ender_pouch" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			id: "00F352EE0221A241"
+			rewards: [{
+				id: "23C4154F1C7584C0"
+				item: {
+					count: 1
+					id: "modularrouters:sender_module_1"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7612CB27F324CBA8"
+				item: { count: 1, id: "modularrouters:modular_router" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E794036D4A5F322"]
+			id: "18AE5937462195B2"
+			rewards: [{
+				id: "54D69169D1407059"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4EE48F575E9B120E"
+				item: { count: 1, id: "sophisticatedbackpacks:copper_backpack" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["18AE5937462195B2"]
+			id: "1C7A9F34AA141BD6"
+			rewards: [{
+				id: "34D2E42C666864BC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "455DED26547A29CE"
+				item: { count: 1, id: "sophisticatedbackpacks:iron_backpack" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1C7A9F34AA141BD6"]
+			id: "5E93F4A2C0BE9898"
+			rewards: [{
+				id: "3F71092B4E6FEF7A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "249675B84AB162BC"
+				item: { count: 1, id: "sophisticatedbackpacks:gold_backpack" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5E93F4A2C0BE9898"]
+			id: "737B42076007DFA4"
+			rewards: [{
+				id: "6D26B0BB15B7B429"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7216D83F3AB783FA"
+				item: { count: 1, id: "sophisticatedbackpacks:diamond_backpack" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["737B42076007DFA4"]
+			id: "76B7174D6E2FC19D"
+			rewards: [{
+				id: "221878692E1CB9C2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1359AE0CB047BDD3"
+				item: { count: 1, id: "sophisticatedbackpacks:netherite_backpack" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+	]
+}

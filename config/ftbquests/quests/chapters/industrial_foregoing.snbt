@@ -1,0 +1,671 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "industrial_foregoing"
+	group: "4F77D528334DC471"
+	icon: {
+		id: "industrialforegoing:plant_gatherer"
+	}
+	id: "79CF0F8179A2F0EC"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1F6C7F4A49AA4AFD"]
+			id: "5DDF82D8EF870EEF"
+			rewards: [{
+				id: "76D7F8200D7AEBA9"
+				item: {
+					count: 1
+					id: "industrialforegoing:machine_frame_pity"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "0FD4DD24C37F549C"
+				item: { count: 1, id: "industrialforegoing:machine_frame_pity" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5DDF82D8EF870EEF"]
+			icon: {
+				id: "industrialforegoing:latex_processing_unit"
+			}
+			id: "08F1CF82D2EE1837"
+			rewards: [{
+				count: 4
+				id: "6A589C3C0E20257D"
+				item: {
+					count: 1
+					id: "minecraft:acacia_sapling"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "09079E0DFF93B2AE"
+				item: { count: 1, id: "industrialforegoing:latex_processing_unit" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5DDF82D8EF870EEF"]
+			id: "0990F509922F801F"
+			rewards: [
+				{
+					id: "60E49D38E81AC848"
+					item: {
+						count: 1
+						id: "modern_industrialization:aluminum_tank"
+					}
+					type: "item"
+				}
+				{
+					id: "0F1FB1FF8C96239E"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "35A5FD712FED75D6"
+				item: { count: 1, id: "industrialforegoing:water_condensator" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["08F1CF82D2EE1837"]
+			id: "677A7EBEBDA283FB"
+			rewards: [{
+				id: "7A32A732F37B5498"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "14B1BCC91E1CC404"
+				item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["677A7EBEBDA283FB"]
+			id: "3C75D2A316D92D2D"
+			rewards: [{
+				id: "5291DE8AFA5AC7D1"
+				item: {
+					count: 1
+					id: "industrialforegoing:machine_frame_simple"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "2807258D17E993F0"
+				item: { count: 1, id: "industrialforegoing:machine_frame_simple" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3C75D2A316D92D2D"]
+			id: "78935CE24586EEF0"
+			rewards: [{
+				id: "65AC35B9DA60A19C"
+				item: {
+					components: {
+						"titanium:augments": {
+							Range: 2.0f
+						}
+					}
+					count: 1
+					id: "industrialforegoing:range_addon_tier_2"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "2E8FE59CB0A1EF0E"
+				item: { count: 1, id: "industrialforegoing:mob_slaughter_factory" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"78935CE24586EEF0"
+				"677A7EBEBDA283FB"
+			]
+			id: "42CA0EB7B4F7BBE8"
+			rewards: [{
+				id: "38D6DCD4469838BC"
+				item: {
+					count: 1
+					id: "supplementaries:slingshot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D888DEA3EC8B325"
+				item: { count: 1, id: "industrialforegoing:pink_slime" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3C75D2A316D92D2D"]
+			id: "0E6338075B6217C3"
+			rewards: [{
+				count: 16
+				id: "17607A2A4D5CC02B"
+				item: {
+					count: 1
+					id: "industrialforegoing:fertilizer"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "52A1AC4D31C11293"
+				item: { count: 1, id: "industrialforegoing:plant_fertilizer" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["78935CE24586EEF0"]
+			id: "327A831FB6CCF520"
+			tasks: [{
+				id: "676D36B9B3C89A64"
+				item: { count: 1, id: "industrialforegoing:meat_feeder" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["42CA0EB7B4F7BBE8"]
+			id: "01A468A29B73336B"
+			rewards: [{
+				count: 4
+				id: "1A0CF4F4462B47DB"
+				item: {
+					count: 1
+					id: "kubejs:empowered_pink_slime_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "66E5C1382FBBCDB1"
+				item: { count: 1, id: "kubejs:empowered_pink_slime" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["78935CE24586EEF0"]
+			icon: {
+				id: "cursedearth:cursed_earth"
+			}
+			id: "1D554476416DEB57"
+			rewards: [
+				{
+					id: "6067EE694F30D541"
+					item: {
+						count: 1
+						id: "kubejs:drop_of_evil"
+					}
+					type: "item"
+				}
+				{
+					id: "18D09DA42DB5963D"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "2BA2D872327FD2BB"
+				item: { count: 1, id: "kubejs:drop_of_evil" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3C75D2A316D92D2D"]
+			id: "5113817E556B1A85"
+			rewards: [{
+				id: "123E6211C8671C1A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "2FAEE1BECF90BEFB"
+				item: { count: 1, id: "industrialforegoing:resourceful_furnace" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["01A468A29B73336B"]
+			id: "06D9D80F74FD33F0"
+			rewards: [{
+				id: "52583E4F7ED96F36"
+				item: {
+					count: 1
+					id: "industrialforegoing:machine_frame_advanced"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "1F2A8AEBD2FE9FD7"
+				item: { count: 1, id: "industrialforegoing:machine_frame_advanced" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["06D9D80F74FD33F0"]
+			id: "3DE2B5469E70D37B"
+			rewards: [{
+				count: 64
+				id: "2D0002BD6A66F786"
+				item: {
+					count: 1
+					id: "minecraft:obsidian"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "27682B6D7C91CD65"
+				item: { count: 1, id: "industrialforegoing:material_stonework_factory" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["06D9D80F74FD33F0"]
+			id: "4E91B098CBD9653A"
+			rewards: [{
+				id: "5193C3BFC30D1F57"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "5A5E5C6D8EB2E44F"
+				item: { count: 1, id: "industrialforegoing:mob_crusher" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5DDF82D8EF870EEF"]
+			id: "2AD1DAEE4F3A27FA"
+			rewards: [{
+				count: 2
+				id: "1DF69962B00EE0A8"
+				item: {
+					components: {
+						"titanium:augments": {
+							Range: 2.0f
+						}
+					}
+					count: 1
+					id: "industrialforegoing:range_addon_tier_2"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "32D00AE6774C069F"
+					item: { count: 1, id: "industrialforegoing:plant_gatherer" }
+					type: "item"
+				}
+				{
+					id: "5FD04C2B23773595"
+					item: { count: 1, id: "industrialforegoing:plant_sower" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6ABD6F2026D70BCA"]
+			id: "5C3066D25A3FB4DE"
+			rewards: [{
+				id: "035B95A9AA4CE6E3"
+				item: {
+					count: 1
+					id: "industrialforegoing:sewage_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D0A04F5744004AC"
+				item: { count: 1, id: "industrialforegoing:sewage_composter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5DDF82D8EF870EEF"]
+			id: "6ABD6F2026D70BCA"
+			rewards: [
+				{
+					id: "5C92A6678132E870"
+					item: {
+						components: {
+							"titanium:augments": {
+								Range: 2.0f
+							}
+						}
+						count: 1
+						id: "industrialforegoing:range_addon_tier_2"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "251416B0B5483A52"
+					item: {
+						count: 1
+						id: "minecraft:cow_spawn_egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4084DEFD875B273C"
+				item: { count: 1, id: "industrialforegoing:sewer" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["06D9D80F74FD33F0"]
+			icon: {
+				id: "industrialforegoing:fluid_laser_base"
+			}
+			id: "774C6B3E7C33A2F8"
+			rewards: [{
+				count: 16
+				id: "70D8B5FBF7152C15"
+				item: {
+					count: 1
+					id: "modern_industrialization:digital_circuit"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "246EFBAC16D31DA1"
+					item: { count: 1, id: "industrialforegoing:fluid_laser_base" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4CFD9A4229E70EFA"
+					item: { count: 1, id: "industrialforegoing:laser_drill" }
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["06D9D80F74FD33F0"]
+			icon: {
+				id: "industrialforegoing:ore_laser_base"
+			}
+			id: "40FF100819925FBD"
+			rewards: [{
+				count: 16
+				id: "0D48A3D6E359C156"
+				item: {
+					count: 1
+					id: "modern_industrialization:digital_circuit"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "3470A73331C84340"
+					item: { count: 1, id: "industrialforegoing:ore_laser_base" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6051E6F4B6C37BA1"
+					item: { count: 1, id: "industrialforegoing:laser_drill" }
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["61D64D0045285D33"]
+			id: "2F88BDA225233FD1"
+			rewards: [{
+				count: 8
+				id: "6A1EB27D2D3957DE"
+				item: {
+					count: 1
+					id: "kubejs:mysterious_chunk"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "1BB6CC463985620F"
+				item: { count: 1, id: "kubejs:mysterious_chunk" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["40FF100819925FBD"]
+			id: "61D64D0045285D33"
+			rewards: [{
+				id: "73AE336713DC4FA5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "4EAD7128F256DD86"
+				item: { count: 1, id: "kubejs:nacreous_laser_lens" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4D1254AF4F4338B6"]
+			id: "21E3A739D8E983E2"
+			rewards: [{
+				id: "578ACC17DC005436"
+				item: {
+					count: 1
+					id: "industrialforegoing:machine_frame_supreme"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "50248616A709008D"
+				item: { count: 1, id: "industrialforegoing:machine_frame_supreme" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"774C6B3E7C33A2F8"
+				"5F076CFDF74A77C0"
+			]
+			id: "4D1254AF4F4338B6"
+			rewards: [{
+				count: 3
+				id: "4F466BDEC6A07B48"
+				item: {
+					count: 1
+					id: "minecraft:wither_skeleton_skull"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "25B8BF2494237F36"
+				item: { count: 1, id: "kubejs:absorbing_laser_lens" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["21E3A739D8E983E2"]
+			id: "7971841ED4CB0EF4"
+			rewards: [{
+				id: "1440316F6FECE879"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "1516974C1E0E3F97"
+				item: { count: 1, id: "industrialforegoing:mob_duplicator" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["06D9D80F74FD33F0"]
+			id: "0625EFB11154120A"
+			rewards: [{
+				id: "6FEF96D501F2188D"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "5F345049C43E9E1A"
+				item: { count: 1, id: "industrialforegoing:enchantment_extractor" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["06D9D80F74FD33F0"]
+			id: "5F076CFDF74A77C0"
+			rewards: [{
+				count: 16
+				id: "3EDD68499415DCA8"
+				item: {
+					count: 1
+					id: "kubejs:empowered_pink_slime_ingot"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "069ADEA7E81D7720"
+				item: { count: 1, id: "industrialforegoing:stasis_chamber" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["21E3A739D8E983E2"]
+			id: "205303F24C34DC33"
+			rewards: [{
+				id: "70B82A68CECBA4A1"
+				item: {
+					components: {
+						"industrialforegoing:infinity_can_charge": 1b
+						"industrialforegoing:infinity_hammer_beheading": 0
+						"industrialforegoing:infinity_item_power": 0L
+						"industrialforegoing:infinity_item_selected_tier": "poor"
+						"industrialforegoing:infinity_item_special": 0b
+					}
+					count: 1
+					id: "industrialforegoing:infinity_hammer"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "44DA3388C60860B5"
+				item: { components: { "industrialforegoing:infinity_can_charge": 1b, "industrialforegoing:infinity_item_power": 0L, "industrialforegoing:infinity_item_selected_tier": "poor", "industrialforegoing:infinity_item_special": 0b }, count: 1, id: "industrialforegoing:infinity_drill" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["21E3A739D8E983E2"]
+			id: "4BE7A55D547D95A5"
+			rewards: [
+				{
+					count: 4
+					id: "72BC7AF993C1E6BD"
+					item: {
+						count: 1
+						id: "modern_industrialization:singularity"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7958FDA87F9A39EA"
+					item: {
+						count: 1
+						id: "modern_industrialization:quantum_circuit"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "59B49574F5587B0F"
+					item: {
+						count: 1
+						id: "kubejs:ultimate_motor"
+					}
+					type: "item"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				id: "0274A4AAA66A8B7D"
+				item: { count: 1, id: "industrialforegoing:mycelial_reactor" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -4.0d
+		}
+	]
+}

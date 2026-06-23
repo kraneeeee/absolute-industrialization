@@ -1,0 +1,880 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stone_age"
+	group: "743F9BA2EBD126DA"
+	icon: {
+		id: "kubejs:flint_pickaxe"
+	}
+	id: "4333CBFD78D6B17E"
+	images: [
+		{
+			height: 3.0d
+			image: "minecraft:block/crafting_table_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			height: 4.0d
+			image: "modern_industrialization:block/bronze_machine_casing"
+			rotation: 0.0d
+			width: 4.0d
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "modern_industrialization:block/casings/bricked_bronze/side"
+			rotation: 0.0d
+			width: 3.0d
+			x: 14.5d
+			y: 5.0d
+		}
+		{
+			height: 3.0d
+			image: "modern_industrialization:block/machines/boiler/overlay_front_active"
+			rotation: 0.0d
+			width: 3.0d
+			x: 14.5d
+			y: 5.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6397E5261F5AFA7C"]
+			id: "15F632400E878041"
+			rewards: [{
+				id: "36C1406E8C22A12C"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				count: 4L
+				id: "6DF1A387EB1E0BEA"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6397E5261F5AFA7C"]
+			id: "1996970C4A120D7E"
+			rewards: [{
+				count: 4
+				id: "1A4A2144338FD358"
+				item: {
+					count: 1
+					id: "minecraft:flint"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "26E4A7C291571B0E"
+				item: { count: 1, id: "minecraft:flint" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"1996970C4A120D7E"
+				"15F632400E878041"
+			]
+			id: "1611BFD0E05E85DC"
+			rewards: [{
+				count: 8
+				id: "2A3A95B2D73878B0"
+				item: {
+					count: 1
+					id: "minecraft:cooked_porkchop"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "3D705C731DE1C4AA"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["15F632400E878041"]
+			id: "7DF743259B5D8A6A"
+			rewards: [{
+				id: "314B48FC71882FEA"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "606C5F7C55845293"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:planks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1611BFD0E05E85DC"]
+			id: "70AF0304D80E98A9"
+			rewards: [{
+				id: "388BC14F2BD7A83E"
+				item: {
+					count: 1
+					id: "kubejs:flint_pickaxe"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "604E75A280E3EBB5"
+				item: { count: 1, id: "kubejs:flint_pickaxe" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1611BFD0E05E85DC"]
+			id: "316D2DB4D5DE19E1"
+			rewards: [{
+				count: 16
+				id: "5E1E5BEBAEC632D5"
+				item: {
+					count: 1
+					id: "minecraft:oak_log"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "55F1FD6F1F8DE785"
+				item: { count: 1, id: "kubejs:flint_axe" }
+				type: "item"
+			}]
+			x: -0.5527210884353764d
+			y: 4.871598639455797d
+		}
+		{
+			dependencies: ["316D2DB4D5DE19E1"]
+			id: "5B4E6561EB69C8D4"
+			rewards: [{
+				count: 12
+				id: "03E5641B82FA7047"
+				item: {
+					count: 1
+					id: "farmersdelight:bacon"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CF595F6CA96DA0C"
+				item: { count: 1, id: "minecraft:campfire" }
+				type: "item"
+			}]
+			x: 2.488095238095241d
+			y: 4.8988095238095255d
+		}
+		{
+			dependencies: ["3D20E48FE032B5EA"]
+			id: "3F9BAAD1AB572D5F"
+			rewards: [{
+				count: 16
+				id: "64C1F324A0A45336"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "086986678764FFC8"
+				item: { count: 1, id: "minecraft:furnace" }
+				type: "item"
+			}]
+			x: 4.488095238095241d
+			y: 6.8988095238095255d
+		}
+		{
+			dependencies: ["1611BFD0E05E85DC"]
+			id: "47B4566A5419058A"
+			rewards: [{
+				id: "0A8B9B9BADC66342"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "0A047B2617EA287F"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:wool)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1996970C4A120D7E"]
+			id: "71D98AF9A315F6A7"
+			rewards: [{
+				id: "3B21A5A81F69DDE4"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "77C8082903CEE710"
+				item: { count: 1, id: "kubejs:flint_knife" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5B4E6561EB69C8D4"]
+			id: "3D20E48FE032B5EA"
+			rewards: [{
+				id: "47337A071E2FD6BD"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				count: 3L
+				id: "0C27E9B2347988EC"
+				item: { count: 1, id: "minecraft:stone" }
+				type: "item"
+			}]
+			x: 4.488095238095241d
+			y: 4.8988095238095255d
+		}
+		{
+			dependencies: ["3D20E48FE032B5EA"]
+			id: "7CB900D3F2A8F31B"
+			rewards: [{
+				id: "45CC29E0A082D97A"
+				item: {
+					count: 1
+					id: "kubejs:flint_mortar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "25C5AC3D53A1E75A"
+				item: { count: 1, id: "kubejs:flint_mortar" }
+				type: "item"
+			}]
+			x: 4.488095238095241d
+			y: 2.8988095238095255d
+		}
+		{
+			dependencies: ["7CB900D3F2A8F31B"]
+			id: "7907EB80A27A2FA1"
+			rewards: [{
+				count: 2
+				id: "2E1AB594B462F2F4"
+				item: {
+					count: 1
+					id: "kubejs:clay_dust"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C6DDCAE9FF857CC"
+				item: { count: 1, id: "kubejs:clay_dust" }
+				type: "item"
+			}]
+			x: 6.994047619047613d
+			y: 4.89285714285716d
+		}
+		{
+			dependencies: ["7907EB80A27A2FA1"]
+			id: "08871FF408CC0EE7"
+			rewards: [{
+				id: "5F466273B8270109"
+				item: {
+					count: 1
+					id: "farmersdelight:pasta_with_meatballs"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "02BBE484A23AC760"
+				item: { count: 1, id: "ceramicbucket:ceramic_bucket" }
+				type: "item"
+			}]
+			x: 11.017857142857132d
+			y: 4.903571428571425d
+		}
+		{
+			dependencies: ["7CB900D3F2A8F31B"]
+			id: "46B19E2BB2E32EA3"
+			rewards: [{
+				count: 16
+				id: "5549B04CFB4F2397"
+				item: {
+					count: 1
+					id: "modern_industrialization:wood_pulp"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "4EAF8210DCEFABAA"
+				item: { count: 1, id: "modern_industrialization:wood_pulp" }
+				type: "item"
+			}]
+			x: 6.982142857142847d
+			y: 2.8750000000000213d
+		}
+		{
+			dependencies: [
+				"08871FF408CC0EE7"
+				"46B19E2BB2E32EA3"
+			]
+			icon: {
+				id: "minecraft:paper"
+			}
+			id: "1CC9A886028F7D19"
+			rewards: [{
+				count: 4
+				id: "4D92BE0E25FD1336"
+				item: {
+					count: 1
+					id: "minecraft:paper"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				count: 2L
+				id: "6F0DD389C03148EF"
+				item: { count: 1, id: "minecraft:paper" }
+				type: "item"
+			}]
+			x: 11.017857142857132d
+			y: 2.903571428571425d
+		}
+		{
+			dependencies: ["6ADB1C9C175CBEE0"]
+			id: "43C8DAA9BBF63334"
+			rewards: [{
+				count: 4
+				id: "7C6BCC7ED0CFDD9D"
+				item: {
+					count: 1
+					id: "minecraft:raw_iron"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "57ACA6045E8BE255"
+				item: { count: 1, id: "minecraft:raw_iron" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1CC9A886028F7D19"]
+			id: "5DD23404DEB1AA9D"
+			rewards: [{
+				id: "46587CA5C50EAA1D"
+				item: {
+					count: 1
+					id: "kubejs:pattern"
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "5169A4ED0B69CD42"
+				item: { count: 1, id: "kubejs:pattern" }
+				type: "item"
+			}]
+			x: 11.01190476190476d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5DD23404DEB1AA9D"]
+			icon: {
+				id: "farmersdelight:cutting_board"
+			}
+			id: "786DE17DD8F45D47"
+			rewards: [{
+				id: "4C1EB82E518992E5"
+				item: {
+					count: 1
+					id: "farmersdelight:apple_pie"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					id: "44937F8393A8DB03"
+					item: { count: 1, id: "farmersdelight:cutting_board" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "39D51AAEC5D6E12A"
+					item: { count: 1, id: "modern_industrialization:brick_tiny_dust" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["47B4566A5419058A"]
+			id: "154367F1B4F713BC"
+			rewards: [{
+				id: "689FC7BCA2C841DA"
+				item: {
+					count: 1
+					id: "waystones:waystone"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "19643F8373A266B2"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:beds)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"786DE17DD8F45D47"
+				"5DD23404DEB1AA9D"
+			]
+			id: "0B0287B333165867"
+			rewards: [{
+				count: 16
+				id: "7B1D9DC08D0B2BA1"
+				item: {
+					count: 1
+					id: "kubejs:unfired_fire_clay_brick"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "3D04DC4F28988F85"
+				item: { count: 1, id: "modern_industrialization:fire_clay_brick" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["43C8DAA9BBF63334"]
+			id: "598CCCBB2CBD7C0A"
+			rewards: [{
+				id: "05B721857713A626"
+				type: "xp"
+				xp: 5
+			}]
+			size: 2.0d
+			tasks: [{
+				count: 4L
+				id: "2AD85E80E2CD0EB8"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["598CCCBB2CBD7C0A"]
+			id: "79570D868C50FBC0"
+			rewards: [{
+				count: 2
+				id: "179FFE248457916E"
+				item: {
+					count: 1
+					id: "farmersdelight:bacon_sandwich"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "6AD9256E930881C0"
+				item: { count: 1, id: "modern_industrialization:forge_hammer" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"0B8AE12CE32EF2BD"
+				"0B0287B333165867"
+			]
+			id: "4BF13ECCB85754AC"
+			rewards: [
+				{
+					count: 16
+					id: "112F9B51E10BD7A5"
+					item: {
+						count: 1
+						id: "modern_industrialization:lignite_coal"
+					}
+					type: "item"
+				}
+				{
+					id: "6066D83BFF3701D2"
+					item: {
+						count: 1
+						id: "aquaculture:box_turtle_spawn_egg"
+					}
+					type: "item"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				id: "124916A189C2E49E"
+				item: { count: 1, id: "modern_industrialization:bronze_boiler" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79570D868C50FBC0"]
+			id: "1E794036D4A5F322"
+			rewards: [{
+				id: "72617F508DCD58CB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4EC7A8127336A07A"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["364D6D2729A6F9D2"]
+			id: "0B8AE12CE32EF2BD"
+			rewards: [{
+				id: "3AEDC7AC24100EF1"
+				item: {
+					count: 1
+					id: "modern_industrialization:bronze_machine_casing"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "53F71C53E26EE29F"
+				item: { count: 1, id: "modern_industrialization:bronze_machine_casing" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -2.2761904761905d
+		}
+		{
+			dependencies: ["79570D868C50FBC0"]
+			id: "667F27B9FA561C5C"
+			size: 1.0d
+			tasks: [{
+				id: "1E519E76866E5772"
+				item: { count: 1, id: "ironchest:copper_chest" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5DD23404DEB1AA9D"]
+			id: "110E457FF351B5DE"
+			tasks: [{
+				id: "1B73CF68A0F1D64F"
+				item: { count: 1, id: "craftingstation:crafting_station" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6ADB1C9C175CBEE0"]
+			id: "3EC06B39EC8FB57B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C74137EBC13743D"
+				table_id: 2411710672789358906L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					count: 9L
+					id: "52EB0F101860473C"
+					item: { count: 1, id: "minecraft:raw_copper" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "5073B39DC20161D9"
+					item: { count: 1, id: "modern_industrialization:raw_tin" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["22A6531DD20D7ACC"]
+			icon: {
+				id: "modern_industrialization:bronze_ingot"
+			}
+			id: "364D6D2729A6F9D2"
+			rewards: [{
+				count: 8
+				id: "7D09569BC2F60628"
+				item: {
+					count: 1
+					id: "modern_industrialization:bronze_dust"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				count: 8L
+				id: "43FF08A054AF46BE"
+				item: { count: 1, id: "modern_industrialization:bronze_ingot" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["598CCCBB2CBD7C0A"]
+			id: "5A933A8740E77E5B"
+			rewards: [{
+				count: 2
+				id: "6BD13C3529DEC8CE"
+				item: {
+					count: 1
+					id: "minecraft:raw_iron"
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "617995B3FB34EAEC"
+				item: { count: 1, id: "minecraft:blast_furnace" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0B0287B333165867"]
+			icon: {
+				id: "productivemetalworks:brown_foundry_controller"
+			}
+			id: "22A6531DD20D7ACC"
+			rewards: [
+				{
+					id: "64264EE2DBE005D4"
+					item: {
+						count: 1
+						id: "productivemetalworks:casting_table"
+					}
+					type: "item"
+				}
+				{
+					id: "1C1018AE4FFAF821"
+					item: {
+						count: 1
+						id: "productivemetalworks:foundry_tap"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "123F5B3CB544A952"
+					item: {
+						count: 1
+						id: "modern_industrialization:fire_clay_brick"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "4A1082792BD11C5B"
+					item: { count: 1, id: "productivemetalworks:brown_foundry_controller" }
+					type: "item"
+				}
+				{
+					id: "2E3397D91E1709A4"
+					item: { count: 1, id: "productivemetalworks:liquid_heating_coil" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1D15F6598382DAAE"
+					item: { count: 1, id: "productivemetalworks:brown_fire_bricks" }
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"22A6531DD20D7ACC"
+				"79570D868C50FBC0"
+			]
+			id: "01566B924E43D29F"
+			rewards: [{
+				id: "536414851CA8C284"
+				item: {
+					count: 1
+					id: "minecraft:iron_pickaxe"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "6B7237B8C8528BCB"
+				item: { count: 1, id: "minecraft:iron_pickaxe" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["22A6531DD20D7ACC"]
+			id: "193F872D956E79A4"
+			rewards: [{
+				id: "4A41353F79B4DA5A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "1102B1154CC46C9E"
+				item: { count: 1, id: "minecraft:bucket" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["70AF0304D80E98A9"]
+			id: "6ADB1C9C175CBEE0"
+			rewards: [{
+				id: "35EE7E598E95AA3B"
+				item: {
+					count: 1
+					id: "kubejs:ore_waypoint_maker"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "37CB278B3C505B1F"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["79570D868C50FBC0"]
+			id: "24E52D9B4A3A3FFD"
+			tasks: [{
+				id: "75C50F7E2E277151"
+				item: { count: 1, id: "actuallyadditions:crafter_on_a_stick" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["79570D868C50FBC0"]
+			id: "1C8374C0DAE5D49D"
+			tasks: [
+				{
+					id: "0BB74732D8593EAE"
+					item: { count: 1, id: "kubejs:iron_hammer" }
+					type: "item"
+				}
+				{
+					id: "5313ADB4B418FB9F"
+					item: { count: 1, id: "kubejs:iron_saw" }
+					type: "item"
+				}
+				{
+					id: "0B6B42FD81D31507"
+					item: { count: 1, id: "kubejs:wooden_soft_mallet" }
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["364D6D2729A6F9D2"]
+			id: "0745E0C482149B31"
+			rewards: [{
+				count: 8
+				id: "5A1111CE66713853"
+				item: {
+					count: 1
+					id: "modern_industrialization:bronze_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "161DF51766756705"
+				item: { count: 1, id: "modern_industrialization:wrench" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3F9BAAD1AB572D5F"]
+			id: "4CCE3456BBDB8C17"
+			rewards: [{
+				id: "200F76F3C5CF3EB9"
+				item: {
+					count: 1
+					id: "jumbofurnace:jumbo_furnace"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "jumbofurnace:jumbo_furnace"
+				}
+				id: "7C9DF5FAA9B6CA10"
+				observe_type: 0
+				timer: 0L
+				to_observe: "jumbofurnace:jumbo_furnace"
+				type: "observation"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+	]
+}

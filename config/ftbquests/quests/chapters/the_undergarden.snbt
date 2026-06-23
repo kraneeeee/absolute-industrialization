@@ -1,0 +1,493 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_undergarden"
+	group: "07E94E3EB3171F3C"
+	icon: {
+		id: "undergarden:catalyst"
+	}
+	id: "740C718A784F0AF3"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "70D320F19E4BCA18"
+			rewards: [{
+				count: 14
+				id: "6E89BDE94F15A351"
+				item: {
+					count: 1
+					id: "minecraft:stone_bricks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F274BDE710022B5"
+				item: { count: 1, id: "undergarden:catalyst" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["70D320F19E4BCA18"]
+			id: "04FF73C36A481113"
+			rewards: [
+				{
+					count: 16
+					id: "44DA0E7C47B8EDB2"
+					item: {
+						count: 1
+						id: "undergarden:raw_cloggrum"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1A8E31699BC35A91"
+					item: {
+						count: 1
+						id: "undergarden:raw_froststeel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "39EF8F0BB10545D3"
+					item: { count: 1, id: "undergarden:raw_cloggrum" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "28908A978893B76B"
+					item: { count: 1, id: "undergarden:raw_froststeel" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["70D320F19E4BCA18"]
+			icon: {
+				components: {
+					"ftbquests:icon": "undergarden:item/ditchbulb"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "05DEB91D6E271600"
+			rewards: [
+				{
+					count: 16
+					id: "3ACFC0F5746F0750"
+					item: {
+						count: 1
+						id: "undergarden:ditchbulb"
+					}
+					type: "item"
+				}
+				{
+					id: "736FB6D1174A3314"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "55CAE1D95A597F45"
+					item: { count: 1, id: "undergarden:ditchbulb" }
+					type: "item"
+				}
+				{
+					id: "4EE620EF0A8BF1F7"
+					item: { count: 1, id: "undergarden:ditchbulb_paste" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["05DEB91D6E271600"]
+			id: "3EEAE79F537D1EBA"
+			rewards: [{
+				count: 16
+				id: "0DDB1EA56CE426B2"
+				item: {
+					count: 1
+					id: "kubejs:cloggrum_steel_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "685C6DD916681053"
+				item: { count: 1, id: "kubejs:cloggrum_steel_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["70D320F19E4BCA18"]
+			id: "4EB8C70A96F4B74D"
+			rewards: [{
+				id: "1B96EBB67B2628F9"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "70FD710F1C24D92E"
+				item: { count: 1, id: "undergarden:gronglet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["70D320F19E4BCA18"]
+			icon: {
+				id: "undergarden:utheric_cluster"
+			}
+			id: "57F458AE6AB16EA5"
+			rewards: [{
+				count: 2
+				id: "3BD02C6EE92FEF69"
+				item: {
+					count: 1
+					id: "undergarden:utheric_cluster"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "39A3E593B9E38090"
+					item: { count: 1, id: "undergarden:utheric_shard" }
+					type: "item"
+				}
+				{
+					id: "379AD239733CD7A4"
+					item: { count: 1, id: "undergarden:utheric_cluster" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["70D320F19E4BCA18"]
+			icon: {
+				components: {
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "undergarden:stoneborn"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "210F61E461E37577"
+			rewards: [{
+				id: "5322AD439CACF51C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "undergarden:stoneborn"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "318219E0D41B8356"
+				observe_type: 5
+				timer: 0L
+				to_observe: "undergarden:stoneborn"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["70D320F19E4BCA18"]
+			id: "7CF83E8318E102B0"
+			rewards: [{
+				id: "0CF081AA9E0D99AE"
+				item: {
+					count: 1
+					id: "undergarden:regalium_crystal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1891B34F97E59DFD"
+				item: { count: 1, id: "undergarden:regalium_crystal" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["70D320F19E4BCA18"]
+			icon: {
+				id: "undergarden:depthrock_bricks"
+			}
+			id: "241E6BF94175BFD5"
+			rewards: [{
+				count: 64
+				id: "4317D1939F2F9005"
+				item: {
+					count: 1
+					id: "modern_industrialization:steel_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "undergarden:depthrock_bricks"
+				}
+				id: "133C42756B256FC7"
+				structure: "undergarden:catacombs"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["70D320F19E4BCA18"]
+			id: "19B5E7E57D426369"
+			rewards: [{
+				count: 64
+				id: "7BA3CC5586836130"
+				item: {
+					count: 1
+					id: "undergarden:depthrock_pebble"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A23CA84A62986A7"
+				item: { count: 1, id: "undergarden:slingshot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["04FF73C36A481113"]
+			id: "778CDB2DB4BA53B3"
+			rewards: [
+				{
+					id: "75A860431569222A"
+					item: {
+						count: 1
+						id: "undergarden:cloggrum_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "752E0F3B4154D995"
+					item: {
+						count: 1
+						id: "undergarden:cloggrum_leggings"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1CC072D9E1757DA6"
+				item: { count: 1, id: "undergarden:cloggrum_sword" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["04FF73C36A481113"]
+			id: "1A576C2B764C4412"
+			rewards: [
+				{
+					id: "0E03DEF3536CA34A"
+					item: {
+						count: 1
+						id: "undergarden:froststeel_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "67225846F8F8F54B"
+					item: {
+						count: 1
+						id: "undergarden:froststeel_boots"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3406E0966B3CFE87"
+				item: { count: 1, id: "undergarden:froststeel_sword" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"57F458AE6AB16EA5"
+				"11A8CF80753E7391"
+			]
+			id: "5010780058B84CFC"
+			rewards: [{
+				count: 4
+				id: "50532DFE268049DB"
+				item: {
+					count: 1
+					id: "undergarden:utherium_crystal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CA303082570BA77"
+				item: { count: 1, id: "undergarden:utherium_sword" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["241E6BF94175BFD5"]
+			id: "1BBE038F38379E20"
+			rewards: [{
+				id: "3FA0AD96A1F0B2D1"
+				item: {
+					count: 1
+					id: "undergarden:forgotten_ingot"
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				entity: "undergarden:forgotten_guardian"
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "undergarden:forgotten_guardian"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "737436A906FB2D03"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"1BBE038F38379E20"
+				"2747CF5C6DBBF360"
+			]
+			id: "1AAE159411DA8D2A"
+			rewards: [{
+				count: 8
+				id: "74AACB8921C2279B"
+				item: {
+					count: 1
+					id: "undergarden:rogdorium"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A11869302B56D7A"
+				item: { count: 1, id: "undergarden:rogdorium" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"1AAE159411DA8D2A"
+				"57F458AE6AB16EA5"
+			]
+			id: "11A8CF80753E7391"
+			rewards: [
+				{
+					count: 4
+					id: "5AF24708EC003744"
+					item: {
+						count: 1
+						id: "undergarden:rogdorium"
+					}
+					type: "item"
+				}
+				{
+					id: "560FD24A4D94D90E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "79617904EDBA6831"
+				item: { count: 1, id: "undergarden:infuser" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["241E6BF94175BFD5"]
+			id: "2747CF5C6DBBF360"
+			rewards: [{
+				id: "5EE221A481EFC39D"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				advancement: "undergarden:undergarden/contract_utheric_infection"
+				criterion: ""
+				icon: {
+					id: "undergarden:utherium_growth"
+				}
+				id: "2C80BB9F398AA26D"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2747CF5C6DBBF360"]
+			id: "4D70CF16F5F37269"
+			rewards: [{
+				id: "1440E2BEF662D552"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				icon: {
+					id: "undergarden:denizen_mask"
+				}
+				id: "0B595CFFD776FFCE"
+				structure: "undergarden:denizen_camp"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4D70CF16F5F37269"]
+			id: "7F3C01BB224B7440"
+			rewards: [{
+				id: "796A7B418312B3A8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "54761EFCA3E7D927"
+				item: { count: 1, id: "undergarden:denizen_totem" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+	]
+}

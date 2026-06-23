@@ -1,0 +1,640 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "actually_additions"
+	group: "4F77D528334DC471"
+	icon: {
+		id: "actuallyadditions:atomic_reconstructor"
+	}
+	id: "49230EC8D3323ECF"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2774EE136A015EC7"]
+			id: "4477DC6F28E12AE2"
+			rewards: [{
+				id: "48AA8F2826737AFA"
+				item: {
+					count: 1
+					id: "actuallyadditions:wood_casing"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "09394D3C5DA01D3D"
+				item: { count: 1, id: "actuallyadditions:wood_casing" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4477DC6F28E12AE2"]
+			id: "49FC6C9DE2E26F25"
+			rewards: [{
+				id: "1CAED614C00C0D7A"
+				item: {
+					count: 1
+					id: "kubejs:stone_casing"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "1EC922B67DE5D927"
+				item: { count: 1, id: "kubejs:stone_casing" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4001210860E0136A"]
+			id: "4DF49408896019C2"
+			size: 1.5d
+			tasks: [{
+				id: "761E234099AB9F98"
+				item: { count: 1, id: "actuallyadditions:fermenting_barrel" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"49FC6C9DE2E26F25"
+				"1CB53A6AF32943FF"
+			]
+			id: "4001210860E0136A"
+			rewards: [{
+				count: 32
+				id: "003292E0E2A58ED1"
+				item: {
+					count: 1
+					id: "actuallyadditions:canola"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "02800F81E6F11314"
+				item: { count: 1, id: "actuallyadditions:canola_press" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4001210860E0136A"]
+			id: "345A0BE1ADA409B5"
+			rewards: [{
+				id: "292B57D166F0EBCE"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "22C42FA4645F5F5A"
+				item: { count: 1, id: "actuallyadditions:canola_oil_bucket" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			id: "1CB53A6AF32943FF"
+			rewards: [{
+				count: 8
+				id: "488FB19796FB2EF7"
+				item: {
+					count: 1
+					id: "actuallyadditions:canola"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "7F844E06FA7BDC9D"
+				item: { count: 1, id: "actuallyadditions:canola" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"345A0BE1ADA409B5"
+				"4DF49408896019C2"
+			]
+			id: "1F6C7F4A49AA4AFD"
+			rewards: [{
+				id: "4089F5357AD1FDC6"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "69B7D377E07C3151"
+				item: { count: 1, id: "actuallyadditions:refined_canola_oil_bucket" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1F6C7F4A49AA4AFD"]
+			id: "6AF4F61246B9BB23"
+			rewards: [{
+				id: "6E65C35777399512"
+				item: {
+					count: 1
+					id: "kubejs:steel_casing"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "04E54922B399F894"
+				item: { count: 1, id: "kubejs:steel_casing" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6AF4F61246B9BB23"]
+			id: "3EB2D917D1BB4323"
+			rewards: [{
+				count: 16
+				id: "00B1DE9727A5BE53"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			size: 3.0d
+			tasks: [{
+				id: "52290B26A2343E28"
+				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3EB2D917D1BB4323"]
+			id: "0201BB67E1A78640"
+			rewards: [{
+				id: "25F3F4BFEEDB052B"
+				item: {
+					count: 1
+					id: "actuallyadditions:basic_coil"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "70789FEC230D191D"
+				item: { count: 1, id: "actuallyadditions:basic_coil" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"6AF4F61246B9BB23"
+				"0201BB67E1A78640"
+			]
+			id: "527833AC69279EA0"
+			rewards: [{
+				id: "47B6D14F90344628"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "4C307C3972D39F6D"
+				item: { count: 1, id: "actuallyadditions:powered_furnace" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"6AF4F61246B9BB23"
+				"0201BB67E1A78640"
+			]
+			id: "3BE5CC70B88F1EC0"
+			rewards: [{
+				id: "785C2ED4A682E373"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "786DE665B2808F81"
+				item: { count: 1, id: "actuallyadditions:crusher" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3EB2D917D1BB4323"]
+			id: "60CE0912E3E9E082"
+			rewards: [{
+				id: "791B4476126D5755"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "4B6E55589FC3A175"
+				item: { count: 1, id: "actuallyadditions:ranged_collector" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0201BB67E1A78640"]
+			id: "44776F9865147491"
+			rewards: [{
+				id: "333EBCAE81D4FCEF"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "5757C27209907DE1"
+				item: { count: 1, id: "actuallyadditions:coffee_machine" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0201BB67E1A78640"]
+			id: "53F87E5C14E9FF67"
+			rewards: [{
+				id: "0050191FF031CDAD"
+				item: {
+					count: 1
+					id: "actuallyadditions:advanced_coil"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "296D01B414728498"
+				item: { count: 1, id: "actuallyadditions:advanced_coil" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"53F87E5C14E9FF67"
+				"0201BB67E1A78640"
+			]
+			id: "2299254BC7E44518"
+			rewards: [
+				{
+					id: "1AFAFF952A0DCB7E"
+					item: {
+						count: 1
+						id: "actuallyadditions:drill_upgrade_speed"
+					}
+					type: "item"
+				}
+				{
+					id: "379AEAD8CAB8D392"
+					item: {
+						count: 1
+						id: "actuallyadditions:drill_upgrade_three_by_three"
+					}
+					type: "item"
+				}
+				{
+					id: "4AD81C45F19AC94B"
+					item: {
+						count: 1
+						id: "actuallyadditions:double_battery"
+					}
+					type: "item"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				id: "2ECD865A6BDDD5E2"
+				item: { count: 1, id: "actuallyadditions:drill_light_blue" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["53F87E5C14E9FF67"]
+			icon: {
+				id: "actuallyadditions:lava_factory_controller"
+			}
+			id: "0381B0559A04C01C"
+			rewards: [{
+				id: "4D6989A95B45B38A"
+				item: {
+					count: 1
+					id: "actuallyadditions:fluid_collector"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "46531BC49EF0B931"
+					item: { count: 1, id: "actuallyadditions:lava_factory_controller" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "74EC2CCD24504FD5"
+					item: { count: 1, id: "actuallyadditions:lava_factory_casing" }
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["53F87E5C14E9FF67"]
+			id: "0A10FC5171766D37"
+			rewards: [{
+				id: "0D58CE097F645F74"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "0E5151D17EB68BE2"
+				item: { count: 1, id: "actuallyadditions:single_battery" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0A10FC5171766D37"]
+			id: "41B5B158ADA0506A"
+			rewards: [{
+				id: "0540807E068F9CB2"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "205191A437EB99E4"
+				item: { count: 1, id: "actuallyadditions:double_battery" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["41B5B158ADA0506A"]
+			icon: {
+				id: "actuallyadditions:empowerer"
+			}
+			id: "7A14B63C81F028E2"
+			rewards: [
+				{
+					id: "75C9C3E6561FC506"
+					item: {
+						count: 1
+						id: "actuallyadditions:display_stand"
+					}
+					type: "item"
+				}
+				{
+					id: "796C98971F056C92"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "31E23210F744996E"
+					item: {
+						count: 1
+						id: "actuallyadditions:diamatine_crystal"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					id: "74050AE6E663A14D"
+					item: { count: 1, id: "actuallyadditions:empowerer" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "766AFF622DEDC2E1"
+					item: { count: 1, id: "actuallyadditions:display_stand" }
+					type: "item"
+				}
+			]
+			x: 22.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"7A14B63C81F028E2"
+				"63D0627593C73C23"
+			]
+			id: "4E94F9FBD29AAF40"
+			rewards: [{
+				id: "3A15FE9D708C5075"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "0513AE79351B9B75"
+				item: { count: 1, id: "actuallyadditions:triple_battery" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3BE5CC70B88F1EC0"]
+			id: "71BCE911DD8D2DB0"
+			rewards: [{
+				id: "06244284FC52340A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "12C4F4C390E29D8B"
+				item: { count: 1, id: "actuallyadditions:crusher_double" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3EB2D917D1BB4323"]
+			id: "20A2A1172D3D3F6C"
+			rewards: [{
+				id: "70AFB48A93B8A433"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "1BAFF05072C721AE"
+				item: { count: 1, id: "actuallyadditions:crystallized_oil_bucket" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"20A2A1172D3D3F6C"
+				"7A14B63C81F028E2"
+			]
+			id: "63D0627593C73C23"
+			rewards: [{
+				id: "09674438BE403BAB"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "7D6E36F547724721"
+				item: { count: 1, id: "actuallyadditions:empowered_oil_bucket" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"3EB2D917D1BB4323"
+				"6AF4F61246B9BB23"
+			]
+			id: "7B9B93D477253B0B"
+			rewards: [{
+				count: 24
+				id: "4AC23D5FF48CF443"
+				item: {
+					count: 1
+					id: "minecraft:bone_block"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "498D11687C4AD016"
+				item: { count: 1, id: "actuallyadditions:farmer" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4E94F9FBD29AAF40"]
+			id: "30E1639C3DC56DB9"
+			rewards: [{
+				id: "4BD473C122FC8F5A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "3DD34EA55B1CA744"
+				item: { count: 1, id: "actuallyadditions:quadruple_battery" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["30E1639C3DC56DB9"]
+			id: "2AB96B167CFE03B6"
+			rewards: [{
+				id: "6C541A530BF2373E"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "31554EED57FA0CBC"
+				item: { count: 1, id: "actuallyadditions:quintuple_battery" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4477DC6F28E12AE2"]
+			id: "5653D7CAB55972C4"
+			rewards: [{
+				count: 128
+				id: "11D122800EFEFCC1"
+				item: {
+					count: 1
+					id: "minecraft:wheat"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "608B0A6512FD239E"
+				item: { count: 1, id: "actuallyadditions:feeder" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["53F87E5C14E9FF67"]
+			id: "04B416F5285C50D7"
+			rewards: [
+				{
+					id: "7B0C85C57DE71C18"
+					item: {
+						count: 1
+						id: "actuallyadditions:item_interface"
+					}
+					type: "item"
+				}
+				{
+					id: "47FA0FD739464B9F"
+					item: {
+						count: 1
+						id: "enderio:fluid_tank"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "18DF7D52769CDBDD"
+					item: { count: 1, id: "actuallyadditions:laser_relay_item" }
+					type: "item"
+				}
+				{
+					id: "575E6039CBA3D4D1"
+					item: { count: 1, id: "actuallyadditions:laser_relay_fluids" }
+					type: "item"
+				}
+				{
+					id: "1049ED99FCA209B9"
+					item: { count: 1, id: "actuallyadditions:laser_wrench" }
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 3.5d
+		}
+	]
+}

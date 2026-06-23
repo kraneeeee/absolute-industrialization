@@ -1,0 +1,200 @@
+{
+    "automatic_forge_hammer_electric": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:forge_hammer"
+      ]
+    },
+    "automatic_forge_hammer": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:forge_hammer"
+      ]
+    },
+    "chemical_bath": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:chemical_bath"
+      ]
+    },
+    "alloy_smelter_alt": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:furnace"
+      ]
+    },
+    "extractor": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:centrifuge"
+      ]
+    },
+    "lathe": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:cutting_machine"
+      ]
+    },
+    "primitive_pump": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:pump"
+      ]
+    },
+    "water_tower": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:pump"
+      ]
+    },
+    "inscriber": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:motor"
+      ]
+    },
+    "extruder": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:compressor"
+      ]
+    },
+    "oil_press": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:compressor"
+      ]
+    },
+    "fermenter": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:motor"
+      ]
+    },
+    "pyrolyse_oven": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:furnace"
+      ]
+    },
+    "large_chemical_reactor": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:chemical_reactor"
+      ]
+    },
+     "gas_collector": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:electrolyzer"
+      ]
+    },
+     "small_chemical_reactor": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:chemical_reactor"
+      ]
+    },
+     "oil_cracking_unit": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:distillation_tower"
+      ]
+    },
+     "autoclave": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:motor"
+      ]
+    }, 
+    "advanced_electric_quarry": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:quarry"
+      ]
+    }, 
+    "assembly_line": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:assembler"
+      ]
+    },
+     "matter_condensator": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:replicator"
+      ]
+    },
+    "quantum_installer": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:replicator"
+      ]
+    },
+    "industrial_empowerer": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:assembler"
+      ]
+    },
+    "nuclear_recycler": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:centrifuge"
+      ]
+    },
+    "metamorphic_constructor": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:assembler"
+      ]
+    },
+    "transmutator": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:replicator"
+      ]
+    },
+    "bedrock_drilling_rig": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:oil_drilling_rig"
+      ]
+    },
+    "massive_wiremill": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:wiremill"
+      ]
+    },
+    "massive_forge_hammer": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:forge_hammer"
+      ]
+    },
+    "massive_compressor": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:compressor"
+      ]
+    },
+    "polarization_tower": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:polarizer"
+      ]
+    },
+    "compact_greenhouse": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:motor"
+      ]
+    },
+    "nuclear_component_assembler": {
+      "category": "block",
+      "sounds": [
+        "mi_sound_addon:assembler"
+      ]
+    }
+}

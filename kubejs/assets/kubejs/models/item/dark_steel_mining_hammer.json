@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures" : {
+    "layer0" : "kubejs:item/dark_steel_mining_hammer"
+  }
+}

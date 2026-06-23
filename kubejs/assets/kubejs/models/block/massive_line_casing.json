@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "particle": "kubejs:block/massive_line_casing_front",
+        "up": "kubejs:block/massive_line_casing_top_bottom",
+        "north": "kubejs:block/massive_line_casing_front",
+        "south": "kubejs:block/massive_line_casing_front",
+        "west": "kubejs:block/massive_line_casing_front",
+        "east": "kubejs:block/massive_line_casing_front",
+        "down": "kubejs:block/massive_line_casing_top_bottom"
+    }
+}
