@@ -2449,26 +2449,26 @@ ServerEvents.recipes(e => {
                 true,
                 'scaffolding'
             ],
-            [
-                'bhc:relic_apple',
-                ['aba','bcb','aba'],
-                {
-                    a: 'actuallyadditions:emeradic_crystal',
-                    b: 'actuallyadditions:diamatine_crystal',
-                    c: 'golden_apple'
-                }
-            ],
-            [
-                'bhc:relic_apple',
-                ['aba','bcb','aba'],
-                {
-                    b: 'actuallyadditions:emeradic_crystal',
-                    a: 'actuallyadditions:diamatine_crystal',
-                    c: 'golden_apple'
-                },
-                false,
-                'relic_apple_alt'
-            ],
+            // [
+            //     'bhc:relic_apple',
+            //     ['aba','bcb','aba'],
+            //     {
+            //         a: 'actuallyadditions:emeradic_crystal',
+            //         b: 'actuallyadditions:diamatine_crystal',
+            //         c: 'golden_apple'
+            //     }
+            // ],
+            // [
+            //     'bhc:relic_apple',
+            //     ['aba','bcb','aba'],
+            //     {
+            //         b: 'actuallyadditions:emeradic_crystal',
+            //         a: 'actuallyadditions:diamatine_crystal',
+            //         c: 'golden_apple'
+            //     },
+            //     false,
+            //     'relic_apple_alt'
+            // ],
             // [
             //     'kubejs:enchanted_relic_apple',
             //     ['aba','bcb','aba'],
