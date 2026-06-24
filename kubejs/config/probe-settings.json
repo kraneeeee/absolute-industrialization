@@ -1,0 +1,11 @@
+{
+    "probejs.modHash": 3293921590890179535,
+    "probejs.complete": false,
+    "probejs.enabled": true,
+    "probejs.generateBeans": true,
+    "probejs.fullScanMods": [
+        "minecraft",
+        "kubejs",
+        "neoforge"
+    ]
+}
