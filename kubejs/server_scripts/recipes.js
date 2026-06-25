@@ -4145,7 +4145,7 @@ ServerEvents.recipes(e => {
                 ['aaa','aba','aaa'],
                 {
                     a: `${mi}fire_clay_brick`,
-                    b: 'water_bucket'
+                    b: 'ceramicbucket:ceramic_bucket[bucketlib:fluid={amount:1000,id:"minecraft:water"}]'
                 },
                 'fire_clay_bricks_alt',
                 'ceramicbucket:ceramic_bucket[bucketlib:fluid={amount:1000,id:"minecraft:water"}]',
