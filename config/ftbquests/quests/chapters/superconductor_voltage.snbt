@@ -690,6 +690,14 @@
 		{
 			dependencies: ["05968BB1551861D7"]
 			id: "13C56C49A6E31752"
+			rewards: [{
+				id: "6C6CE833486DC6CC"
+				item: {
+					count: 1
+					id: "tesseract:tesseract"
+				}
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "7CB8B2A102E65572"

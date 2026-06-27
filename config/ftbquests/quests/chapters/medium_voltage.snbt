@@ -136,6 +136,11 @@
 				id: "extended_industrialization:large_electric_furnace"
 			}
 			id: "510AD55AFAF78514"
+			rewards: [{
+				id: "21B5942FE27EAD20"
+				type: "xp"
+				xp: 10
+			}]
 			size: 1.0d
 			tasks: [
 				{
@@ -176,13 +181,48 @@
 		}
 		{
 			dependencies: ["5EF949475A751CAD"]
+			icon: {
+				id: "extended_industrialization:large_electric_macerator"
+			}
 			id: "45FC850108632715"
-			size: 1.0d
-			tasks: [{
-				id: "166D57AC60D00F1A"
-				item: { count: 1, id: "extended_industrialization:large_electric_macerator" }
+			rewards: [{
+				count: 12
+				id: "5485C64832F50A12"
+				item: {
+					count: 1
+					id: "extended_industrialization:steel_plated_bricks"
+				}
 				type: "item"
 			}]
+			size: 1.0d
+			tasks: [
+				{
+					id: "166D57AC60D00F1A"
+					item: { count: 1, id: "extended_industrialization:large_electric_macerator" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "264831B2C52E9712"
+					item: { count: 1, id: "extended_industrialization:steel_plated_bricks" }
+					type: "item"
+				}
+				{
+					id: "2D2C7748513F9AC2"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:bronze_item_input_hatch)item(modern_industrialization:steel_item_input_hatch)item(modern_industrialization:advanced_item_input_hatch)item(modern_industrialization:turbo_item_input_hatch)item(modern_industrialization:highly_advanced_item_input_hatch))", "minecraft:custom_name": "\"Any Item Input Hatch\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "36D07F7E6385D15F"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:bronze_item_output_hatch)item(modern_industrialization:steel_item_output_hatch)item(modern_industrialization:advanced_item_output_hatch)item(modern_industrialization:turbo_item_output_hatch)item(modern_industrialization:highly_advanced_item_output_hatch))", "minecraft:custom_name": "\"Any Item Output Hatch\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "4907C6BCC70842F5"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:lv_energy_input_hatch)item(modern_industrialization:mv_energy_input_hatch)item(modern_industrialization:hv_energy_input_hatch)item(modern_industrialization:ev_energy_input_hatch)item(modern_industrialization:superconductor_energy_input_hatch))", "minecraft:custom_name": "\"Any Energy Input Hatch\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: -1.0d
 		}
@@ -1091,6 +1131,11 @@
 				id: "extended_industrialization:tesla_coil"
 			}
 			id: "5A3460FDD56007F8"
+			rewards: [{
+				id: "0315BAF7A17A59C1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [
 				{
 					id: "2782508F71C419E3"

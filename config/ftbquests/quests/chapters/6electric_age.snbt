@@ -207,8 +207,8 @@
 				item: { count: 1, id: "modern_industrialization:electric_packer" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 12.5d
+			x: 6.321428571428569d
+			y: 12.500000000000007d
 		}
 		{
 			dependencies: ["45931F15AC3A19AB"]
