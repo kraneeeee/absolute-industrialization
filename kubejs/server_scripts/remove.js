@@ -7,6 +7,13 @@ ServerEvents.recipes(e => {
         {type: 'extendedae:assembler', output: /\w*processor/},
     ])
     const ids = [
+        'enderio:basic_capacitor_bank',
+        'enderio:vibrant_capacitor_bank_upgrade',
+        'enderio:advanced_capacitor_bank',
+        'actuallyadditions:lens_of_the_miner',
+        'constructionwand:core_destruction',
+        'hostilenetworks:data_center_io_port',
+        'hostilenetworks:data_center',
         'torchmaster:megatorch',
         'industrialforegoing:mob_imprisonment_tool',
         'productivemetalworks:crafting/upgrade_time',

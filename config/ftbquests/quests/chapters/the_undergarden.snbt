@@ -199,6 +199,7 @@
 					id: "ftbquests:custom_icon"
 				}
 				id: "318219E0D41B8356"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 0L
 				to_observe: "undergarden:stoneborn"

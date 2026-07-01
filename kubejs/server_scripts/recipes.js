@@ -1539,7 +1539,7 @@ ServerEvents.recipes(e => {
                     b: 'kubejs:redstone_alloy_gear',
                     c: `kubejs:lead_large_plate`,
                     d: `${mi}electronic_circuit`,
-                    e: `actuallyadditions:empowered_void_crystal`
+                    e: 'constructionwand:core_destruction'
                 },
                 true,
             ],
@@ -3913,6 +3913,45 @@ ServerEvents.recipes(e => {
                     b: 'gold_block',
                     c:'actuallyadditions:wood_casing'
                 }
+            ],
+            [
+                'hostilenetworks:data_center_io_port',
+                ['aba','bcb','aba'],
+                {
+                    a: `${mi}processing_unit`,
+                    b: 'enderio:pulsating_crystal',
+                    c: 'kubejs:neural_casing'
+                },
+                true
+            ],
+            [
+                'constructionwand:core_destruction',
+                ['aba','cdc','aba'],
+                {
+                    a: 'trashcans:item_trash_can',
+                    b: 'actuallyadditions:empowered_void_crystal_block',
+                    c: 'trashcans:energy_trash_can',
+                    d: `${mi}processing_unit_board`
+                },
+                true
+            ],
+            [
+                'kubejs:undergarden_prediction',
+                [' a ','aba',' a '],
+                {
+                    a: 'hostilenetworks:nether_prediction',
+                    b: 'undergarden:depthrock'
+                }
+            ],
+            [
+                'enderio:basic_capacitor_bank',
+                ['aba','bcb','aba'],
+                {
+                    a: 'ae2:charged_certus_quartz_crystal',
+                    b: 'enderio:basic_capacitor',
+                    c: `${mi}analog_circuit`
+                },
+                true
             ]
             // [
             //     'dankstorage:dank_1'
@@ -4447,7 +4486,42 @@ ServerEvents.recipes(e => {
             [
                 'sophisticatedbackpacks:magnet_upgrade',
                 ['sophisticatedbackpacks:pickup_upgrade', 'actuallyadditions:ring_of_magnetizing']
-            ]
+            ],
+            [
+                '2x undergarden:forgotten_ingot',
+                ['kubejs:undergarden_prediction', 'netherite_ingot'],
+                'forgotten_ingot_from_prediction'
+            ],
+            [
+                '8x undergarden:depthrock',
+                ['kubejs:undergarden_prediction', '8x cobblestone'],
+                'depthrock_from_prediction'
+            ],
+            [
+                'undergarden:raw_cloggrum',
+                ['kubejs:undergarden_prediction', 'raw_iron'],
+                'raw_cloggrum_from_prediction'
+            ],
+            [
+                'undergarden:raw_froststeel',
+                ['kubejs:undergarden_prediction', 'raw_gold'],
+                'raw_froststeel_from_prediction'
+            ],
+            [
+                'kubejs:cloggrum_steel_ingot',
+                ['kubejs:undergarden_prediction', `${mi}steel_ingot`],
+                'cloggrum_steel_ingot'
+            ],
+            [
+                '4x undergarden:ditchbulb',
+                ['kubejs:undergarden_prediction', `coal`],
+                'ditchbulb'
+            ],
+            [
+                'undergarden:utheric_cluster',
+                ['2x kubejs:undergarden_prediction', `echo_shard`],
+                'utheric_cluster'
+            ],
         ];
         for (const prop of shapelessRecipes) {
             if (!prop[2]) prop[2] = prop[0].replace(':', '_');
@@ -5772,6 +5846,14 @@ ServerEvents.recipes(e => {
             .itemIn(`6x ${mi}quantum_circuit`)
             .itemIn('projecte:klein_star_omega')
             .fluidIn(`${mi}uu_matter`, 500)
+
+        AssemblyLine(8192, 100, `hostilenetworks:data_center`, 'data_center')
+            .itemIn(`12x kubejs:neural_casing`)
+            .itemIn(`3x hostilenetworks:sim_chamber`)
+            .itemIn(`3x hostilenetworks:loot_fabricator`)
+            .itemIn('8x kubejs:large_ultimate_motor')
+            .itemIn(`12x ${mi}quantum_circuit`)
+            .fluidIn(`kubejs:aberration`, 1000)
 
         AssemblyLine(8192, 1000, `${mi}replicator`, 'replicator')
             .itemIn(`${mi}quantum_machine_hull`)
@@ -8614,6 +8696,27 @@ ServerEvents.recipes(e => {
                 },
                 200,
                 'infinity_nuke'
+            ],
+            [
+                {
+                    id: `actuallyadditions:lens_of_the_miner`,
+                },
+                [
+                    `kubejs:empowered_diamatine_curved_plate`,
+                    `industrialforegoing:cyan_laser_lens`,
+                   `kubejs:empowered_diamatine_curved_plate`,
+                    `${mi}steam_mining_drill`,
+                    `${mi}steam_mining_drill`,
+                    `kubejs:empowered_diamatine_curved_plate`,
+                    `actuallyadditions:lens`,
+                    `kubejs:empowered_diamatine_curved_plate`
+                ],
+                {
+                    fluid: `kubejs:molten_plastic`,
+                    amount: 500
+                },
+                15,
+                'lens_of_the_miner'
             ],
             [
                 {

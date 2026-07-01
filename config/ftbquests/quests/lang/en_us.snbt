@@ -56,6 +56,13 @@
 		"&aTip:&r Use a bronze cast for the craft."
 	]
 	quest.01A468A29B73336B.quest_desc: ["&#FF7988Empowered Pink Slime&r is a crucial item for later progression. To create it, combine Pink Slime with Empowered Oil in the Chemical Reactor."]
+	quest.01D22589D55E4F51.quest_desc: [
+		"&#5DFFE6Data Center&r is a large multiblock capable of processing up to 25 Data Models, and also produces the selected drop. "
+		""
+		"The structure is a 7x7x7 hollow shell. The floor must be obsidian; the walls and ceiling must be Black Stained Glass. "
+		""
+		"Data Center IO has two types: Energy accepts power, while Models, Inputs, and Outputs expose the relevant item slots."
+	]
 	quest.01DC138B396844F9.quest_desc: ["&dMV Diesel Generator&r can produce up to &a256 EU/t&r. It's highly recommended to use these for power generation, as they can be more efficient than steam turbines."]
 	quest.0288DB468BBB0712.quest_desc: [
 		"The Meteorite Compass points toward the nearest meteorite. "

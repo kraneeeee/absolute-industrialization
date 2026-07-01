@@ -11,7 +11,7 @@
 		"item": "hostilenetworks:prediction_matrix"
 	},
 	"base_drop": {
-		"id": "hostilenetworks:overworld_prediction"
+		"id": "kubejs:undergarden_prediction"
 	},
 	"trivia": "hostilenetworks.trivia.forgotten_guardian",
 	"fabricator_drops": [

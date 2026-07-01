@@ -38,6 +38,7 @@
 					id: "kubejs:iron_sample"
 				}
 				id: "30B4DA84844B1BFE"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "kubejs:iron_sample"
@@ -59,6 +60,7 @@
 					id: "kubejs:coal_sample"
 				}
 				id: "648700164D6961C2"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "kubejs:coal_sample"
@@ -80,6 +82,7 @@
 					id: "kubejs:copper_sample"
 				}
 				id: "77D9A52BC59D937D"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "kubejs:copper_sample"
@@ -101,6 +104,7 @@
 					id: "kubejs:gold_sample"
 				}
 				id: "3317390D32553259"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "kubejs:gold_sample"
@@ -122,6 +126,7 @@
 					id: "kubejs:redstone_sample"
 				}
 				id: "28511A54CEF97309"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "kubejs:redstone_sample"
@@ -143,6 +148,7 @@
 					id: "kubejs:lapis_sample"
 				}
 				id: "214C47249F915406"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "kubejs:lapis_sample"
@@ -164,6 +170,7 @@
 					id: "kubejs:emerald_sample"
 				}
 				id: "47F4F34B71E98DF3"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "kubejs:emerald_sample"
@@ -185,6 +192,7 @@
 					id: "kubejs:antimony_sample"
 				}
 				id: "16EFF334B0F5FEE7"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "kubejs:antimony_sample"
@@ -206,6 +214,7 @@
 					id: "kubejs:bauxite_sample"
 				}
 				id: "67CCEC8677CB028C"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "kubejs:bauxite_sample"
@@ -227,6 +236,7 @@
 					id: "kubejs:black_quartz_sample"
 				}
 				id: "540ABD125D04B854"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "kubejs:black_quartz_sample"
@@ -248,6 +258,7 @@
 					id: "kubejs:graphite_sample"
 				}
 				id: "192933F703B1D6E7"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "kubejs:graphite_sample"
@@ -269,6 +280,7 @@
 					id: "kubejs:limonite_sample"
 				}
 				id: "47E2C0CA63852619"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "kubejs:limonite_sample"
@@ -290,6 +302,7 @@
 					id: "kubejs:monazite_sample"
 				}
 				id: "3446BE615DBCE05A"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "kubejs:monazite_sample"
@@ -311,6 +324,7 @@
 					id: "kubejs:salt_sample"
 				}
 				id: "18904F890D4C037E"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "kubejs:salt_sample"
@@ -332,6 +346,7 @@
 					id: "kubejs:tin_sample"
 				}
 				id: "0EEED8E98E8FC991"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "kubejs:tin_sample"
@@ -353,6 +368,7 @@
 					id: "kubejs:lead_sample"
 				}
 				id: "3509FA7A5AD330D0"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "kubejs:lead_sample"

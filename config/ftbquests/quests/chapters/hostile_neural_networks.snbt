@@ -107,5 +107,26 @@
 			x: 0.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["1ADB33FBED9A7674"]
+			id: "01D22589D55E4F51"
+			rewards: [{
+				count: 4
+				id: "768B5D072D89A78B"
+				item: {
+					count: 1
+					id: "hostilenetworks:blank_data_model"
+				}
+				type: "item"
+			}]
+			size: 3.0d
+			tasks: [{
+				id: "4B54DA7BDF4FA69A"
+				item: { count: 1, id: "hostilenetworks:data_center" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.0d
+		}
 	]
 }

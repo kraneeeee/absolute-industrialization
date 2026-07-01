@@ -868,6 +868,7 @@
 					id: "jumbofurnace:jumbo_furnace"
 				}
 				id: "7C9DF5FAA9B6CA10"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "jumbofurnace:jumbo_furnace"

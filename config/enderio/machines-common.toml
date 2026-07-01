@@ -124,13 +124,13 @@
 		#Capacity for capacitor banks
 		# Default: 500000
 		# Range: > 1
-		basic = 500000
+		basic = 2000000
 		# Default: 2000000
 		# Range: > 1
-		advanced = 2000000
+		advanced = 6000000
 		# Default: 4000000
 		# Range: > 1
-		vibrant = 4000000
+		vibrant = 16000000
 
 	[energy.wiredCharger]
 		#The base energy capacity in uI.

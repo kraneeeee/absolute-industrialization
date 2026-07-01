@@ -138,38 +138,49 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"aquaculture:smallmouth_bass": false
-			"aquaculture:brown_trout": false
 			"minecraft:witch": true
-			"artifacts:mimic": true
-			"minecraft:villager": true
-			"minecraft:tropical_fish": false
-			"minecraft:turtle": true
-			"minecraft:creeper": true
-			"aquaculture:minnow": false
-			"minecraft:sheep": true
-			"minecraft:squid": true
+			"minecraft:axolotl": true
 			"minecraft:drowned": true
-			"minecraft:pig": true
-			"minecraft:horse": true
-			"minecraft:bat": true
-			"minecraft:skeleton": true
-			"minecraft:cave_spider": true
+			"aquaculture:carp": false
+			"minecraft:rabbit": true
+			"minecraft:squid": true
+			"minecraft:iron_golem": true
+			"minecraft:creeper": true
+			"minecraft:wolf": true
+			"minecraft:fox": true
+			"minecraft:turtle": true
 			"minecraft:pillager": true
+			"aquaculture:minnow": false
+			"minecraft:slime": true
+			"minecraft:bat": true
+			"minecraft:cave_spider": true
+			"minecraft:zombie_villager": true
+			"minecraft:stray": true
 			"minecraft:chicken": true
+			"minecraft:enderman": true
+			"aquaculture:gar": false
+			"minecraft:horse": true
+			"minecraft:sheep": true
+			"aquaculture:smallmouth_bass": false
+			"variantsandventures:gelid": true
+			"aquaculture:muskellunge": false
 			"minecraft:bee": true
+			"minecraft:glow_squid": true
+			"aquaculture:brown_trout": false
+			"aquaculture:bluegill": false
+			"minecraft:villager": true
+			"minecraft:goat": true
+			"endermanoverhaul:cave_enderman": true
+			"minecraft:cat": true
+			"minecraft:pig": true
 			"minecraft:zombie": true
 			"minecraft:phantom": true
-			"minecraft:wolf": true
-			"minecraft:axolotl": true
-			"minecraft:cow": true
-			"aquaculture:carp": false
-			"minecraft:enderman": true
-			"minecraft:glow_squid": true
+			"minecraft:skeleton": true
+			"minecraft:tropical_fish": false
 			"aquaculture:perch": false
 			"minecraft:spider": true
-			"endermanoverhaul:cave_enderman": true
-			"aquaculture:gar": false
+			"artifacts:mimic": true
+			"minecraft:cow": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

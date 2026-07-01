@@ -56,13 +56,8 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "tempad": {
-    "chronon": true,
-    "rudimentary": true,
-    "anchor": true,
-    "metronome": true,
-    "workstation": true,
-    "timedoor": true
+  "hostilenetworks": {
+    "io_port_mode": true
   },
   "jade_access": {
     "held_item": true,

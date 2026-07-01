@@ -57,7 +57,7 @@
 	titleBreak = true
 	#True to exactly position tooltip to pixel grid, smoother movement.
 	exactPositioning = true
-	#The tooltip background color in #RRGGBB or #AARRGGBB format. Default: #E0000000
+	#The tooltip background color in #RRGGBB or #AARRGGBB format. Default: #E6000000
 	#Can be one to four values representing top left, top right, bottom right and bottom left color.
 	#Multiple values produce a gradient effect, whereas one value produces a solid color.
 	#If less than 4 are provided, repeat the last value.
@@ -85,7 +85,7 @@
 	# Range: 0.0 ~ 32.0
 	shadowRadius = 10.0
 	#The shadow opacity of tooltip, if rounded. No impact on performance.
-	# Default: 0.3
+	# Default: 0.25
 	# Range: 0.0 ~ 1.0
 	shadowOpacity = 0.3
 	#When true, tooltip border colors adapt to item's name and rarity.

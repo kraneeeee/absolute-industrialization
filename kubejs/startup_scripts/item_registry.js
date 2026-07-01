@@ -51,6 +51,7 @@ StartupEvents.registry('item', e => {
     e.create('perfectus_fuel').burnTime(2048 * 200)
     //e.create('empowered_quartzite_crystal').texture(`kubejs:item/quartzite_crystal`).glow(true);
     e.create('ultimate_coil').glow(true);
+    e.create('undergarden_prediction').displayName('Generalized Undergarden Prediction')
     e.create('flaming_crystal').glow(true)
     e.create('revived_contractor').texture('enderio:item/skeletal_contractor').glow(true)
     e.create('black_plastic').texture('industrialforegoing:item/plastic').color(0, '#303130');
