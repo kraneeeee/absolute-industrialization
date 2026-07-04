@@ -114,6 +114,7 @@
 		"Ditchbulb Paste, crafted from this flower, works both as a replacement for coal in fuel and as a handy alternative to Flint and Steel."
 	]
 	quest.0625EFB11154120A.quest_desc: ["&dThe Enchantment Extractor&r pulls enchantments from items and transfers them into a book."]
+	quest.063C12607BA9CA92.quest_subtitle: "Diamonds and Coal"
 	quest.063C12607BA9CA92.title: "Graphite"
 	quest.066D2AA7F962A251.quest_desc: [
 		"&#FFB0EFNichrome coils&r are used to upgrade the &bElectric Blast Furnace&r and the &bLarge Electric Furnace&r, enabling the smelting of Platinum, Titanium, and Tungstensteel. "
@@ -846,6 +847,7 @@
 		""
 		"To do so, you'll need to go through a fairly lengthy platinum processing chain to obtain Tiny Dust."
 	]
+	quest.434F4CD165C90E76.quest_subtitle: "Nickel and Iron"
 	quest.434F4CD165C90E76.title: "Limonite"
 	quest.437687B8750076AC.quest_desc: ["&7Large Ultimate Motor&r is a component in &5Superconductor Voltage&r recipes."]
 	quest.43A07B87FA286EE9.title: "Dark Matter Armor"

@@ -121,7 +121,7 @@
 			}]
 			size: 3.0d
 			tasks: [{
-				id: "4B54DA7BDF4FA69A"
+				id: "5C61D00761ED62C7"
 				item: { count: 1, id: "hostilenetworks:data_center" }
 				type: "item"
 			}]
