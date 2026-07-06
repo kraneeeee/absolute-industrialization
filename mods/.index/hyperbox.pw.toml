@@ -1,0 +1,16 @@
+filename = 'hyperbox-1.21-6.0.0.1.jar'
+name = 'Hyperbox'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '83ca23a9a74f81382cac9efa618f76f707261ffd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5555553
+project-id = 435405

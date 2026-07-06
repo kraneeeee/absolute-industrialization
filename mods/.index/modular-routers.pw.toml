@@ -1,0 +1,16 @@
+filename = 'modular-routers-13.2.5+mc1.21.1.jar'
+name = 'Modular Routers'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '20fdf4da5776954bdb9608732c703362acbfaa9e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8205099
+project-id = 250294

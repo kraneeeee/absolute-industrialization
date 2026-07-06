@@ -1,0 +1,16 @@
+filename = 'Kiwi-1.21.1-NeoForge-15.8.5.jar'
+name = 'Kiwi Library'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '399bf9d3449e7080d4ee8eafca0f8e76290ff2fb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8361824
+project-id = 303657

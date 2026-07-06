@@ -1,0 +1,16 @@
+filename = 'biolith-neoforge-3.0.12.jar'
+name = 'Biolith'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd658a117f84ac864422222900bc2d5ec2cffa021'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8255850
+project-id = 852512
