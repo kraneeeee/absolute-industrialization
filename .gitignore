@@ -5,4 +5,4 @@ kubejs/config/probe-settings.json
 config/emi.css
 config/iris.properties
 config/ftbchunks-world.snbt
-mods/ProbeJS-8.0.3.jar
+mods/*.jar
