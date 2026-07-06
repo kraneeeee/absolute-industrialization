@@ -6,3 +6,4 @@ config/emi.css
 config/iris.properties
 config/ftbchunks-world.snbt
 mods/*.jar
+mods/.index/probejs.pw
