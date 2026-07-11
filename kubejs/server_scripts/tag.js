@@ -68,6 +68,10 @@ ServerEvents.tags('item', e => {
         'c:tools/knife': [/aquaculture:\w*fillet_knife/, /farmersdelight:(flint|iron|diamond|golden|netherite)_knife/],
         'modern_industrialization:forge_hammer_tools': /modern_industrialization:\w*hammer/ ,
         'c:dusts/lapis': 'enderio:powdered_lapis_lazuli',
+        'c:crops/rice': 'actuallyadditions:rice',
+        'c:crops': 'actuallyadditions:rice',
+        'c:crops/flax': 'actuallyadditions:flax_seeds',
+        'c:crops': 'actuallyadditions:flax_seeds'
     };
 
     for (const [tag, item] of Object.entries(removals)) {
@@ -117,6 +121,16 @@ ServerEvents.tags('item', e => {
             e.add(`c:${property.part}s/${material}`, `modern_industrialization:${material}_${property.part}`)
         });
     });
+
+    const hideFromEmi = [
+        `${mi}massive_compressor`,
+        `${mi}massive_wiremill`,
+        `${mi}massive_forge_hammer`
+    ];
+
+    hideFromEmi.forEach(item => {
+        e.add('c:hidden_from_recipe_viewers', item)
+    });
 });
 
 ServerEvents.tags('block', e => {
@@ -132,6 +146,11 @@ ServerEvents.tags('block', e => {
     global.customMIMachines.forEach(machine => { 
         e.add('minecraft:mineable/pickaxe', `modern_industrialization:${machine}`)
         e.add('minecraft:needs_stone_tool', `modern_industrialization:${machine}`)
+    });
+
+    global.miTweaksMachines.forEach(machine => { 
+        e.add('minecraft:mineable/pickaxe', `mi_tweaks:${machine}`)
+        e.add('minecraft:needs_stone_tool', `mi_tweaks:${machine}`)
     });
 })
 

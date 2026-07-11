@@ -18,6 +18,7 @@ BlockEvents.rightClicked('industrialforegoing:mycelial_reactor', e => {
     // {energyStorage:0,owner:"bf875fbc-38f1-40ac-aad7-43e6f5b4c51e",progressBar:{MaxProgress:100,Tick:0}} - non activated
 })
 
+
 const oreSamples = [];
 global.oreSamples.forEach(prop => {
     oreSamples.push(`kubejs:${prop.material}_sample`);

@@ -51,6 +51,26 @@ ClientEvents.generateAssets('after_mods', e => {
     );
   });
 
+  global.miTweaksMachines.forEach(machine => {
+    e.json(
+      `mi_tweaks:blockstates/${machine}`,
+      {
+        "variants": {
+          "": {
+            "model": `modern_industrialization:block/${machine}`
+          }
+        }
+      }
+    );
+
+    e.json(
+      `mi_tweaks:models/item/${machine}`,
+      {
+        "parent": `modern_industrialization:block/${machine}`
+      }
+    );
+  });
+
   // global.materialsToRegister.forEach(prop => {
   //   prop.items.forEach(item => {
   //     switch (item) {

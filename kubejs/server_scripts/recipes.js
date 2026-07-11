@@ -2624,7 +2624,7 @@ ServerEvents.recipes(e => {
                 true
             ],
             [
-                `${mi}massive_compressor`,
+                `mi_tweaks:massive_compressor`,
                 ['aaa','bcb','aaa'],
                 {
                     a: `${mi}electric_compressor`,
@@ -2634,7 +2634,7 @@ ServerEvents.recipes(e => {
                 true
             ],
             [
-                `${mi}massive_wiremill`,
+                `mi_tweaks:massive_wiremill`,
                 ['aaa','bcb','aaa'],
                 {
                     a: `${mi}electric_wiremill`,
@@ -2644,7 +2644,7 @@ ServerEvents.recipes(e => {
                 true
             ],
             [
-                `${mi}massive_forge_hammer`,
+                `mi_tweaks:massive_forge_hammer`,
                 ['aaa','bcb','aaa'],
                 {
                     a: `${mi}automatic_forge_hammer_electric`,
@@ -3952,6 +3952,15 @@ ServerEvents.recipes(e => {
                     c: `${mi}analog_circuit`
                 },
                 true
+            ],
+            [
+                '2x actuallyadditions:rice_dough',
+                ['aaa','   ','   '],
+                {
+                    a: 'farmersdelight:rice'
+                },
+                false,
+                'rice_do'
             ]
             // [
             //     'dankstorage:dank_1'
@@ -4522,6 +4531,31 @@ ServerEvents.recipes(e => {
                 ['2x kubejs:undergarden_prediction', `echo_shard`],
                 'utheric_cluster'
             ],
+            [
+                'farmersdelight:rice',
+                ['actuallyadditions:rice'],
+                'rice_recraft'
+            ],
+            [
+                'supplementaries:flax',
+                ['actuallyadditions:flax_seeds'],
+                'flax_recraft'
+            ],
+            [
+                'mi_tweaks:massive_forge_hammer',
+                [`${mi}massive_forge_hammer`],
+                'massive_forge_hammer'
+            ],
+            [
+                'mi_tweaks:massive_compressor',
+                [`${mi}massive_compressor`],
+                'massive_compressor'
+            ],
+            [
+                'mi_tweaks:massive_wiremill',
+                [`${mi}massive_wiremill`],
+                'massive_wiremill'
+            ]
         ];
         for (const prop of shapelessRecipes) {
             if (!prop[2]) prop[2] = prop[0].replace(':', '_');
@@ -4958,7 +4992,7 @@ ServerEvents.recipes(e => {
                 .itemOut(Item.of(recipe[0]))
                 .id(`kubejs:mi/extruder/${recipe[2]}_plate`)
 
-            massive_forge_hammer(128, 1 * tickMultiplier)
+            massive_forge_hammer(8, 5 * tickMultiplier)
                 .itemIn(Item.of(recipe[1], 1))
                 .itemOut(Item.of(recipe[0], 1))
                 .id(`${prefix}massive_forge_hammer/${recipe[2]}`);
@@ -5000,7 +5034,7 @@ ServerEvents.recipes(e => {
                 .itemOut(recipe[0])
                 .id(`${prefix}compressor/${recipe[4]}`);
 
-            massive_compressor(128, recipe[3] / 10 * tickMultiplier)
+            massive_compressor(8, recipe[3] / 2 * tickMultiplier)
                 .itemIn(recipe[1])
                 .itemOut(recipe[0])
                 .id(`${prefix}massive_compressor/${recipe[4]}`);
@@ -5061,7 +5095,7 @@ ServerEvents.recipes(e => {
                 .itemOut(Item.of(PlateOutput))
                 .id(`kubejs:mi/extruder/${recipe}_plate`)
 
-            massive_forge_hammer(128, 1 * tickMultiplier)
+            massive_forge_hammer(8, 5 * tickMultiplier)
                 .itemIn(item(`#c:ingots/${recipe}`, 1))
                 .itemOut(Item.of(PlateOutput, 1))
                 .id(`${prefix}massive_forge_hammer/${recipe}_plate`)
@@ -5329,9 +5363,9 @@ ServerEvents.recipes(e => {
             .itemOut('2x actuallyadditions:coffee_beans')
             .itemOut('actuallyadditions:coffee_beans', 0.25)
 
-        CompactGreenhouse(64, 5, 'actuallyadditions:rice_seeds', 300, 'rice')
-            .itemOut('actuallyadditions:rice')
-            .itemOut('actuallyadditions:rice_seeds', 0.25)
+        CompactGreenhouse(64, 5, 'farmersdelight:rice', 300, 'rice')
+            .itemOut('farmersdelight:rice')
+            .itemOut('farmersdelight:rice', 0.25)
 
         CompactGreenhouse(64, 5, 'actuallyadditions:canola_seeds', 200, 'canola')
             .itemOut('actuallyadditions:canola')
@@ -5395,11 +5429,11 @@ ServerEvents.recipes(e => {
             .itemOut('wheat')
             .itemOut('wheat_seeds', 0.20)
 
-        PolarizationTower(128, 5, `${mi}stainless_steel_rod_magnetic`, `${mi}stainless_steel_rod`, 'magnetic_stainless_steel_rod').itemIn(`${mi}neodymium_dust`)
-        PolarizationTower(128, 3, `${mi}cupronickel_wire_magnetic`, `${mi}cupronickel_wire`, 'cupronickel_wire_magnetic')
-        PolarizationTower(128, 3, `${mi}steel_rod_magnetic`, `${mi}steel_rod`, 'steel_rod_magnetic')
+        PolarizationTower(16, 5, `${mi}stainless_steel_rod_magnetic`, `${mi}stainless_steel_rod`, 'magnetic_stainless_steel_rod').itemIn(`${mi}neodymium_dust`)
+        PolarizationTower(8, 3, `${mi}cupronickel_wire_magnetic`, `${mi}cupronickel_wire`, 'cupronickel_wire_magnetic')
+        PolarizationTower(8, 3, `${mi}steel_rod_magnetic`, `${mi}steel_rod`, 'steel_rod_magnetic')
 
-        PolarizationTower(128, 3, 'kubejs:magnetic_iron_casing', 'kubejs:iron_casing', 'magnetic_iron_casing')
+        PolarizationTower(8, 3, 'kubejs:magnetic_iron_casing', 'kubejs:iron_casing', 'magnetic_iron_casing')
         Polarizer(8, 10, 'kubejs:magnetic_iron_casing', 'kubejs:iron_casing', 'magnetic_iron_casing')
 
         Transmutator(512, 5, '17')
@@ -5587,38 +5621,38 @@ ServerEvents.recipes(e => {
             .fluidOut('kubejs:bedrock_substance', 50)   
 
         Wiremill(8, 5, 'morered:red_alloy_wire', 'kubejs:red_alloy_wire', 'red_alloy_wire')
-        MassiveWiremill(128, 1, '2x morered:red_alloy_wire', 'kubejs:red_alloy_wire', 'red_alloy_wire')
+        MassiveWiremill(8, 5, '2x morered:red_alloy_wire', 'kubejs:red_alloy_wire', 'red_alloy_wire')
 
-        MassiveWiremill(128, 1, `3x ${mi}aluminum_wire`, `${mi}aluminum_ingot`,  'aluminum_wire')
-        MassiveWiremill(128, 1, `3x ${mi}annealed_copper_wire`, `${mi}annealed_copper_ingot`,  'annealed_wire')
-        MassiveWiremill(128, 1, `4x ${mi}copper_fine_wire`,  `${mi}copper_wire`,  'copper_fine_wire')
-        MassiveWiremill(128, 1, `3x ${mi}copper_wire`, `copper_ingot`,  'copper_wire')
-        MassiveWiremill(128, 1, `3x ${mi}cupronickel_wire`, `${mi}cupronickel_ingot`,  'cupronickel_wire')
-        MassiveWiremill(128, 1, `4x ${mi}electrum_fine_wire`,  `${mi}electrum_wire`,  'electrum_fine_wire')
-        MassiveWiremill(128, 1, `3x ${mi}electrum_wire`, `${mi}electrum_ingot`,  'electrum_wire')
-        MassiveWiremill(128, 1, `3x ${mi}kanthal_wire`, `${mi}kanthal_ingot`,  'kanthal_wire')
-        MassiveWiremill(128, 1, `4x ${mi}platinum_fine_wire`,  `${mi}platinum_wire`,  'platinum_fine_wire')
-        MassiveWiremill(128, 1, `3x ${mi}platinum_wire`, `${mi}platinum_ingot`,  'platinum_wire')
-        MassiveWiremill(128, 1, `3x ${mi}silver_wire`, `${mi}silver_ingot`,  'silver_wire')
-        MassiveWiremill(128, 1, `3x ${mi}superconductor_wire`, `${mi}superconductor_ingot`,  'superconductor_wire')
-        MassiveWiremill(128, 1, `3x ${mi}tin_wire`, `${mi}tin_ingot`,  'tin_wire')
+        MassiveWiremill(8, 5, `3x ${mi}aluminum_wire`, `${mi}aluminum_ingot`,  'aluminum_wire')
+        MassiveWiremill(8, 5, `3x ${mi}annealed_copper_wire`, `${mi}annealed_copper_ingot`,  'annealed_wire')
+        MassiveWiremill(8, 5, `4x ${mi}copper_fine_wire`,  `${mi}copper_wire`,  'copper_fine_wire')
+        MassiveWiremill(8, 5, `3x ${mi}copper_wire`, `copper_ingot`,  'copper_wire')
+        MassiveWiremill(8, 5, `3x ${mi}cupronickel_wire`, `${mi}cupronickel_ingot`,  'cupronickel_wire')
+        MassiveWiremill(8, 5, `4x ${mi}electrum_fine_wire`,  `${mi}electrum_wire`,  'electrum_fine_wire')
+        MassiveWiremill(8, 5, `3x ${mi}electrum_wire`, `${mi}electrum_ingot`,  'electrum_wire')
+        MassiveWiremill(8, 5, `3x ${mi}kanthal_wire`, `${mi}kanthal_ingot`,  'kanthal_wire')
+        MassiveWiremill(8, 5, `4x ${mi}platinum_fine_wire`,  `${mi}platinum_wire`,  'platinum_fine_wire')
+        MassiveWiremill(8, 5, `3x ${mi}platinum_wire`, `${mi}platinum_ingot`,  'platinum_wire')
+        MassiveWiremill(8, 5, `3x ${mi}silver_wire`, `${mi}silver_ingot`,  'silver_wire')
+        MassiveWiremill(8, 5, `3x ${mi}superconductor_wire`, `${mi}superconductor_ingot`,  'superconductor_wire')
+        MassiveWiremill(8, 5, `3x ${mi}tin_wire`, `${mi}tin_ingot`,  'tin_wire')
 
-        massive_compressor(128, 30 * tickMultiplier)
+        massive_compressor(8, 100 * tickMultiplier)
             .itemIn(`8x coal_block`)
             .itemOut(`diamond`)
             .id(`kubejs:mi/massive_compressor/diamond_from_coal`)
 
-        massive_compressor(128, 12 * tickMultiplier)
+        massive_compressor(32, 60 * tickMultiplier)
             .itemIn(`${mi}tungsten_tiny_dust`)
             .itemOut(`${mi}tungsten_nugget`)
             .id(`kubejs:mi/massive_compressor/tungsten_nugget`)
 
-        massive_compressor(128, 3 * tickMultiplier)
+        massive_compressor(8, 15 * tickMultiplier)
             .itemIn(`2x ${mi}mixed_ingot_blastproof`)
             .itemOut(`${mi}blastproof_alloy_plate`)
             .id(`kubejs:mi/massive_compressor/blastproof_alloy_plate`)
 
-        massive_compressor(128, 2 * tickMultiplier)
+        massive_compressor(8, 10 * tickMultiplier)
             .itemIn('4x ae2:fluix_crystal')
             .itemOut('ae2:fluix_block')
             .id(`kubejs:mi/massive_compressor/fluix_crystal_block`)
@@ -6321,7 +6355,7 @@ ServerEvents.recipes(e => {
             .itemOut('raw_gold', 0.25)
             .itemOut('3x kubejs:raw_sulfur', 0.15)
 
-        AdvancedElectricQuarry(256, 2.5,'bronze')
+        AdvancedElectricQuarry(4, 5,'bronze')
             .dimension('overworld')
             .itemIn(`${mi}bronze_drill`, 0.04)
             .itemOut(`raw_iron`, 0.4)
@@ -6333,7 +6367,7 @@ ServerEvents.recipes(e => {
             .itemOut(`kubejs:raw_redstone`,0.2)
             .itemOut(`kubejs:raw_black_quartz`, 0.25)
 
-        AdvancedElectricQuarry(256, 2.5,'copper')
+        AdvancedElectricQuarry(4, 5,'copper')
             .dimension('overworld')
             .itemIn(`${mi}copper_drill`, 0.1)
             .itemOut(`32x cobblestone`, 0.5)
@@ -6345,7 +6379,7 @@ ServerEvents.recipes(e => {
             .itemOut(`16x cobbled_deepslate`,0.25)
             .itemOut(`16x tuff`,0.25)
 
-        AdvancedElectricQuarry(256, 5,'cloggrum')
+        AdvancedElectricQuarry(4, 10,'cloggrum')
             .dimension('overworld')
             .itemIn(`kubejs:cloggrum_drill`, 0.04)
             .itemOut(`iron_ore`, 0.4)
@@ -6357,7 +6391,7 @@ ServerEvents.recipes(e => {
             .itemOut(`redstone_ore`,0.2)
             .itemOut(`actuallyadditions:black_quartz_ore`, 0.25)
 
-        AdvancedElectricQuarry(256, 5, 'froststeel')
+        AdvancedElectricQuarry(4, 10, 'froststeel')
             .dimension('overworld')
             .itemIn(`kubejs:froststeel_drill`, 0.04)
             .itemOut(`${mi}antimony_ore`, 0.2)
@@ -6369,7 +6403,7 @@ ServerEvents.recipes(e => {
             .itemOut(`${mi}salt_ore`, 0.12)
             .itemOut('emerald_ore',0.1)
 
-        AdvancedElectricQuarry(256, 5, 'steel')
+        AdvancedElectricQuarry(4, 10, 'steel')
             .dimension('overworld')
             .itemIn(`${mi}steel_drill`, 0.04)
             .itemOut(`${mi}raw_antimony`, 0.2)
@@ -6382,19 +6416,19 @@ ServerEvents.recipes(e => {
             .itemOut(`kubejs:raw_emerald`,0.1)
             .itemOut(`kubejs:raw_quartz`,0.2)
 
-        AdvancedElectricQuarry(256, 5, 'froststeel_undergarden')
+        AdvancedElectricQuarry(4, 10, 'froststeel_undergarden')
             .dimension('undergarden:undergarden')
             .itemIn(`kubejs:froststeel_drill`, 0.04)
             .itemOut('undergarden:shiverstone_cloggrum_ore', 0.3)
             .itemOut('undergarden:shiverstone_froststeel_ore', 0.2)
 
-        AdvancedElectricQuarry(256, 5, 'steel_undergarden')
+        AdvancedElectricQuarry(4, 10, 'steel_undergarden')
             .dimension('undergarden:undergarden')
             .itemIn(`${mi}steel_drill`, 0.04)
             .itemOut('undergarden:raw_cloggrum', 0.3)
             .itemOut('undergarden:raw_froststeel', 0.2)
 
-        AdvancedElectricQuarry(256, 5, 'gold')
+        AdvancedElectricQuarry(4, 10, 'gold')
             .dimension('minecraft:the_nether')
             .itemIn(`${mi}gold_drill`, 0.12)
             .itemOut('32x netherrack', 0.5)
@@ -6534,17 +6568,17 @@ ServerEvents.recipes(e => {
             .itemIn(`kubejs:pulsating_alloy_tiny_dust`)
             .itemOut(`${mi}silicon_n_doped_plate`)
 
-        LargeChemicalReactor(16, 10, 'p_doped_silicon')
+        LargeChemicalReactor(8, 10, 'p_doped_silicon')
             .itemIn(`${mi}silicon_plate`)
             .itemIn(`kubejs:energetic_alloy_tiny_dust`)
             .itemOut(`${mi}silicon_p_doped_plate`)
 
-        LargeChemicalReactor(16, 10, 'n_doped_silicon')
+        LargeChemicalReactor(8, 10, 'n_doped_silicon')
             .itemIn(`${mi}silicon_plate`)
             .itemIn(`kubejs:pulsating_alloy_tiny_dust`)
             .itemOut(`${mi}silicon_n_doped_plate`)
 
-        LargeChemicalReactor(24, 25, 'unrefined_boosted_diesel')
+        LargeChemicalReactor(8, 25, 'unrefined_boosted_diesel')
             .fluidIn(`${mi}biodiesel`, 2000)
             .fluidIn(`${mi}diethyl_ether`,250)
             .fluidOut('kubejs:unrefined_boosted_diesel', 1500)
@@ -6581,7 +6615,7 @@ ServerEvents.recipes(e => {
             .fluidIn('productivemetalworks:molten_blaze', 250)
             .itemOut('ender_eye')
 
-        LargeChemicalReactor(48, 30, 'ender_eye')
+        LargeChemicalReactor(24, 30, 'ender_eye')
             .itemIn('ender_pearl')
             .fluidIn('productivemetalworks:molten_blaze', 250)
             .itemOut('ender_eye')
@@ -6633,49 +6667,49 @@ ServerEvents.recipes(e => {
             .fluidIn(`kubejs:air`, 1000)
             .fluidOut(`kubejs:polytetrafluoroethylene`, 144)
 
-        LargeChemicalReactor(48, 10, 'empowered_pink_slime')
+        LargeChemicalReactor(24, 10, 'empowered_pink_slime')
             .itemIn('industrialforegoing:pink_slime')
             .fluidIn('actuallyadditions:empowered_oil', 250)
             .itemOut('kubejs:empowered_pink_slime')
 
-        LargeChemicalReactor(48, 10, 'empowered_pink_slime_ingot')
+        LargeChemicalReactor(24, 10, 'empowered_pink_slime_ingot')
             .itemIn('industrialforegoing:pink_slime_ingot')
             .fluidIn('actuallyadditions:empowered_oil', 500)
             .itemOut('kubejs:empowered_pink_slime_ingot')
 
-        LargeChemicalReactor(16, 5, 'crystallized_oil')
+        LargeChemicalReactor(8, 5, 'crystallized_oil')
             .itemIn('actuallyadditions:crystallized_canola_seed')
             .fluidIn('actuallyadditions:refined_canola_oil', 1000)
             .fluidOut('actuallyadditions:crystallized_oil', 1000)
 
-        LargeChemicalReactor(16, 5, 'empowered_oil')
+        LargeChemicalReactor(8, 5, 'empowered_oil')
             .itemIn('actuallyadditions:empowered_canola_seed')
             .fluidIn('actuallyadditions:crystallized_oil', 1000)
             .fluidOut('actuallyadditions:empowered_oil', 1000)
 
-        LargeChemicalReactor(48, 7.5, 'chloroform')
+        LargeChemicalReactor(24, 7.5, 'chloroform')
             .fluidIn(`${mi}chlorine`, 6000)
             .fluidIn(`${mi}methane`, 1000)
             .fluidOut(`${mi}hydrochloric_acid`, 3000)
             .fluidOut(`kubejs:chloroform`, 1000)
 
-        LargeChemicalReactor(48, 5, 'hydrofluoric_acid')
+        LargeChemicalReactor(24, 5, 'hydrofluoric_acid')
             .fluidIn(`${mi}hydrogen`, 1000)
             .fluidIn(`kubejs:fluorine`, 1000)
             .fluidOut(`kubejs:hydrofluoric_acid`, 1000)
 
-        LargeChemicalReactor(64, 15, 'tetrafluoroethylene')
+        LargeChemicalReactor(32, 15, 'tetrafluoroethylene')
             .fluidIn(`kubejs:chloroform`, 2000)
             .fluidIn(`kubejs:hydrofluoric_acid`, 4000)
             .fluidOut(`${mi}hydrochloric_acid`, 6000)
             .fluidOut(`kubejs:tetrafluoroethylene`, 1000)
 
-        LargeChemicalReactor(64, 15, 'polytetrafluoroethylene')
+        LargeChemicalReactor(32, 15, 'polytetrafluoroethylene')
             .fluidIn(`kubejs:tetrafluoroethylene`, 144)
             .fluidIn(`${mi}oxygen`, 1000)
             .fluidOut(`kubejs:polytetrafluoroethylene`, 216)
 
-        LargeChemicalReactor(64, 15, 'polytetrafluoroethylene_alt')
+        LargeChemicalReactor(32, 15, 'polytetrafluoroethylene_alt')
             .fluidIn(`kubejs:tetrafluoroethylene`, 144)
             .fluidIn(`kubejs:air`, 1000)
             .fluidOut(`kubejs:polytetrafluoroethylene`, 144)
@@ -7422,7 +7456,7 @@ ServerEvents.recipes(e => {
                 .itemOut(`kubejs:impure_${material}_dust`)
                 .id(`${prefix}forge_hammer_electric/${material}_dust`)
 
-            massive_forge_hammer(128, 0.5 * tickMultiplier)
+            massive_forge_hammer(8, 2.5 * tickMultiplier)
                 .itemIn(`kubejs:crushed_${material}_dust`)
                 .itemOut(`kubejs:impure_${material}_dust`)
                 .id(`${prefix}massive_forge_hammer/${material}_dust`)
@@ -7536,7 +7570,7 @@ ServerEvents.recipes(e => {
                     .itemOut(output)
                     .id(r.getId())
 
-                    massive_compressor(128, time / 10 * tickMultiplier)
+                    massive_compressor(8, time / 2 * tickMultiplier)
                     .itemIn(item(input[0], input.length))
                     .itemOut(output)
                     .id(`kubejs:generated/massive_compressor/${r.getId().replace(':','_')}`)
@@ -7597,7 +7631,7 @@ ServerEvents.recipes(e => {
                             .itemOut(Item.of(output.id, output.count))
                             .id(`kubejs:generated/automatic_forge_hammer_electric/${r.getId().replace(':','_')}`);
 
-                        massive_forge_hammer(128, time * tickMultiplier / 8)
+                        massive_forge_hammer(8, time * tickMultiplier / 4)
                             .itemIn(item(input[0]))
                             .itemOut(Item.of(output.id, output.count))
                             .id(`kubejs:generated/massive_forge_hammer/${r.getId().replace(':','_')}`);
@@ -7889,7 +7923,7 @@ ServerEvents.recipes(e => {
 
                     e.custom({
                         type: `${mi}large_chemical_reactor`,
-                        eu: eu * 2,
+                        eu: eu,
                         duration: duration / 2,
                         item_inputs: itemInputs,
                         item_outputs: itemOutputs
@@ -10815,7 +10849,7 @@ ServerEvents.recipes(e => {
                             .itemOut(Item.of(`kubejs:${recipe.material}_plate`))
                             .id(`kubejs:mi/extruder/${recipe.material}_plate`)
 
-                         e.recipes.modern_industrialization.massive_forge_hammer(128, 1 * tickMultiplier)
+                         e.recipes.modern_industrialization.massive_forge_hammer(8, 5 * tickMultiplier)
                             .itemIn(item(plateIn))
                             .itemOut(Item.of(`kubejs:${recipe.material}_plate`))
                             .id(`kubejs:mi/massive_forge_hammer/${recipe.material}_plate`)
@@ -10859,18 +10893,18 @@ ServerEvents.recipes(e => {
                     break;
                     case 'rod_magnetic':
                         let polarizeRod = (time) => e.recipes.modern_industrialization.polarizer(8, time * tickMultiplier).itemIn(`#c:rods/${recipe.material}`).itemOut(`kubejs:${recipe.material}_rod_magnetic`).id(`kubejs:mi/polarizer/${recipe.material}_rod_magnetic`);
-                        let polarizationTower = (time) => e.recipes.modern_industrialization.polarization_tower(128, time * tickMultiplier).itemIn(`#c:rods/${recipe.material}`).itemOut(`kubejs:${recipe.material}_rod_magnetic`).id(`kubejs:mi/polarization_tower/${recipe.material}_rod_magnetic`);
+                        let polarizationTower = (eu,time) => e.recipes.modern_industrialization.polarization_tower(eu, time * tickMultiplier).itemIn(`#c:rods/${recipe.material}`).itemOut(`kubejs:${recipe.material}_rod_magnetic`).id(`kubejs:mi/polarization_tower/${recipe.material}_rod_magnetic`);
 
                         switch (recipe.material) {
                             case 'titanium':
-                                polarizationTower(30).itemIn(`${mi}neodymium_dust`)
+                                polarizationTower(128,30).itemIn(`${mi}neodymium_dust`)
                             break;
                             case 'superconductor':
-                                polarizationTower(60).itemIn(`${mi}plutonium_dust`)
+                                polarizationTower(128,60).itemIn(`${mi}plutonium_dust`)
                             break;
                             default:
                                 polarizeRod(10)
-                                polarizationTower(3)
+                                polarizationTower(8,3)
 
                                 e.shaped(`kubejs:${recipe.material}_rod_magnetic`, [' aa','aba','aa '], {a: 'redstone', b: `#c:rods/${recipe.material}`}).id(`kubejs:crafting/${recipe.material}_rod_magnetic`);
                         }
@@ -10881,7 +10915,7 @@ ServerEvents.recipes(e => {
                             .itemOut(`kubejs:${recipe.material}_magnetic_plate`)
                             .id(`kubejs:mi/polarizer/${recipe.material}_magnetic_plate`)
 
-                        e.recipes.modern_industrialization.polarization_tower(128, 3 * tickMultiplier)
+                        e.recipes.modern_industrialization.polarization_tower(8, 3 * tickMultiplier)
                             .itemIn(`#c:plates/${recipe.material}`)
                             .itemOut(`kubejs:${recipe.material}_magnetic_plate`)
                             .id(`kubejs:mi/polarization_tower/${recipe.material}_magnetic_plate`)
@@ -10971,7 +11005,7 @@ ServerEvents.recipes(e => {
                             .itemOut(`kubejs:${recipe.material}_ingot`)
                             .id(`kubejs:mi/compressor/${recipe.material}_ingot`)
 
-                        e.recipes.modern_industrialization.massive_compressor(128, 1 * tickMultiplier)
+                        e.recipes.modern_industrialization.massive_compressor(8, 5 * tickMultiplier)
                             .itemIn(`9x kubejs:${recipe.material}_nugget`)
                             .itemOut(`kubejs:${recipe.material}_ingot`)
                             .id(`kubejs:mi/massive_compressor/${recipe.material}_ingot`)
@@ -10998,7 +11032,7 @@ ServerEvents.recipes(e => {
                             .itemOut(`kubejs:${recipe.material}_block`)
                             .id(`kubejs:mi/compressor/${recipe.material}_block`)
 
-                        e.recipes.modern_industrialization.massive_compressor(128, 1 * tickMultiplier)
+                        e.recipes.modern_industrialization.massive_compressor(8, 5 * tickMultiplier)
                             .itemIn(`9x kubejs:${recipe.material}_ingot`)
                             .itemOut(`kubejs:${recipe.material}_block`)
                             .id(`kubejs:mi/massive_compressor/${recipe.material}_block`)
@@ -11089,7 +11123,7 @@ ServerEvents.recipes(e => {
                             .itemOut(`kubejs:${recipe.material}_dust`)
                             .id(`kubejs:mi/compressor/${recipe.material}_dust`)
 
-                        e.recipes.modern_industrialization.massive_compressor(128, 10 * tickMultiplier)
+                        e.recipes.modern_industrialization.massive_compressor(8, 5 * tickMultiplier)
                             .itemIn(`9x kubejs:${recipe.material}_tiny_dust`)
                             .itemOut(`kubejs:${recipe.material}_dust`)
                             .id(`kubejs:mi/massive_compressor/${recipe.material}_dust`)
@@ -11202,7 +11236,7 @@ ServerEvents.recipes(e => {
                                 inp = `#c:ingots/${recipe.material}`
                         };
 
-                        e.recipes.modern_industrialization.massive_wiremill(128, 1 * tickMultiplier)
+                        e.recipes.modern_industrialization.massive_wiremill(8, 5 * tickMultiplier)
                             .itemIn(inp)
                             .itemOut(`${outputCount * 1.5}x kubejs:${recipe.material}_wire`)
                             .id(`kubejs:mi/massive_wiremill/${recipe.material}`)
@@ -11213,19 +11247,19 @@ ServerEvents.recipes(e => {
                             .itemOut(`4x kubejs:${recipe.material}_fine_wire`)
                             .id(`kubejs:mi/wiremill/${recipe.material}_fine_wire`)
 
-                        e.recipes.modern_industrialization.massive_wiremill(128, 1 * tickMultiplier)
+                        e.recipes.modern_industrialization.massive_wiremill(8, 5 * tickMultiplier)
                             .itemIn(`#c:wires/${recipe.material}`)
                             .itemOut(`4x kubejs:${recipe.material}_fine_wire`)
                             .id(`kubejs:mi/massive_wiremill/${recipe.material}_fine_wire`)
                     break;
                     case 'magnetic_wire':
                         let polarize = (time) => e.recipes.modern_industrialization.polarizer(8, time * tickMultiplier).itemIn(`#c:wires/${recipe.material}`).itemOut(`kubejs:${recipe.material}_magnetic_wire`).id(`kubejs:mi/polarizer/${recipe.material}_magnetic_wire`);
-                        let polarization_tower = (time) => e.recipes.modern_industrialization.polarization_tower(128, time * tickMultiplier).itemIn(`#c:wires/${recipe.material}`).itemOut(`kubejs:${recipe.material}_magnetic_wire`).id(`kubejs:mi/polarization_tower/${recipe.material}_magnetic_wire`);
+                        let polarization_tower = (eu,time) => e.recipes.modern_industrialization.polarization_tower(eu, time * tickMultiplier).itemIn(`#c:wires/${recipe.material}`).itemOut(`kubejs:${recipe.material}_magnetic_wire`).id(`kubejs:mi/polarization_tower/${recipe.material}_magnetic_wire`);
 
                         switch (recipe.material) {
                             case 'empowered_diamatine':
                             case 'empowered_emeradic':
-                                polarization_tower(30).itemIn(`${mi}neodymium_dust`)
+                                polarization_tower(128,30).itemIn(`${mi}neodymium_dust`)
                             break;
                             case 'steel':
                                 e.shaped(
@@ -11238,11 +11272,11 @@ ServerEvents.recipes(e => {
                                 ).id(`kubejs:polarize/crafting/${recipe.material}`)
 
                                 polarize(10);
-                                polarization_tower(3)
+                                polarization_tower(8,3)
                             break;
                             default:
                                 polarize(20);
-                                polarization_tower(5)
+                                polarization_tower(8,5)
                         };
                     break;
                 };
@@ -11385,6 +11419,36 @@ ServerEvents.recipes(e => {
             ]
             }).id(`kubejs:lychee/item_inside/raw_treated_leather`)
         };
+
+        e.custom({
+            "type": "farmingforblockheads:market",
+            "category": "farmingforblockheads:seeds",
+            "icon": {
+                "count": 1,
+                "id": "farmersdelight:rice"
+            },
+            "preset": "minecraft:seeds",
+            "result": {
+                "count": 1,
+                "item": "farmersdelight:rice"
+            },
+            "sortIndex": 0
+        }).id(`kubejs:market/rice`)
+
+        // e.custom({
+        //     "type": "farmingforblockheads:market",
+        //     "category": "farmingforblockheads:saplings",
+        //     "icon": {
+        //         "count": 1,
+        //         "id": "supplementaries:flax_seeds"
+        //     },
+        //     "preset": "minecraft:seeds",
+        //     "result": {
+        //         "count": 1,
+        //         "item": "supplementaries:flax_seeds"
+        //     },
+        //     "sortIndex": 0
+        // }).id(`kubejs:market/flax`)
 
         e.custom({
             "type": "treetap:tap_extract",

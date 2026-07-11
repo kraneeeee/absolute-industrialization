@@ -1,0 +1,16 @@
+filename = 'sophisticatedinventoryinteractions-1.21.1-0.1.9.160.jar'
+name = 'Sophisticated Inventory Interactions'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '90a07c8bef1223016ee7cad340f341af77185bca'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8319579
+project-id = 1491239

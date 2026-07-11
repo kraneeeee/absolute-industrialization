@@ -731,8 +731,13 @@
 					type: "item"
 				}
 				{
+					id: "2346A42D16A7FFAC"
+					item: { count: 1, id: "productivemetalworks:brown_foundry_drain" }
+					type: "item"
+				}
+				{
 					count: 4L
-					id: "1D15F6598382DAAE"
+					id: "25FAC0F01B4F24D8"
 					item: { count: 1, id: "productivemetalworks:brown_fire_bricks" }
 					type: "item"
 				}

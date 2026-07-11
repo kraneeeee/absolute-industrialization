@@ -664,6 +664,12 @@ global.customMIMachines = [
     'nuclear_component_assembler'
 ];
 
+global.miTweaksMachines = [
+    'massive_wiremill',
+    'massive_forge_hammer',
+    'massive_compressor',
+]
+
 global.cables = [
     'nichrome',
     'tungstensteel',

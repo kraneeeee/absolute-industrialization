@@ -1142,7 +1142,7 @@
 	]
 	quest.5A3460FDD56007F8.title: "Wireless Energy!"
 	quest.5A4CF58A819E11F7.quest_desc: [
-		"&cThe Large Chemical Reactor &ris a multiblock that processes small Chemical Reactor recipes twice as fast, but also consumes twice as much energy. Equally important, it unlocks access to new chemical recipes."
+		"&cThe Large Chemical Reactor &ris a multiblock that processes small Chemical Reactor recipes twice as fast. Equally important, it unlocks access to new chemical recipes."
 		""
 		"For its structure, it requires new casings - Large Chemical Reactor Casings, which are made from Polytetrafluoroethylene."
 	]

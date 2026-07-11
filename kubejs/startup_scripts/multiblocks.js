@@ -18,6 +18,7 @@ let POLARIZATION_TOWER;
 let COMPACT_GREENHOUSE;
 let WATER_TOWER;
 let TRANSMUTATOR;
+let TURNEDOFF;
 
 MIMachineEvents.registerRecipeTypes(event => {
     PRIMITIVE_PUMP = event.register("primitive_pump")
@@ -60,6 +61,10 @@ MIMachineEvents.registerRecipeTypes(event => {
         .withItemOutputs()
 
     MASSIVE_COMPRESSOR = event.register('massive_compressor')
+        .withItemInputs()
+        .withItemOutputs()
+
+    TURNEDOFF = event.register('turned_off')
         .withItemInputs()
         .withItemOutputs()
 
@@ -127,10 +132,10 @@ MIMachineEvents.registerMachines(event => {
     const nuclearCasingPipe = event.memberOfBlock('modern_industrialization:nuclear_alloy_machine_casing_pipe');
     const metamorphic_constructor_casing = event.memberOfBlock('kubejs:metamorphic_constructor_casing');
     const DarkSteelCasing = event.memberOfBlock('kubejs:dark_steel_casing');
-    const MassiveLineCasing = event.memberOfBlock('kubejs:massive_line_casing');
     const CopperCasing = event.memberOfBlock('kubejs:copper_casing');
     const CopperFence = event.memberOfBlock('kubejs:copper_fence');
     const superConductorCasing = event.memberOfBlock('kubejs:superconductor_casing')
+    const MassiveLineCasing = event.memberOfBlock('kubejs:massive_line_casing');
 
     primitivePump();
     waterTower();
@@ -141,14 +146,14 @@ MIMachineEvents.registerMachines(event => {
     bedrockDrillingRig();
     assemblyLine();
     mattercondensator();
+    massivecompressor()
+    massiveforgehammer()
+    massivewiremill();
     quantuminstaller();
     industrialempowerer();
     nuclearRecycler();
     nuclearComponentAssembler();
     metamorphicConstructor()
-    massivecompressor()
-    massiveforgehammer()
-    massivewiremill();
     polarizationTower();
     compactGreenhouse();
     transmutator()
@@ -325,72 +330,6 @@ MIMachineEvents.registerMachines(event => {
         );
     }
 
-    function massivecompressor() {
-        const hatches = event.hatchOf("item_input", "item_output", 'energy_input');
-
-        const shape = event.layeredShape("dark_steel_casing", [
-            ['aaa','bdb','aaa'],
-            ['aba','d d','aba'],
-            ['aaa','b#b','aaa'],
-        ])
-            .key("a", DarkSteelCasing, hatches)
-            .key("d", MassiveLineCasing, event.noHatch())
-            .key('b', DarkSteelCasing, event.noHatch())
-            .build();
-
-        event.simpleElectricCraftingMultiBlock(
-            "Massive Compressor", "massive_compressor", MASSIVE_COMPRESSOR, shape,
-            event.progressBar(77, 33, "compress"),
-            itemInputs => itemInputs.addSlot(56, 35), itemOutputs => itemOutputs.addSlot(102, 35),
-            fluidInputs => {}, fluidOutputs => {},
-            "dark_steel_casing", "assembler_overlays", true, false, false,
-        );
-    }
-
-    function massiveforgehammer() {
-        const hatches = event.hatchOf("item_input", "item_output", 'energy_input');
-
-        const shape = event.layeredShape("dark_steel_casing", [
-            ['aaa','bdb','bdb','aaa'],
-            ['aba','d d','d d','aba'],
-            ['aaa','b#b','bbb','aaa'],
-        ])
-            .key("a", DarkSteelCasing, hatches)
-            .key("d", MassiveLineCasing, event.noHatch())
-            .key('b', DarkSteelCasing, event.noHatch())
-            .build();
-
-        event.simpleElectricCraftingMultiBlock(
-            "Massive Forge Hammer", "massive_forge_hammer", MASSIVE_FORGE_HAMMER, shape,
-            event.progressBar(77, 33, "hammer"),
-            itemInputs => itemInputs.addSlot(56, 35), itemOutputs => itemOutputs.addSlot(102, 35),
-            fluidInputs => {}, fluidOutputs => {},
-            "dark_steel_casing", "assembler_overlays", true, false, false,
-        );
-    }
-
-    function massivewiremill() {
-        const hatches = event.hatchOf("item_input", "item_output", 'energy_input');
-
-        const shape = event.layeredShape("dark_steel_casing", [
-            ['aaa','bdb','aaa'],
-            ['aba','d d','aba'],
-            ['aaa','b#b','aaa'],
-        ])
-            .key("a", DarkSteelCasing, hatches)
-            .key("d", MassiveLineCasing, event.noHatch())
-            .key('b', DarkSteelCasing, event.noHatch())
-            .build();
-
-        event.simpleElectricCraftingMultiBlock(
-            "Massive Wiremill", "massive_wiremill", MASSIVE_WIREMILL, shape,
-            event.progressBar(77, 33, "wiremill"),
-            itemInputs => itemInputs.addSlot(56, 35), itemOutputs => itemOutputs.addSlot(102, 35),
-            fluidInputs => {}, fluidOutputs => {},
-            "dark_steel_casing", "assembler_overlays", true, false, false,
-        );
-    }
-
     function assemblyLine() {
         const shape = event.layeredShape("steel", [
             ["gggggggg","dddddddd","ffffffff",'        '],
@@ -548,6 +487,72 @@ MIMachineEvents.registerMachines(event => {
         );
     }
 
+    function massivecompressor() {
+        const hatches = event.hatchOf("item_input", "item_output", 'energy_input');
+
+        const shape = event.layeredShape("dark_steel_casing", [
+            ['aaa','bdb','aaa'],
+            ['aba','d d','aba'],
+            ['aaa','b#b','aaa'],
+        ])
+            .key("a", DarkSteelCasing, hatches)
+            .key("d", MassiveLineCasing, event.noHatch())
+            .key('b', DarkSteelCasing, event.noHatch())
+            .build();
+
+        event.simpleElectricCraftingMultiBlock(
+            "Massive Compressor", "massive_compressor", TURNEDOFF, shape,
+            event.progressBar(77, 33, "compress"),
+            itemInputs => itemInputs.addSlot(56, 35), itemOutputs => itemOutputs.addSlot(102, 35),
+            fluidInputs => {}, fluidOutputs => {},
+            "dark_steel_casing", "assembler_overlays", true, false, false
+        );
+    }
+
+    function massiveforgehammer() {
+        const hatches = event.hatchOf("item_input", "item_output", 'energy_input');
+
+        const shape = event.layeredShape("dark_steel_casing", [
+            ['aaa','bdb','bdb','aaa'],
+            ['aba','d d','d d','aba'],
+            ['aaa','b#b','bbb','aaa'],
+        ])
+            .key("a", DarkSteelCasing, hatches)
+            .key("d", MassiveLineCasing, event.noHatch())
+            .key('b', DarkSteelCasing, event.noHatch())
+            .build();
+
+        event.simpleElectricCraftingMultiBlock(
+            "Massive Forge Hammer", "massive_forge_hammer", TURNEDOFF, shape,
+            event.progressBar(77, 33, "hammer"),
+            itemInputs => itemInputs.addSlot(56, 35), itemOutputs => itemOutputs.addSlot(102, 35),
+            fluidInputs => {}, fluidOutputs => {},
+            "dark_steel_casing", "assembler_overlays", true, false, false
+        );
+    }
+
+    function massivewiremill() {
+        const hatches = event.hatchOf("item_input", "item_output", 'energy_input');
+
+        const shape = event.layeredShape("dark_steel_casing", [
+            ['aaa','bdb','aaa'],
+            ['aba','d d','aba'],
+            ['aaa','b#b','aaa'],
+        ])
+            .key("a", DarkSteelCasing, hatches)
+            .key("d", MassiveLineCasing, event.noHatch())
+            .key('b', DarkSteelCasing, event.noHatch())
+            .build();
+
+        event.simpleElectricCraftingMultiBlock(
+            "Massive Wiremill", "massive_wiremill", TURNEDOFF, shape,
+            event.progressBar(77, 33, "wiremill"),
+            itemInputs => itemInputs.addSlot(56, 35), itemOutputs => itemOutputs.addSlot(102, 35),
+            fluidInputs => {}, fluidOutputs => {},
+            "dark_steel_casing", "assembler_overlays", true, false, false
+        );
+    }
+
     function compactGreenhouse() {
         const hatches = event.hatchOf("item_input", "item_output", 'fluid_input', 'energy_input');
 
@@ -646,6 +651,88 @@ MIMachineEvents.registerMachines(event => {
             itemInputs => itemInputs.addSlots(57, 35, 1,2), itemOutputs => itemOutputs.addSlot(103, 44),
             fluidInputs => {}, fluidOutputs => {},
             "magnetic_iron_casing", "assembler_overlays", true, true, true,
+        );
+    }
+})
+
+
+MITweaksMachineEvents.registerBatchMultiblocks(event => {
+    const DarkSteelCasing = event.memberOfBlock('kubejs:dark_steel_casing');
+    const MassiveLineCasing = event.memberOfBlock('kubejs:massive_line_casing');
+
+    massivecompressor()
+    massiveforgehammer()
+    massivewiremill();
+
+    function massivecompressor() {
+        const hatches = event.hatchOf("item_input", "item_output", 'energy_input');
+
+        const shape = event.layeredShape("dark_steel_casing", [
+            ['aaa','bdb','aaa'],
+            ['aba','d d','aba'],
+            ['aaa','b#b','aaa'],
+        ])
+            .key("a", DarkSteelCasing, hatches)
+            .key("d", MassiveLineCasing, event.noHatch())
+            .key('b', DarkSteelCasing, event.noHatch())
+            .build();
+
+        event.electricStandalone(
+            "Massive Compressor", "massive_compressor", MASSIVE_COMPRESSOR, shape,
+            event.progressBar(77, 33, "compress"),
+            itemInputs => itemInputs.addSlot(56, 35), itemOutputs => itemOutputs.addSlot(102, 35),
+            fluidInputs => {}, fluidOutputs => {},
+            "dark_steel_casing", "assembler_overlays", true, false, false,
+            16,1,
+            true
+        );
+    }
+
+    function massiveforgehammer() {
+        const hatches = event.hatchOf("item_input", "item_output", 'energy_input');
+
+        const shape = event.layeredShape("dark_steel_casing", [
+            ['aaa','bdb','bdb','aaa'],
+            ['aba','d d','d d','aba'],
+            ['aaa','b#b','bbb','aaa'],
+        ])
+            .key("a", DarkSteelCasing, hatches)
+            .key("d", MassiveLineCasing, event.noHatch())
+            .key('b', DarkSteelCasing, event.noHatch())
+            .build();
+
+        event.electricStandalone(
+            "Massive Forge Hammer", "massive_forge_hammer", MASSIVE_FORGE_HAMMER, shape,
+            event.progressBar(77, 33, "hammer"),
+            itemInputs => itemInputs.addSlot(56, 35), itemOutputs => itemOutputs.addSlot(102, 35),
+            fluidInputs => {}, fluidOutputs => {},
+            "dark_steel_casing", "assembler_overlays", true, false, false,
+            16,1,
+            true
+        );
+    }
+
+    function massivewiremill() {
+        const hatches = event.hatchOf("item_input", "item_output", 'energy_input');
+
+        const shape = event.layeredShape("dark_steel_casing", [
+            ['aaa','bdb','aaa'],
+            ['aba','d d','aba'],
+            ['aaa','b#b','aaa'],
+        ])
+            .key("a", DarkSteelCasing, hatches)
+            .key("d", MassiveLineCasing, event.noHatch())
+            .key('b', DarkSteelCasing, event.noHatch())
+            .build();
+
+        event.electricStandalone(
+            "Massive Wiremill", "massive_wiremill", MASSIVE_WIREMILL, shape,
+            event.progressBar(77, 33, "wiremill"),
+            itemInputs => itemInputs.addSlot(56, 35), itemOutputs => itemOutputs.addSlot(102, 35),
+            fluidInputs => {}, fluidOutputs => {},
+            "dark_steel_casing", "assembler_overlays", true, false, false,
+            16,1,
+            true
         );
     }
 })

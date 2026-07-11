@@ -1,4 +1,7 @@
 const bannedItems = [
+    'actuallyadditions:flax_seeds',
+    'actuallyadditions:rice',
+    'actuallyadditions:rice_seeds',
     'megacells:cable_mega_emc_interface',
     'megacells:mega_emc_interface',
     'ae2:vibration_chamber',

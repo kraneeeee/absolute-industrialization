@@ -365,19 +365,11 @@ StartupEvents.registry('block', e => {
                 typeTexturePath = 'block/stone'
         }
 
-        let builderOreSample = e.create(`${prop.material}_sample`) 
+        let builderOreSample = e.create(`${prop.material}_sample`)
 
-        let presetBuild = builderOreSample            
-            .box(6, 0, 5,12, 1, 10)
-            .box(7, 1, 5,12, 2, 10)
-            .box(8, 1, 10,9.25, 1.5, 11)
-            .box(9, 2, 7,11, 2.75, 9)
-            .box(7, 2, 6,8, 2.5, 7)
-            .box(12, 0, 6,13, 1, 8)
-            .box(8, 0, 10,11, 1, 11)
-            .box(5.5, 0, 7,6, 1, 9)
-            .box(6.5, 1, 6,7, 2, 9)
-            .box(7, 0, 4.25,10, 1, 5)
+        let presetBuild = builderOreSample      
+            .waterlogged()      
+            .box(7, 0, 5,12, 2, 10)
             .tagBlock(`minecraft:mineable/pickaxe`)
             .tagBlock(`minecraft:needs_stone_tool`)
             .requiresTool(true)

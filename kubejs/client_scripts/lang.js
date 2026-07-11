@@ -85,6 +85,15 @@ ClientEvents.lang('en_us', e => {
         e.add(`rei_categories.modern_industrialization.${id}`, rename);
     };
 
+    for (const [id, rename] of Object.entries({
+        'massive_wiremill': 'Massive Wiremill',
+        'massive_forge_hammer': 'Massive Forge Hammer',
+        'massive_compressor': 'Massive Compressor',
+    })) {
+        e.add(`block.mi_tweaks.${id}`, rename);
+        e.add(`rei_categories.mi_tweaks.${id}`, rename);
+    };
+
     global.cables.forEach(material => {
         e.add(`item.modern_industrialization.${material}_cable`, `${material.charAt(0).toUpperCase() + material.slice(1)} Cable`)
     });

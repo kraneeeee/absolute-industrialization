@@ -89,11 +89,11 @@
 	#Should Canola generate in the World?
 	generateCanola = true
 	#Should Flax generate in the world?
-	generateFlax = true
+	generateFlax = false
 	#Should Coffee generate in the world?
 	generateCoffee = true
 	#Should Rice generate in the world?
-	generateRice = true
+	generateRice = false
 
 #Item settings
 [itemsSettings]

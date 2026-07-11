@@ -7,6 +7,7 @@ ServerEvents.recipes(e => {
         {type: 'extendedae:assembler', output: /\w*processor/},
     ])
     const ids = [
+        'actuallyadditions:rice_dough',
         'enderio:basic_capacitor_bank',
         'enderio:vibrant_capacitor_bank_upgrade',
         'enderio:advanced_capacitor_bank',

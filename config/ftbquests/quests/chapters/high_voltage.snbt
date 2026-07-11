@@ -1605,18 +1605,18 @@
 			size: 1.5d
 			tasks: [
 				{
-					id: "5E4B586D769656B7"
-					item: { count: 1, id: "modern_industrialization:massive_compressor" }
+					id: "3580306F6CA1CD1E"
+					item: { count: 1, id: "mi_tweaks:massive_compressor" }
 					type: "item"
 				}
 				{
-					id: "53AFDD07B9A407B5"
-					item: { count: 1, id: "modern_industrialization:massive_forge_hammer" }
+					id: "3C78EF020D0FEE41"
+					item: { count: 1, id: "mi_tweaks:massive_forge_hammer" }
 					type: "item"
 				}
 				{
-					id: "1F0112DA75E88DFA"
-					item: { count: 1, id: "modern_industrialization:massive_wiremill" }
+					id: "740BC14E0BCBCB92"
+					item: { count: 1, id: "mi_tweaks:massive_wiremill" }
 					type: "item"
 				}
 			]

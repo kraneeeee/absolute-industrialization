@@ -54,6 +54,11 @@ LootJS.modifiers(e => {
             .addLoot(`modern_industrialization:${machine}`)
     });
 
+    global.miTweaksMachines.forEach(machine => {
+        block(`mi_tweaks:${machine}`)
+            .addLoot(`mi_tweaks:${machine}`)
+    });
+
     const oresToRaw = [
         ['titanium', `${mi}raw_titanium`],
         ['tungsten', `${mi}raw_tungsten`],

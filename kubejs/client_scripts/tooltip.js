@@ -8,7 +8,13 @@ ItemEvents.modifyTooltips(e => {
         'waystones:warp_stone': '§7Larp',
         'ae2:controller': '§aMiniaturization recipe is unlocked earlier than the crafting table recipe.',
         'modern_industrialization:water_tower': '§aRequires at least a 5x5 water pool directly beneath the structure.',
-        'kubejs:activated_singularity': '§dIs created by activating with a Mycelial Reactor.'
+        'kubejs:activated_singularity': '§dIs created by activating with a Mycelial Reactor.',
+        'actuallyadditions:rice': '§cThis item is disabled',
+        'actuallyadditions:rice_seeds': '§cThis item is disabled',
+        'actuallyadditions:flax_seeds': '§cThis item is disabled',
+        'modern_industrialization:massive_compressor': '§cThis item is disabled. Recraft it into MI Tweaks version',
+        'modern_industrialization:massive_wiremill': '§cThis item is disabled. Recraft it into MI Tweaks version',
+        'modern_industrialization:massive_forge_hammer': '§cThis item is disabled. Recraft it into MI Tweaks version',
     };
     
     for (let [id, text] of Object.entries(tooltip)) {
