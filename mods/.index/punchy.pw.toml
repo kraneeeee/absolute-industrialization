@@ -1,4 +1,4 @@
-filename = 'punchy-2.6.1-neoforge-1.21.1.jar'
+filename = 'punchy-2.6.2-neoforge-1.21.1.jar'
 name = 'Punchy'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '75894078ce3088484ced016fd05b93133e81ac03'
+hash = '96c094efc72a1bdcdfaae9129f6018d7215f13f7'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8365671
+file-id = 8408052
 project-id = 1374153

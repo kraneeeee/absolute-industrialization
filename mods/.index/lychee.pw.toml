@@ -1,16 +1,16 @@
-filename = 'Lychee-1.21.1-NeoForge-6.5.0.jar'
-name = 'Lychee (Neo/Forge)'
+filename = 'Lychee-1.21.1-NeoForge-6.5.2.jar'
+name = 'Lychee Tweaker'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'beta'
+x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'e3091d18dcef9b44ec7d567407af37e9b4f86eac'
+hash = '6d2a25968010aa27e43354fd4a035eb8b7707b51'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7441857
+file-id = 8410524
 project-id = 567403
