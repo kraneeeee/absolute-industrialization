@@ -11345,7 +11345,8 @@ ServerEvents.recipes(e => {
         e.forEachRecipe({
             output: [/\w+planks/, '#minecraft:planks'], 
             input: [/\w+log|wood/, '#minecraft:logs'],
-            not: {output: /\w+painted_planks/}
+            not: {output: /\w+painted_planks/},
+            not: {id: /modern_industrialization:cutting_machine\/planks/}
         }, r => {
             e.shapeless(Item.of(r.originalRecipeResult, 2), r.originalRecipeIngredients)
             e.shaped(Item.of(r.originalRecipeResult, 4), ['a','b',' '], {a: saws, b: r.originalRecipeIngredients}).damageIngredient(saws).id(r.getId())
@@ -11456,8 +11457,8 @@ ServerEvents.recipes(e => {
                 "item": "minecraft:acacia_log"
             },
             "required_block_count": 5,
-            "collect_bucket": true,
-            "processing_time": 150 * tickMultiplier,
+            "collect_bucket": false,
+            "processing_time": 90 * tickMultiplier,
             "result": {
                 "id": 'kubejs:latex'
             },

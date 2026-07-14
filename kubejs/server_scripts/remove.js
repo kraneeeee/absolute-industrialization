@@ -7,6 +7,8 @@ ServerEvents.recipes(e => {
         {type: 'extendedae:assembler', output: /\w*processor/},
     ])
     const ids = [
+        'modern_industrialization:cutting_machine/planks/birch_in_cutting_machine',
+        /modern_industrialization:cutting_machine\/planks/,
         'actuallyadditions:rice_dough',
         'enderio:basic_capacitor_bank',
         'enderio:vibrant_capacitor_bank_upgrade',
