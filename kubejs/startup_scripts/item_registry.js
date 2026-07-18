@@ -262,11 +262,6 @@ StartupEvents.registry('item', e => {
     for (const i of global.tools) {
         if (!i[5]) i[5] = i[0];
         e.create(`${i[0]}_sword`, 'sword')
-        .textures({
-            layer0: "kubejs:item/tools/sword_base",
-            layer1: "kubejs:item/tools/sword",
-            layer2: "kubejs:item/tools/sword_overlay"
-        })
         .color(1, i[4])
         .tier(i[1])
         .modifyTier(tier => {
@@ -275,10 +270,6 @@ StartupEvents.registry('item', e => {
         });
 
         e.create(`${i[0]}_pickaxe`, 'pickaxe')
-        .textures({
-            layer0: "kubejs:item/tools/handle",
-            layer1: "kubejs:item/tools/pickaxe",
-        })
         .color(1, i[4])
         .tier(i[1])
         .modifyTier(tier => {
@@ -288,10 +279,6 @@ StartupEvents.registry('item', e => {
         });
 
         e.create(`${i[0]}_axe`, 'axe')
-        .textures({
-            layer0: "kubejs:item/tools/handle",
-            layer1: "kubejs:item/tools/axe",
-        })
         .color(1, i[4])
         .tier(i[1])
         .modifyTier(tier => {
@@ -301,10 +288,6 @@ StartupEvents.registry('item', e => {
         });
 
         e.create(`${i[0]}_shovel`, 'shovel')
-        .textures({
-            layer0: "kubejs:item/tools/handle",
-            layer1: "kubejs:item/tools/shovel",
-        })
         .color(1, i[4])
         .tier(i[1])
         .modifyTier(tier => {
@@ -314,10 +297,6 @@ StartupEvents.registry('item', e => {
         });
 
         e.create(`${i[0]}_hoe`, 'hoe')
-        .textures({
-            layer0: "kubejs:item/tools/handle",
-            layer1: "kubejs:item/tools/hoe",
-        })
         .color(1, i[4])
         .tier(i[1])
         .modifyTier(tier => {

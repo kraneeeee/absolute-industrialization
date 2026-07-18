@@ -75,7 +75,7 @@ function newUnify() {
                     items.forEach(prop => {
                         if (prop.startsWith('modern_industrialization:')) {
                             e.replaceOutput({}, item, prop);
-                            e.replaceInput({}, item, prop);
+                            e.replaceInput({}, item, prop)
                         }
                     });
                 })

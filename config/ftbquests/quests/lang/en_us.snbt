@@ -922,7 +922,7 @@
 		""
 		"To build one, you'll need to construct a 3x3x3 cube made entirely of regular furnaces. "
 		""
-		"What makes this furnace truly special is its ability to smelt multiple items at the same time. To enable that, you need to place a Jumbo Furnace item in the right slot — the one located below the output slot. You can't craft these just yet — they're produced in the Compressor — but don't worry: completing this quest will reward you with one as a freebie!"
+		"What makes this furnace truly special is its ability to smelt multiple items at the same time. To enable that, you need to place a Jumbo Furnace item in the right slot, the one located below the output slot. You can't craft these just yet, they're produced in the Compressor. But don't worry: completing this quest will reward you with one as a freebie!"
 	]
 	quest.4CCE3456BBDB8C17.title: "Jumbo Furnace"
 	quest.4CFB83F952A4D8BB.quest_desc: ["&7Ultimate Motor&r is a key component in &5Superconductor Voltage&r recipes."]
@@ -1248,7 +1248,11 @@
 		"&cDon't break the controller or you will lose all of the stored fluid!&r"
 	]
 	quest.64B42D024CEADE83.title: "Railcraft-like Tank"
-	quest.64B859BCC7D81C00.quest_desc: ["Farmer is a multiblock structure that can grow and harvest plants."]
+	quest.64B859BCC7D81C00.quest_desc: [
+		"Farmer is a multiblock structure that can grow and harvest plants."
+		""
+		"Note that to supply seeds, saplings, and water, as well as to harvest crops, you must place hatches instead of the Pipe Machine Casings."
+	]
 	quest.650314C7A1F983D6.quest_desc: [
 		"The Inhibitor Obelisk prevents most types of teleportation within its radius. "
 		""

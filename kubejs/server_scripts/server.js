@@ -47,7 +47,7 @@ BlockEvents.rightClicked(e => {
 
 
     if (item == wayPointMaker) {
-        if (oreSamples.toString().includes(block)) {
+        if (oreSamples.toString().includes(block.id)) {
             player.swing();
 
             let material;
@@ -70,7 +70,6 @@ BlockEvents.rightClicked(e => {
                     TextColor = color;  
                 };
             };
-
             player.runCommandSilent(`ftbchunks waypoint add ${MaterialText.substring(0,1).toUpperCase() + MaterialText.slice(1)} ${x} ${y} ${z} ${block.dimension} ${TextColor}`)
         };
     };

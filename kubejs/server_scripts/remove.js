@@ -7,6 +7,8 @@ ServerEvents.recipes(e => {
         {type: 'extendedae:assembler', output: /\w*processor/},
     ])
     const ids = [
+        /enderio:item.minecraft.(copper|gold|iron)_ingot_from_smelting/,
+        'ae2:blasting/silicon_from_certus_quartz_dust',
         'modern_industrialization:cutting_machine/planks/birch_in_cutting_machine',
         /modern_industrialization:cutting_machine\/planks/,
         'actuallyadditions:rice_dough',

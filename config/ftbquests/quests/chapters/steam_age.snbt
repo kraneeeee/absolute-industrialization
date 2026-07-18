@@ -1005,7 +1005,7 @@
 					type: "item"
 				}
 				{
-					count: 9L
+					count: 6L
 					id: "28D72FE345AEA26B"
 					item: { count: 1, id: "modern_industrialization:bronze_machine_casing_pipe" }
 					type: "item"
@@ -1014,6 +1014,21 @@
 					count: 52L
 					id: "6EBA227BFE45F229"
 					item: { count: 1, id: "minecraft:dirt" }
+					type: "item"
+				}
+				{
+					id: "1F1CA80DE0A65AE2"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:bronze_item_input_hatch)item(modern_industrialization:steel_item_input_hatch)item(modern_industrialization:advanced_item_input_hatch)item(modern_industrialization:turbo_item_input_hatch)item(modern_industrialization:highly_advanced_item_input_hatch))", "minecraft:custom_name": "\"Any Item Input Hatch\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "4BB7519D76561F63"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:bronze_item_output_hatch)item(modern_industrialization:steel_item_output_hatch)item(modern_industrialization:advanced_item_output_hatch)item(modern_industrialization:turbo_item_output_hatch)item(modern_industrialization:highly_advanced_item_output_hatch))", "minecraft:custom_name": "\"Any Item Output Hatch\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "3A2B384904733E85"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:bronze_fluid_input_hatch)item(modern_industrialization:steel_fluid_input_hatch)item(modern_industrialization:advanced_fluid_input_hatch)item(modern_industrialization:turbo_fluid_input_hatch)item(modern_industrialization:highly_advanced_fluid_input_hatch))", "minecraft:custom_name": "\"Any Fluid Input Hatch\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]

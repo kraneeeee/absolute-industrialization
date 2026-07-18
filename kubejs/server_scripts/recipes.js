@@ -5034,7 +5034,7 @@ ServerEvents.recipes(e => {
                 .itemOut(recipe[0])
                 .id(`${prefix}compressor/${recipe[4]}`);
 
-            massive_compressor(8, recipe[3] / 2 * tickMultiplier)
+            massive_compressor(recipe[2], recipe[3] / 2 * tickMultiplier)
                 .itemIn(recipe[1])
                 .itemOut(recipe[0])
                 .id(`${prefix}massive_compressor/${recipe[4]}`);
@@ -5603,11 +5603,11 @@ ServerEvents.recipes(e => {
             .fluidIn('kubejs:anomaly', 500)
             .itemOut('projecte:philosophers_stone')
 
-        bedrockDrillingRig(256, 1, 'shale_oil')
+        bedrockDrillingRig(128, 1, 'shale_oil')
             .itemIn('kubejs:soularium_drill', 0.05)
             .fluidOut(`${mi}shale_oil`, 3000)  
 
-        bedrockDrillingRig(256, 1, 'crude_oil')
+        bedrockDrillingRig(32, 1, 'crude_oil')
             .itemIn(`${mi}aluminum_drill`, 0.04)
             .fluidOut(`${mi}crude_oil`, 2500)
 
@@ -5621,23 +5621,23 @@ ServerEvents.recipes(e => {
             .fluidOut('kubejs:bedrock_substance', 50)   
 
         Wiremill(8, 5, 'morered:red_alloy_wire', 'kubejs:red_alloy_wire', 'red_alloy_wire')
-        MassiveWiremill(8, 5, '2x morered:red_alloy_wire', 'kubejs:red_alloy_wire', 'red_alloy_wire')
+        MassiveWiremill(2, 5, '2x morered:red_alloy_wire', 'kubejs:red_alloy_wire', 'red_alloy_wire')
 
-        MassiveWiremill(8, 5, `3x ${mi}aluminum_wire`, `${mi}aluminum_ingot`,  'aluminum_wire')
-        MassiveWiremill(8, 5, `3x ${mi}annealed_copper_wire`, `${mi}annealed_copper_ingot`,  'annealed_wire')
-        MassiveWiremill(8, 5, `4x ${mi}copper_fine_wire`,  `${mi}copper_wire`,  'copper_fine_wire')
-        MassiveWiremill(8, 5, `3x ${mi}copper_wire`, `copper_ingot`,  'copper_wire')
-        MassiveWiremill(8, 5, `3x ${mi}cupronickel_wire`, `${mi}cupronickel_ingot`,  'cupronickel_wire')
-        MassiveWiremill(8, 5, `4x ${mi}electrum_fine_wire`,  `${mi}electrum_wire`,  'electrum_fine_wire')
-        MassiveWiremill(8, 5, `3x ${mi}electrum_wire`, `${mi}electrum_ingot`,  'electrum_wire')
-        MassiveWiremill(8, 5, `3x ${mi}kanthal_wire`, `${mi}kanthal_ingot`,  'kanthal_wire')
-        MassiveWiremill(8, 5, `4x ${mi}platinum_fine_wire`,  `${mi}platinum_wire`,  'platinum_fine_wire')
-        MassiveWiremill(8, 5, `3x ${mi}platinum_wire`, `${mi}platinum_ingot`,  'platinum_wire')
-        MassiveWiremill(8, 5, `3x ${mi}silver_wire`, `${mi}silver_ingot`,  'silver_wire')
-        MassiveWiremill(8, 5, `3x ${mi}superconductor_wire`, `${mi}superconductor_ingot`,  'superconductor_wire')
-        MassiveWiremill(8, 5, `3x ${mi}tin_wire`, `${mi}tin_ingot`,  'tin_wire')
+        MassiveWiremill(2, 5, `3x ${mi}aluminum_wire`, `${mi}aluminum_ingot`,  'aluminum_wire')
+        MassiveWiremill(2, 5, `3x ${mi}annealed_copper_wire`, `${mi}annealed_copper_ingot`,  'annealed_wire')
+        MassiveWiremill(2, 5, `4x ${mi}copper_fine_wire`,  `${mi}copper_wire`,  'copper_fine_wire')
+        MassiveWiremill(2, 5, `3x ${mi}copper_wire`, `copper_ingot`,  'copper_wire')
+        MassiveWiremill(2, 5, `3x ${mi}cupronickel_wire`, `${mi}cupronickel_ingot`,  'cupronickel_wire')
+        MassiveWiremill(2, 5, `4x ${mi}electrum_fine_wire`,  `${mi}electrum_wire`,  'electrum_fine_wire')
+        MassiveWiremill(2, 5, `3x ${mi}electrum_wire`, `${mi}electrum_ingot`,  'electrum_wire')
+        MassiveWiremill(2, 5, `3x ${mi}kanthal_wire`, `${mi}kanthal_ingot`,  'kanthal_wire')
+        MassiveWiremill(2, 5, `4x ${mi}platinum_fine_wire`,  `${mi}platinum_wire`,  'platinum_fine_wire')
+        MassiveWiremill(2, 5, `3x ${mi}platinum_wire`, `${mi}platinum_ingot`,  'platinum_wire')
+        MassiveWiremill(2, 5, `3x ${mi}silver_wire`, `${mi}silver_ingot`,  'silver_wire')
+        MassiveWiremill(2, 5, `3x ${mi}superconductor_wire`, `${mi}superconductor_ingot`,  'superconductor_wire')
+        MassiveWiremill(2, 5, `3x ${mi}tin_wire`, `${mi}tin_ingot`,  'tin_wire')
 
-        massive_compressor(8, 100 * tickMultiplier)
+        massive_compressor(4, 100 * tickMultiplier)
             .itemIn(`8x coal_block`)
             .itemOut(`diamond`)
             .id(`kubejs:mi/massive_compressor/diamond_from_coal`)
@@ -5652,7 +5652,7 @@ ServerEvents.recipes(e => {
             .itemOut(`${mi}blastproof_alloy_plate`)
             .id(`kubejs:mi/massive_compressor/blastproof_alloy_plate`)
 
-        massive_compressor(8, 10 * tickMultiplier)
+        massive_compressor(2, 10 * tickMultiplier)
             .itemIn('4x ae2:fluix_crystal')
             .itemOut('ae2:fluix_block')
             .id(`kubejs:mi/massive_compressor/fluix_crystal_block`)
@@ -6379,7 +6379,7 @@ ServerEvents.recipes(e => {
             .itemOut(`16x cobbled_deepslate`,0.25)
             .itemOut(`16x tuff`,0.25)
 
-        AdvancedElectricQuarry(4, 10,'cloggrum')
+        AdvancedElectricQuarry(8, 10,'cloggrum')
             .dimension('overworld')
             .itemIn(`kubejs:cloggrum_drill`, 0.04)
             .itemOut(`iron_ore`, 0.4)
@@ -6391,7 +6391,7 @@ ServerEvents.recipes(e => {
             .itemOut(`redstone_ore`,0.2)
             .itemOut(`actuallyadditions:black_quartz_ore`, 0.25)
 
-        AdvancedElectricQuarry(4, 10, 'froststeel')
+        AdvancedElectricQuarry(24, 10, 'froststeel')
             .dimension('overworld')
             .itemIn(`kubejs:froststeel_drill`, 0.04)
             .itemOut(`${mi}antimony_ore`, 0.2)
@@ -6403,7 +6403,7 @@ ServerEvents.recipes(e => {
             .itemOut(`${mi}salt_ore`, 0.12)
             .itemOut('emerald_ore',0.1)
 
-        AdvancedElectricQuarry(4, 10, 'steel')
+        AdvancedElectricQuarry(12, 10, 'steel')
             .dimension('overworld')
             .itemIn(`${mi}steel_drill`, 0.04)
             .itemOut(`${mi}raw_antimony`, 0.2)
@@ -6416,19 +6416,19 @@ ServerEvents.recipes(e => {
             .itemOut(`kubejs:raw_emerald`,0.1)
             .itemOut(`kubejs:raw_quartz`,0.2)
 
-        AdvancedElectricQuarry(4, 10, 'froststeel_undergarden')
+        AdvancedElectricQuarry(24, 10, 'froststeel_undergarden')
             .dimension('undergarden:undergarden')
             .itemIn(`kubejs:froststeel_drill`, 0.04)
             .itemOut('undergarden:shiverstone_cloggrum_ore', 0.3)
             .itemOut('undergarden:shiverstone_froststeel_ore', 0.2)
 
-        AdvancedElectricQuarry(4, 10, 'steel_undergarden')
+        AdvancedElectricQuarry(12, 10, 'steel_undergarden')
             .dimension('undergarden:undergarden')
             .itemIn(`${mi}steel_drill`, 0.04)
             .itemOut('undergarden:raw_cloggrum', 0.3)
             .itemOut('undergarden:raw_froststeel', 0.2)
 
-        AdvancedElectricQuarry(4, 10, 'gold')
+        AdvancedElectricQuarry(12, 10, 'gold')
             .dimension('minecraft:the_nether')
             .itemIn(`${mi}gold_drill`, 0.12)
             .itemOut('32x netherrack', 0.5)
@@ -7570,7 +7570,7 @@ ServerEvents.recipes(e => {
                     .itemOut(output)
                     .id(r.getId())
 
-                    massive_compressor(8, time / 2 * tickMultiplier)
+                    massive_compressor(2, time / 2 * tickMultiplier)
                     .itemIn(item(input[0], input.length))
                     .itemOut(output)
                     .id(`kubejs:generated/massive_compressor/${r.getId().replace(':','_')}`)
@@ -11005,7 +11005,7 @@ ServerEvents.recipes(e => {
                             .itemOut(`kubejs:${recipe.material}_ingot`)
                             .id(`kubejs:mi/compressor/${recipe.material}_ingot`)
 
-                        e.recipes.modern_industrialization.massive_compressor(8, 5 * tickMultiplier)
+                        e.recipes.modern_industrialization.massive_compressor(2, 5 * tickMultiplier)
                             .itemIn(`9x kubejs:${recipe.material}_nugget`)
                             .itemOut(`kubejs:${recipe.material}_ingot`)
                             .id(`kubejs:mi/massive_compressor/${recipe.material}_ingot`)
@@ -11032,7 +11032,7 @@ ServerEvents.recipes(e => {
                             .itemOut(`kubejs:${recipe.material}_block`)
                             .id(`kubejs:mi/compressor/${recipe.material}_block`)
 
-                        e.recipes.modern_industrialization.massive_compressor(8, 5 * tickMultiplier)
+                        e.recipes.modern_industrialization.massive_compressor(2, 5 * tickMultiplier)
                             .itemIn(`9x kubejs:${recipe.material}_ingot`)
                             .itemOut(`kubejs:${recipe.material}_block`)
                             .id(`kubejs:mi/massive_compressor/${recipe.material}_block`)
@@ -11123,7 +11123,7 @@ ServerEvents.recipes(e => {
                             .itemOut(`kubejs:${recipe.material}_dust`)
                             .id(`kubejs:mi/compressor/${recipe.material}_dust`)
 
-                        e.recipes.modern_industrialization.massive_compressor(8, 5 * tickMultiplier)
+                        e.recipes.modern_industrialization.massive_compressor(2, 5 * tickMultiplier)
                             .itemIn(`9x kubejs:${recipe.material}_tiny_dust`)
                             .itemOut(`kubejs:${recipe.material}_dust`)
                             .id(`kubejs:mi/massive_compressor/${recipe.material}_dust`)
@@ -11236,7 +11236,7 @@ ServerEvents.recipes(e => {
                                 inp = `#c:ingots/${recipe.material}`
                         };
 
-                        e.recipes.modern_industrialization.massive_wiremill(8, 5 * tickMultiplier)
+                        e.recipes.modern_industrialization.massive_wiremill(2, 5 * tickMultiplier)
                             .itemIn(inp)
                             .itemOut(`${outputCount * 1.5}x kubejs:${recipe.material}_wire`)
                             .id(`kubejs:mi/massive_wiremill/${recipe.material}`)
@@ -11247,7 +11247,7 @@ ServerEvents.recipes(e => {
                             .itemOut(`4x kubejs:${recipe.material}_fine_wire`)
                             .id(`kubejs:mi/wiremill/${recipe.material}_fine_wire`)
 
-                        e.recipes.modern_industrialization.massive_wiremill(8, 5 * tickMultiplier)
+                        e.recipes.modern_industrialization.massive_wiremill(2, 5 * tickMultiplier)
                             .itemIn(`#c:wires/${recipe.material}`)
                             .itemOut(`4x kubejs:${recipe.material}_fine_wire`)
                             .id(`kubejs:mi/massive_wiremill/${recipe.material}_fine_wire`)
