@@ -1,5 +1,15 @@
 ## Changelog
 
+[1.2.2] - 19.07.26
+## Changed
+- The textures of flint tools have been changed.
+- Energy consumption in Massive Machines has been slightly changed.
+## Fixed
+- After adding Waterlogged to Ore Samples, the Ore Waypoint Maker stopped creating map markers.
+- Conflict of vanilla ores dusts.
+## Removed
+- Spawning of Rice and Flax from Actually Additions. Configuration file is weird
+
 [1.2.1] - 15.07.26
 ## Changed
 - Mods updated: All The Leaks, Amendments, Balm, Biolith, Cooking for Blockheads, Extended Industrialization, FancyMenu, GuideME, Just Enough Items, Kiwi, Lootr, Lychee Tweaker, Modern Industrialization, Modular Routers, Punchy, Regions Unexplored, Sodium, Sophisticated Backpacks, Sophisticated Core, Sophisticated Inventory Interactions, Supplementaries, Tesseract API, Titanium, Waystones
