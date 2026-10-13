@@ -1,5 +1,11 @@
 ## Changelog
 
+[1.2.3] - 14.10.26
+## Changed
+- All (79) mods were updated
+## Removed
+- Punchy
+
 [1.2.2] - 19.07.26
 ## Changed
 - The textures of flint tools have been changed.
