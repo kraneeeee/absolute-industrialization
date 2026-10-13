@@ -7,6 +7,7 @@ ServerEvents.recipes(e => {
         {type: 'extendedae:assembler', output: /\w*processor/},
     ])
     const ids = [
+        'endermanoverhaul:ender_eye',
         /enderio:item.minecraft.(copper|gold|iron)_ingot_from_smelting/,
         'ae2:blasting/silicon_from_certus_quartz_dust',
         'modern_industrialization:cutting_machine/planks/birch_in_cutting_machine',

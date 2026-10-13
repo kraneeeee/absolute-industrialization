@@ -6611,7 +6611,7 @@ ServerEvents.recipes(e => {
         Distillery(15, 10, ['actuallyadditions:refined_canola_oil', 1000], ['actuallyadditions:canola_oil', 1000], 'refined_canola_oil')
 
         ChemicalReactor(24, 60, 'ender_eye')
-            .itemIn('ender_pearl')
+            .itemIn('#c:ender_pearls')
             .fluidIn('productivemetalworks:molten_blaze', 250)
             .itemOut('ender_eye')
 
