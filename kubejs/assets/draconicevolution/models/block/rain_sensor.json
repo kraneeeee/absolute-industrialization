@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"particle": "draconicevolution:block/rain_sensor_side",
+		"bottom": "draconicevolution:block/rain_sensor_side",
+		"top": "draconicevolution:block/rain_sensor_inactive"
+	},
+	"elements": [
+		{
+			"name": "rainSensor",
+			"from": [0, 0, 0],
+			"to": [16, 2, 16],
+			"faces": {
+				"north": {"uv": [0, 14, 16, 16], "texture": "#bottom"},
+				"east": {"uv": [0, 14, 16, 16], "texture": "#bottom"},
+				"south": {"uv": [0, 14, 16, 16], "texture": "#bottom"},
+				"west": {"uv": [0, 14, 16, 16], "texture": "#bottom"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom"}
+			}
+		}
+	]
+}

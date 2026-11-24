@@ -1,0 +1,9 @@
+{
+  "parent": "industrialforegoing:block/base_block",
+  "textures": {
+    "north": "kubejs:block/mycelial_frame",
+    "south": "kubejs:block/mycelial_frame",
+    "west": "kubejs:block/mycelial_frame",
+    "east": "kubejs:block/mycelial_frame"
+  }
+}

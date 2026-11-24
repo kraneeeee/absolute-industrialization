@@ -1,0 +1,19 @@
+{
+  "casing":"lv",
+  "default_overlays": {
+    "fluid_auto": "modern_industrialization:block/overlays/fluid_auto",
+    "front": "modern_industrialization:block/machines/gas_collector/overlay_front",
+    "front_active": "modern_industrialization:block/machines/gas_collector/overlay_front_active",
+    "top": "modern_industrialization:block/machines/gas_collector/overlay_top",
+    "top_active": "modern_industrialization:block/machines/gas_collector/overlay_top_active",
+    "back": "modern_industrialization:block/machines/gas_collector/overlay_back",
+    "back_active": "modern_industrialization:block/machines/gas_collector/overlay_back_active",
+    "side": "modern_industrialization:block/machines/gas_collector/overlay_side",
+    "side_active": "modern_industrialization:block/machines/gas_collector/overlay_side_active",
+    "bottom": "modern_industrialization:block/machines/gas_collector/overlay_bottom",
+    "bottom_active": "modern_industrialization:block/machines/gas_collector/overlay_bottom_active",
+    "item_auto": "modern_industrialization:block/overlays/item_auto",
+    "output": "modern_industrialization:block/overlays/output"
+  },
+  "loader": "modern_industrialization:machine"
+}

@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "particle": "kubejs:block/chaotic_casing",
+        "up": "kubejs:block/chaotic_casing",
+        "north": "kubejs:block/chaotic_fusion_core",
+        "south": "kubejs:block/chaotic_fusion_core",
+        "west": "kubejs:block/chaotic_fusion_core",
+        "east": "kubejs:block/chaotic_fusion_core",
+        "down": "kubejs:block/chaotic_casing"
+    }
+}

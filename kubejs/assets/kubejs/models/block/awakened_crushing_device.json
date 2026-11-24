@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "particle": "kubejs:block/awakened_casing",
+        "up": "kubejs:block/awakened_crushing_device",
+        "north": "kubejs:block/awakened_casing",
+        "south": "kubejs:block/awakened_casing",
+        "west": "kubejs:block/awakened_casing",
+        "east": "kubejs:block/awakened_casing",
+        "down": "kubejs:block/awakened_crushing_device"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "particle": "modern_industrialization:block/casings/bricked_steel/side",
+        "up": "modern_industrialization:block/casings/bricked_steel/top",
+        "north": "modern_industrialization:block/casings/bricked_steel/side",
+        "south": "modern_industrialization:block/casings/bricked_steel/side",
+        "west": "modern_industrialization:block/casings/bricked_steel/side",
+        "east": "modern_industrialization:block/casings/bricked_steel/side",
+        "down": "modern_industrialization:block/casings/bricked_bronze/bottom"
+    }
+}

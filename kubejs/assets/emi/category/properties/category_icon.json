@@ -1,0 +1,32 @@
+{
+    "productivemetalworks:item_melting": {
+      "order": 0,
+      "sort": "none",
+      "icon": {
+        "stack": "item:productivemetalworks:brown_foundry_controller"
+      },
+      "simplified_icon": {
+        "texture": "productivemetalworks:textures/block/brown_foundry_controller_front.png"
+      }
+    },
+    "productivemetalworks:fluid_alloying": {
+      "order": 0,
+      "sort": "none",
+      "icon": {
+        "stack": "item:productivemetalworks:brown_foundry_controller"
+      },
+      "simplified_icon": {
+        "texture": "productivemetalworks:textures/block/brown_foundry_controller_front.png"
+      }
+    },
+    "productivemetalworks:entity_melting": {
+      "order": 0,
+      "sort": "none",
+      "icon": {
+        "stack": "item:productivemetalworks:brown_foundry_controller"
+      },
+      "simplified_icon": {
+        "texture": "productivemetalworks:textures/block/brown_foundry_controller_front.png"
+      }
+    }
+}

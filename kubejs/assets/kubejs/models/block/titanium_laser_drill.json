@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "particle": "modern_industrialization:block/solid_titanium_machine_casing",
+        "up": "modern_industrialization:block/solid_titanium_machine_casing",
+        "north": "kubejs:block/titanium_laser_drill",
+        "south": "kubejs:block/titanium_laser_drill",
+        "west": "kubejs:block/titanium_laser_drill",
+        "east": "kubejs:block/titanium_laser_drill",
+        "down": "modern_industrialization:block/solid_titanium_machine_casing"
+    }
+}

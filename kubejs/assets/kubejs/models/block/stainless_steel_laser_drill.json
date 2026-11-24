@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "particle": "modern_industrialization:block/clean_stainless_steel_machine_casing",
+        "up": "modern_industrialization:block/clean_stainless_steel_machine_casing",
+        "north": "kubejs:block/stainless_steel_laser_drill",
+        "south": "kubejs:block/stainless_steel_laser_drill",
+        "west": "kubejs:block/stainless_steel_laser_drill",
+        "east": "kubejs:block/stainless_steel_laser_drill",
+        "down": "modern_industrialization:block/clean_stainless_steel_machine_casing"
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "values": {
+    "modern_industrialization:cupronickel_coil": {
+      "batch_size": 8,
+      "eu_cost_multiplier": 0.75
+    },
+    "modern_industrialization:kanthal_coil": {
+      "batch_size": 12,
+      "eu_cost_multiplier": 0.75
+    },
+    "kubejs:nichrome_coil": {
+      "batch_size": 16,
+      "eu_cost_multiplier": 0.75
+    },
+    "kubejs:tungstensteel_coil": {
+      "batch_size": 32,
+      "eu_cost_multiplier": 0.75
+    }
+  }
+}

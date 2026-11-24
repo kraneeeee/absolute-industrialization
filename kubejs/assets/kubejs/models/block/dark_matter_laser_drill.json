@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "particle": "kubejs:block/dark_matter_casing",
+        "up": "kubejs:block/dark_matter_casing",
+        "north": "kubejs:block/dark_matter_laser_drill",
+        "south": "kubejs:block/dark_matter_laser_drill",
+        "west": "kubejs:block/dark_matter_laser_drill",
+        "east": "kubejs:block/dark_matter_laser_drill",
+        "down": "kubejs:block/dark_matter_casing"
+    }
+}

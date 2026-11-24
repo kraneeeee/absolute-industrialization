@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/orientable",
+    "textures": {
+      "particle": "kubejs:block/primitive_pump/side",
+      "down": "kubejs:block/primitive_pump/bottom",
+      "top": "kubejs:block/treated_wood_planks",
+      "north": "kubejs:block/primitive_pump/side",
+      "east": "kubejs:block/primitive_pump/side",
+      "south": "kubejs:block/primitive_pump/side",
+      "west": "kubejs:block/primitive_pump/side"
+    }
+  }

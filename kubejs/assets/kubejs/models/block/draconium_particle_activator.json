@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "particle": "kubejs:block/draconium_casing",
+        "up": "kubejs:block/draconium_particle_activator",
+        "north": "kubejs:block/draconium_casing",
+        "south": "kubejs:block/draconium_casing",
+        "west": "kubejs:block/draconium_casing",
+        "east": "kubejs:block/draconium_casing",
+        "down": "kubejs:block/draconium_particle_activator"
+    }
+}

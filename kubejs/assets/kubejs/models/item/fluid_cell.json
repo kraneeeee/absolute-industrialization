@@ -1,0 +1,8 @@
+
+  {
+    "parent": "bucketlib:item/universal_bucket",
+    "textures": {
+      "base": "kubejs:item/fluid_cell",
+      "fluidMask": "kubejs:item/fluid_cell_fluid"
+    }
+  }
