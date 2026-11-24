@@ -1,0 +1,333 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chaotic_voltage"
+	group: "743F9BA2EBD126DA"
+	icon: {
+		id: "kubejs:chaotic_circuit"
+	}
+	id: "31E3FBDC530E8DB9"
+	images: [ ]
+	order_index: 8
+	quest_links: [{
+		id: "24DDFC5DB4022F96"
+		linked_quest: "7E2EDDC5BB9C9E78"
+		size: 3.0d
+		x: 2.0d
+		y: 10.0d
+	}]
+	quests: [
+		{
+			dependencies: ["1237A72FB1D61C7D"]
+			icon: {
+				id: "kubejs:activated_singularity"
+			}
+			id: "45668AF93DE5099B"
+			rewards: [{
+				count: 16
+				id: "5EF8F458676C5104"
+				item: {
+					count: 1
+					id: "kubejs:chaotic_circuit"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "28A58CECF4C8E3BD"
+					item: { count: 1, id: "industrialforegoing:mycelial_reactor" }
+					type: "item"
+				}
+				{
+					id: "6A324200A8B1A043"
+					item: { count: 1, id: "kubejs:activated_singularity" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"2967C059399A89C3"
+				"612B3B60A844A9AF"
+				"45668AF93DE5099B"
+			]
+			id: "34D52C594438D299"
+			rewards: [{
+				id: "63ED2DC1BA13F507"
+				item: {
+					count: 1
+					id: "kubejs:the_tear"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 4.0d
+			tasks: [
+				{
+					id: "3FABDB4FB7CD0ADD"
+					item: { count: 1, id: "extended_industrialization:nano_quantum_helmet" }
+					type: "item"
+				}
+				{
+					id: "4518A2C7614AA168"
+					item: { count: 1, id: "extended_industrialization:nano_quantum_chestplate" }
+					type: "item"
+				}
+				{
+					id: "65F95D0375479EB7"
+					item: { count: 1, id: "extended_industrialization:nano_quantum_leggings" }
+					type: "item"
+				}
+				{
+					id: "18E0AF21BA439BB7"
+					item: { count: 1, id: "extended_industrialization:nano_quantum_boots" }
+					type: "item"
+				}
+			]
+			x: -4.595238095238095d
+			y: 9.988095238095227d
+		}
+		{
+			dependencies: ["45668AF93DE5099B"]
+			id: "2967C059399A89C3"
+			rewards: [{
+				id: "5C5B41A0D4E9A440"
+				item: {
+					count: 1
+					id: "modern_industrialization:quantum_upgrade"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B6F8B67808660C2"
+				item: { count: 1, id: "modern_industrialization:quantum_upgrade" }
+				type: "item"
+			}]
+			x: -3.642857142857146d
+			y: 6.464285714285701d
+		}
+		{
+			dependencies: ["2967C059399A89C3"]
+			icon: {
+				id: "modern_industrialization:quantum_installer"
+			}
+			id: "612B3B60A844A9AF"
+			rewards: [
+				{
+					count: 64
+					id: "19AD5EEB46E6B8C5"
+					item: {
+						count: 1
+						id: "kubejs:chaotic_casing"
+					}
+					type: "item"
+				}
+				{
+					id: "07F074E7D1E53BBA"
+					item: {
+						count: 1
+						id: "modern_industrialization:highly_advanced_item_input_hatch"
+					}
+					type: "item"
+				}
+				{
+					id: "00B981772EE3F0F6"
+					item: {
+						count: 1
+						id: "modern_industrialization:highly_advanced_item_output_hatch"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					id: "2A4FFBDDFC9B0AFF"
+					item: { count: 1, id: "modern_industrialization:quantum_installer" }
+					type: "item"
+				}
+				{
+					count: 70L
+					id: "17381E9E26FE2137"
+					item: { count: 1, id: "kubejs:chaotic_casing" }
+					type: "item"
+				}
+				{
+					count: 207L
+					id: "4A307A722C301DCD"
+					item: { count: 1, id: "kubejs:chaotic_pipe_casing" }
+					type: "item"
+				}
+				{
+					count: 44L
+					id: "0E8C2D3F5E6E8D68"
+					item: { count: 1, id: "kubejs:matter_handling_chaotic_casing" }
+					type: "item"
+				}
+				{
+					id: "3CEDD0234FD422DE"
+					item: { count: 1, id: "modern_industrialization:superconductor_energy_input_hatch" }
+					type: "item"
+				}
+			]
+			x: -5.976190476190496d
+			y: 6.458333333333336d
+		}
+		{
+			dependencies: ["2967C059399A89C3"]
+			id: "2D33FE4E06FF916B"
+			size: 1.5d
+			tasks: [{
+				id: "5F34448BE538F638"
+				item: { count: 1, id: "modern_industrialization:replicator" }
+				type: "item"
+			}]
+			x: -3.607142857142861d
+			y: 4.0357142857142705d
+		}
+		{
+			dependencies: ["2967C059399A89C3"]
+			id: "6E9821797385158B"
+			size: 1.5d
+			tasks: [{
+				id: "2431EEEE27B148BC"
+				item: { count: 1, id: "projecte:tome" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7E2EDDC5BB9C9E78"]
+			id: "3475C0C9ACF0184E"
+			rewards: [{
+				count: 4
+				id: "3109C0FB593F1D23"
+				item: {
+					count: 1
+					id: "kubejs:chaotic_circuit"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "7C0D787467443A09"
+				item: { count: 1, id: "kubejs:chaotic_circuit" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3475C0C9ACF0184E"]
+			icon: {
+				id: "modern_industrialization:chaotic_assembler"
+			}
+			id: "708623538C2C13E7"
+			rewards: [
+				{
+					count: 8
+					id: "6DDA3E2E75BD3F7F"
+					item: {
+						count: 1
+						id: "kubejs:chaotic_casing"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4970D3B00B28D11B"
+					item: {
+						count: 1
+						id: "kubejs:chaotic_circuit"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					id: "36BFF4C294304E23"
+					item: { count: 1, id: "modern_industrialization:chaotic_assembler" }
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "468E63209738E293"
+					item: { count: 1, id: "kubejs:chaotic_casing" }
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "71AB81F4CC461DCB"
+					item: { count: 1, id: "minecraft:black_stained_glass_pane" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "0BAE31F93EFDD08F"
+					item: { count: 1, id: "kubejs:chaotic_fusion_core" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "2DEA1235EFCD8ECC"
+					item: { count: 1, id: "kubejs:quantum_fusion_rod" }
+					type: "item"
+				}
+				{
+					id: "2F570BB730CEDB90"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:bronze_item_input_hatch)item(modern_industrialization:steel_item_input_hatch)item(modern_industrialization:advanced_item_input_hatch)item(modern_industrialization:turbo_item_input_hatch)item(modern_industrialization:highly_advanced_item_input_hatch))", "minecraft:custom_name": "\"Any Item Input Hatch\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "222D8D0CF8608A9F"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:bronze_item_output_hatch)item(modern_industrialization:steel_item_output_hatch)item(modern_industrialization:advanced_item_output_hatch)item(modern_industrialization:turbo_item_output_hatch)item(modern_industrialization:highly_advanced_item_output_hatch))", "minecraft:custom_name": "\"Any Item Output Hatch\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "5056721DAC82B49A"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:lv_energy_input_hatch)item(modern_industrialization:mv_energy_input_hatch)item(modern_industrialization:hv_energy_input_hatch)item(modern_industrialization:ev_energy_input_hatch)item(modern_industrialization:superconductor_energy_input_hatch))", "minecraft:custom_name": "\"Any Energy Input Hatch\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["708623538C2C13E7"]
+			id: "1237A72FB1D61C7D"
+			rewards: [{
+				id: "395A6C7DEDF28652"
+				item: {
+					count: 1
+					id: "draconicevolution:reactor_core"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "031BA713AD953FB9"
+				item: { count: 1, id: "kubejs:chaotic_singularity" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3475C0C9ACF0184E"]
+			id: "73AD8B7AE1EF67B1"
+			size: 1.0d
+			tasks: [{
+				id: "28CA9865DAE28017"
+				item: { count: 1, id: "modern_industrialization:chaotic_storage_unit" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+	]
+}

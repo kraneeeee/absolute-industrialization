@@ -1,0 +1,23 @@
+{
+	id: "21781E1440A0C93A"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 8
+			id: "378B0A357BFC9157"
+			item: {
+				count: 1
+				id: "minecraft:raw_copper"
+			}
+		}
+		{
+			count: 4
+			id: "59D2EBD07F8084BC"
+			item: {
+				count: 1
+				id: "modern_industrialization:raw_tin"
+			}
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	id: "2A5E8001D47EBF77"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			id: "47DF86F6A9CE3A16"
+			item: {
+				count: 1
+				id: "ae2:cell_component_1k"
+			}
+			weight: 8.0f
+		}
+		{
+			id: "252702E413F99075"
+			item: {
+				count: 1
+				id: "ae2:cell_component_4k"
+			}
+			weight: 4.0f
+		}
+		{
+			id: "7ACE60C19121A3DC"
+			item: {
+				count: 1
+				id: "ae2:cell_component_16k"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "6994F9311BAD1E92"
+			item: {
+				count: 1
+				id: "ae2:cell_component_64k"
+			}
+			weight: 0.5f
+		}
+	]
+}
