@@ -1,0 +1,201 @@
+{
+  "comment": "Use the in-game commands to edit this file",
+  "entries": [
+    {
+      "tag": "kubejs:to_remove_emc",
+      "emc": 0
+    },
+    {
+      "id": "actuallyadditions:empowered_diamatine_crystal",
+      "emc": 16384
+    },
+    {
+      "id": "actuallyadditions:empowered_diamatine_crystal_block",
+      "emc": 147456
+    },
+    {
+      "id": "actuallyadditions:empowered_emeradic_crystal",
+      "emc": 32768
+    },
+    {
+      "id": "actuallyadditions:empowered_emeradic_crystal_block",
+      "emc": 294912
+    },
+    {
+      "id": "actuallyadditions:empowered_restonia_crystal",
+      "emc": 512
+    },
+    {
+      "id": "actuallyadditions:empowered_restonia_crystal_block",
+      "emc": 4608
+    },
+    {
+      "id": "actuallyadditions:empowered_palis_crystal",
+      "emc": 1728
+    },
+    {
+      "id": "actuallyadditions:empowered_palis_crystal_block",
+      "emc": 15552
+    },
+    {
+      "id": "actuallyadditions:empowered_void_crystal",
+      "emc": 512
+    },
+    {
+      "id": "actuallyadditions:empowered_void_crystal_block",
+      "emc": 4608
+    },
+    {
+      "id": "actuallyadditions:empowered_enori_crystal",
+      "emc": 512
+    },
+    {
+      "id": "actuallyadditions:empowered_enori_crystal_block",
+      "emc": 4608
+    },
+    {
+      "id": "modern_industrialization:coke",
+      "emc": 256
+    },
+    {
+      "id": "modern_industrialization:coke_block",
+      "emc": 2304
+    },
+    {
+      "id": "modern_industrialization:titanium_drill",
+      "emc": 96000
+    },
+    {
+      "id": "kubejs:iridium_drill",
+      "emc": 192000
+    },
+    {
+      "id": "modern_industrialization:aluminum_drill",
+      "emc": 48000
+    },
+    {
+      "id": "modern_industrialization:bronze_drill",
+      "emc": 12256
+    },
+    {
+      "id": "modern_industrialization:copper_drill",
+      "emc": 8192
+    },
+    {
+      "id": "modern_industrialization:gold_drill",
+      "emc": 28000
+    },
+    {
+      "id": "modern_industrialization:stainless_steel_drill",
+      "emc": 70000
+    },
+    {
+      "id": "modern_industrialization:steel_drill",
+      "emc": 32000
+    },
+    {
+      "id": "kubejs:cloggrum_drill",
+      "emc": 48000
+    },
+    {
+      "id": "kubejs:froststeel_drill",
+      "emc": 64000
+    },
+    {
+      "id": "kubejs:soularium_drill",
+      "emc": 84000
+    },
+    {
+      "id": "projecte:alchemical_coal",
+      "emc": 512
+    },
+    {
+      "id": "projecte:mobius_fuel",
+      "emc": 2048
+    },
+    {
+      "id": "projecte:aeternalis_fuel",
+      "emc": 8192
+    },
+    {
+      "id": "kubejs:perfectus_fuel",
+      "emc": 32768
+    },
+    {
+      "id": "projecte:klein_star_ein",
+      "emc": 32768
+    },
+    {
+      "id": "minecraft:blaze_powder",
+      "emc": 384
+    },
+    {
+      "id": "projecte:klein_star_zwei",
+      "emc": 131072
+    },
+    {
+      "id": "projecte:klein_star_drei",
+      "emc": 524288
+    },
+    {
+      "id": "projecte:klein_star_vier",
+      "emc": 2097152
+    },
+    {
+      "id": "projecte:klein_star_sphere",
+      "emc": 8388608
+    },
+    {
+      "id": "projecte:klein_star_omega",
+      "emc": 33554432
+    },
+    {
+      "id": "modern_industrialization:stainless_steel_ingot",
+      "emc": 2048
+    },
+    {
+      "id": "kubejs:tungstensteel_drill",
+      "emc": 128000
+    },
+    {
+      "id": "ae2:certus_quartz_crystal",
+      "emc": 1024
+    },
+    {
+      "id": "modern_industrialization:bronze_ingot",
+      "emc": 216
+    },
+    {
+      "id": "modern_industrialization:silver_ingot",
+      "emc": 1024
+    },
+    {
+      "id": "modern_industrialization:electrum_ingot",
+      "emc": 1536
+    }, 
+    {
+      "id": "modern_industrialization:cupronickel_ingot",
+      "emc": 576
+    },
+    {
+      "id": "actuallyadditions:black_quartz",
+      "emc": 384
+    },
+    {
+      "id": "modern_industrialization:iridium_ingot",
+      "emc": 65536
+    },
+    {
+      "id": "kubejs:osmium_ingot",
+      "emc": 32768
+    },
+    {
+      "id": "modern_industrialization:steel_ingot",
+      "emc": 512
+    },
+    {
+      "id": "kubejs:tungstensteel_ingot",
+      "emc": 3072
+    }
+  ]
+}
